@@ -1,0 +1,35 @@
+name: Amazon Daily Scraper
+
+on:
+  schedule:
+    # 毎日日本時間の午前7時（UTCでは前日22時）に実行
+    - cron: '0 22 * * *'
+  workflow_dispatch: # 手動でいつでも実行できるボタン
+
+jobs:
+  scrape:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: |
+          pip install playwright requests
+          playwright install chromium
+
+      - name: Run Scraper
+        # 万が一失敗してもGitHub側でエラーにならないよう設定
+        run: python amazon_scraper.py 
+
+      - name: Upload Data
+        uses: actions/upload-artifact@v4
+        with:
+          # ファイル名に日付を付けてわかりやすくする
+          name: amazon-data-${{ github.event.schedule || 'manual' }}-${{ github.run_id }}
+          path: amazon_data/
+          retention-days: 30 # 30日間保管
