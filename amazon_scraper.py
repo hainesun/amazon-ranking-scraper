@@ -1,15 +1,21 @@
 import os
+import time
+import random
 import requests
-from playwright.sync_api import sync_playwright
 from datetime import datetime
+from playwright.sync_api import sync_playwright
 
-SAVE_DIR = "public" # GitHub Pages用にフォルダ名をpublicに変更
+# 保存先
+SAVE_DIR = "."
+# ターゲットURL
 TARGET_URL = "https://www.amazon.co.jp/gp/bestsellers/kitchen/"
 
 def save_image(url, path):
     try:
+        if not url: return False
         high_res_url = url.split("._")[0] + ".jpg"
-        res = requests.get(high_res_url, timeout=15)
+        headers = {"User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36"}
+        res = requests.get(high_res_url, headers=headers, timeout=10)
         if res.status_code == 200:
             with open(path, 'wb') as f:
                 f.write(res.content)
@@ -18,99 +24,88 @@ def save_image(url, path):
         pass
     return False
 
-def run_scraper():
-    if not os.path.exists(SAVE_DIR):
-        os.makedirs(SAVE_DIR)
+def generate_html(results):
+    now_str = datetime.now().strftime('%Y-%m-%d %H:%M')
+    html = f"""<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Amazon LP Archive</title>
+    <style>body{{font-family:sans-serif;background:#f4f4f4;padding:20px;color:#333}}.card{{background:white;margin-bottom:30px;padding:20px;border-radius:8px}}img{{max-height:200px;border:1px solid #ddd;border-radius:4px;margin:5px}}h1{{text-align:center}}.rank{{color:#e47911;font-weight:bold;font-size:1.2em}}</style></head><body><h1>Amazon LP Archive ({now_str})</h1>"""
+    
+    for r in results:
+        subs = "".join([f'<a href="{s}" target="_blank"><img src="{s}"></a>' for s in r["subs"]])
+        html += f'<div class="card"><div class="rank">No.{r["rank"]} <a href="{r["url"]}" target="_blank">{r["title"]}</a></div><br><div>メイン:<br><img src="{r["main"]}"></div><hr><div>LPサブ画像:<br>{subs if subs else "なし"}</div></div>'
+    
+    html += "</body></html>"
+    with open(os.path.join(SAVE_DIR, "index.html"), "w", encoding="utf-8") as f:
+        f.write(html)
 
+def run_scraper():
+    if not os.path.exists(SAVE_DIR): os.makedirs(SAVE_DIR)
+    
     with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        context = browser.new_context(
-            user_agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
-            locale="ja-JP"
-        )
+        # ブラウザを起動
+        browser = p.chromium.launch(headless=False)
+        context = browser.new_context(user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36", locale="ja-JP")
         page = context.new_page()
-        page.set_default_timeout(60000)
         
-        print("Amazonランキング取得開始...")
+        print("Amazonにアクセスします...")
         page.goto(TARGET_URL, wait_until="domcontentloaded")
-        page.wait_for_timeout(5000)
+
+        # ★★★ ここが新しいポイント！ ★★★
+        print("\n" + "="*50)
+        print("【重要】ブラウザを確認してください！")
+        print("もし『ロボット確認画面』が出ていたら、手動でパズルを解いてください。")
+        print("ランキング画面がちゃんと表示されたら、この画面に戻ってエンターキーを押してください。")
+        print("="*50 + "\n")
+        input("準備OKならここをクリックしてエンターキーを押す >> ")
+        # ★★★★★★★★★★★★★★★★★★★★★
 
         items = page.query_selector_all(".p13n-sc-unpb-faceout")[:10]
+        # レイアウト違い対応
+        if not items: items = page.query_selector_all("[data-asin]")[:10]
+        
         results = []
+        print(f"{len(items)}件の商品が見つかりました。")
 
         for i, item in enumerate(items):
             rank = i + 1
-            link_el = item.query_selector("a")
-            if not link_el: continue
+            print(f"処理中: {rank}位...")
             
-            title = f"Product {rank}"
-            title_el = item.query_selector(".p13n-sc-truncate-desktop-type2")
-            if title_el: title = title_el.inner_text().strip()
+            link = item.query_selector("a.a-link-normal")
+            if not link: continue
             
-            url = "https://www.amazon.co.jp" + link_el.get_attribute("href")
-            main_img_name = f"rank{rank}_main.jpg"
+            title = item.query_selector(".p13n-sc-truncate-desktop-type2")
+            title_text = title.inner_text() if title else f"Item {rank}"
+            url = "https://www.amazon.co.jp" + link.get_attribute("href")
+            
+            main_img = f"rank{rank:02d}_main.jpg"
             img_el = item.query_selector("img")
+            if img_el: save_image(img_el.get_attribute("src"), main_img)
             
-            if img_el:
-                save_image(img_el.get_attribute("src"), os.path.join(SAVE_DIR, main_img_name))
+            subs = []
+            if rank <= 5: # 上位5件のみ詳細
+                try:
+                    p2 = context.new_page()
+                    p2.goto(url, wait_until="domcontentloaded")
+                    time.sleep(2)
+                    
+                    # サムネイル取得
+                    thumbs = p2.query_selector_all("#altImages li.item.imageThumbnail")
+                    for j, t in enumerate(thumbs[1:7]): # 2枚目〜7枚目
+                        try:
+                            t.hover()
+                            time.sleep(0.5)
+                            large = p2.query_selector("#landingImage, #imgTagWrapperId img")
+                            if large:
+                                s_name = f"rank{rank:02d}_{j+2:02d}.jpg"
+                                if save_image(large.get_attribute("src"), s_name): subs.append(s_name)
+                        except: pass
+                    p2.close()
+                except: pass
+            
+            results.append({"rank": rank, "title": title_text, "url": url, "main": main_img, "subs": subs})
+            time.sleep(1)
 
-            sub_images = []
-            reviews = ""
-            if rank <= 5: # 上位5件のみ詳細解析
-                print(f"詳細解析中: {rank}位")
-                det_page = context.new_page()
-                det_page.goto(url, wait_until="domcontentloaded")
-                det_page.wait_for_timeout(3000)
-                
-                thumbs = det_page.query_selector_all("#altImages .a-spacing-smallitem")
-                for j, thumb in enumerate(thumbs[:6]):
-                    thumb.hover()
-                    det_page.wait_for_timeout(700)
-                    large = det_page.query_selector("#landingImage")
-                    if large:
-                        img_name = f"rank{rank}_sub{j}.jpg"
-                        if save_image(large.get_attribute("src"), os.path.join(SAVE_DIR, img_name)):
-                            sub_images.append(img_name)
-                
-                rev_els = det_page.query_selector_all(".review-text-content span")
-                reviews = "<br>".join([r.inner_text() for r in rev_els[:2]])
-                det_page.close()
-
-            results.append({"rank": rank, "title": title, "main": main_img_name, "subs": sub_images, "reviews": reviews})
-
-        # --- HTML生成 ---
-        now_str = datetime.now().strftime('%Y-%m-%d %H:%M')
-        html = f"""
-        <html><head><meta charset="utf-8"><title>Amazon LP Archive</title>
-        <style>
-            body {{ font-family: 'Helvetica Neue', Arial, sans-serif; background: #f0f2f2; margin: 0; padding: 20px; }}
-            .container {{ max-width: 1000px; margin: auto; }}
-            .card {{ background: white; margin-bottom: 30px; padding: 20px; border-radius: 10px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }}
-            h1 {{ color: #232f3e; text-align: center; }}
-            .rank {{ font-size: 24px; font-weight: bold; color: #e47911; }}
-            .img-row {{ display: flex; overflow-x: auto; gap: 10px; margin: 15px 0; }}
-            .img-row img {{ height: 200px; border: 1px solid #ddd; border-radius: 5px; }}
-            .reviews {{ font-size: 0.9em; color: #555; background: #f9f9f9; padding: 10px; border-radius: 5px; }}
-        </style></head>
-        <body><div class="container">
-            <h1>Amazon Daily LP Archive ({now_str})</h1>
-        """
-        for r in results:
-            html += f"""
-            <div class="card">
-                <div class="rank">第{r['rank']}位</div>
-                <div class="title">{r['title']}</div>
-                <div class="img-row">
-                    <img src="{r['main']}">
-                    {' '.join([f'<img src="{s}">' for s in r['subs']])}
-                </div>
-                <div class="reviews"><b>主なレビュー:</b><br>{r['reviews']}</div>
-            </div>
-            """
-        html += "</div></body></html>"
-        with open(os.path.join(SAVE_DIR, "index.html"), "w", encoding="utf-8") as f:
-            f.write(html)
-
+        generate_html(results)
+        print("完了！ git push してください。")
         browser.close()
 
 if __name__ == "__main__":
