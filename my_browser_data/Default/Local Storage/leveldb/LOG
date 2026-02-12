@@ -1,4 +1,12 @@
-2026/02/10-17:15:01.092 30a61 Creating DB /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb since it was missing.
-2026/02/10-17:15:01.100 30a61 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/02/10-17:15:42.008 30a64 Level-0 table #5: started
-2026/02/10-17:15:42.016 30a64 Level-0 table #5: 154335 bytes OK
+2026/02/12-17:58:05.550 73004 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/02/12-17:58:05.553 73004 Recovering log #3
+2026/02/12-17:58:05.554 73004 Level-0 table #3: started
+2026/02/12-17:58:05.559 73004 Level-0 table #3: 154335 bytes OK
+2026/02/12-17:58:05.560 73004 Recovering log #4
+2026/02/12-17:58:05.563 73004 Level-0 table #4: started
+2026/02/12-17:58:05.566 73004 Level-0 table #4: 163258 bytes OK
+2026/02/12-17:58:05.569 73004 Delete type=0 #4
+2026/02/12-17:58:05.570 73004 Delete type=0 #3
+2026/02/12-17:58:05.570 73004 Delete type=2 #5
+2026/02/12-17:58:41.638 73004 Level-0 table #7: started
+2026/02/12-17:58:41.643 73004 Level-0 table #7: 164358 bytes OK

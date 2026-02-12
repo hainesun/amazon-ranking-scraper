@@ -1,81 +1,206 @@
-<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Amazon LP Archive</title><style>body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#f4f4f4;padding:20px;color:#333}.card{background:white;margin-bottom:30px;padding:20px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.05)}.rank-title{font-weight:bold;font-size:1.2em;margin-bottom:15px;color:#e47911;display:flex;align-items:center;}.main-img{display:block;max-height:250px;margin:0 auto 20px;border:1px solid #eee}.sub-gallery{display:flex;overflow-x:auto;gap:10px;padding-bottom:10px}.sub-gallery img{height:180px;border-radius:6px;border:1px solid #ddd;transition:transform 0.2s}.sub-gallery img:hover{transform:scale(1.05)}</style></head><body><h1>Amazon LP Archive (2026-02-10 17:15)</h1><div style="max-width:1000px;margin:auto;">
-        <div class="card">
-            <div class="rank-title">👑 No.1 <a href="https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91%E3%82%BF%E3%82%AA%E3%83%AB%E7%A0%94%E7%A9%B6%E6%89%80-%E3%83%9C%E3%83%AA%E3%83%A5%E3%83%BC%E3%83%A0%E3%83%AA%E3%83%83%E3%83%81-003-%E3%83%81%E3%83%A3%E3%82%B3%E3%83%BC%E3%83%AB%E3%82%B0%E3%83%AC%E3%83%BC-Technology/dp/B086WCH4FH/ref=zg_bs_g_kitchen_d_sccl_1/357-1663634-8047300?psc=1" target="_blank" style="margin-left:10px;text-decoration:none;color:#333">Item 1</a></div>
-            <div style="text-align:center"><small>メイン画像</small><br><img src="rank01_main.jpg" class="main-img"></div>
-            <hr style="border:0;border-top:1px solid #eee;margin:20px 0">
-            <strong>📸 LP・サブ画像</strong>
-            <div class="sub-gallery"><a href="rank01_02.jpg" target="_blank"><img src="rank01_02.jpg"></a><a href="rank01_03.jpg" target="_blank"><img src="rank01_03.jpg"></a><a href="rank01_04.jpg" target="_blank"><img src="rank01_04.jpg"></a><a href="rank01_05.jpg" target="_blank"><img src="rank01_05.jpg"></a><a href="rank01_06.jpg" target="_blank"><img src="rank01_06.jpg"></a></div>
-        </div>
+<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Amazon LP Archive</title>
+    <style>
+        body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#f9f9f9;padding:20px;color:#333}
+        h1{text-align:center;margin-bottom:20px;color:#232f3e}
+        /* テーブルのデザイン */
+        table {width: 100%; border-collapse: collapse; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1);}
+        th, td {border: 1px solid #ddd; padding: 15px; vertical-align: top;}
+        th {background: #232f3e; color: white; text-align: left;}
         
-        <div class="card">
-            <div class="rank-title">👑 No.2 <a href="https://www.amazon.co.jp/HEIKO-PP%E9%A3%9F%E3%83%91%E3%83%B3%E8%A2%8B%E5%8D%8A%E6%96%A4%E7%94%A8-300%E6%9E%9A%EF%BC%88100%E6%9E%9A%C3%973%E6%9D%9F%EF%BC%89-%E3%83%98%E3%82%A4%E3%82%B3%E3%83%BC-%E3%81%AB%E3%81%8A%E3%81%84%E8%A2%8B/dp/B0BFKKVLSQ/ref=zg_bs_g_kitchen_d_sccl_2/357-1663634-8047300?psc=1" target="_blank" style="margin-left:10px;text-decoration:none;color:#333">Item 2</a></div>
-            <div style="text-align:center"><small>メイン画像</small><br><img src="rank02_main.jpg" class="main-img"></div>
-            <hr style="border:0;border-top:1px solid #eee;margin:20px 0">
-            <strong>📸 LP・サブ画像</strong>
-            <div class="sub-gallery"><a href="rank02_02.jpg" target="_blank"><img src="rank02_02.jpg"></a><a href="rank02_03.jpg" target="_blank"><img src="rank02_03.jpg"></a><a href="rank02_04.jpg" target="_blank"><img src="rank02_04.jpg"></a><a href="rank02_05.jpg" target="_blank"><img src="rank02_05.jpg"></a><a href="rank02_06.jpg" target="_blank"><img src="rank02_06.jpg"></a><a href="rank02_07.jpg" target="_blank"><img src="rank02_07.jpg"></a></div>
-        </div>
+        /* 各列の幅調整 */
+        .col-rank {width: 60px; text-align: center; font-weight: bold; font-size: 1.5em; color: #e47911;}
+        .col-main {width: 150px; text-align: center;}
+        .col-info {width: 25%;}
+        .col-lp {} /* 残りの幅全部 */
+
+        /* 画像のデザイン */
+        .main-img {width: 120px; border: 1px solid #eee;}
+        .lp-gallery {display: flex; gap: 10px; overflow-x: auto; padding-bottom: 10px;}
+        .lp-gallery img {height: 120px; border: 1px solid #ccc; border-radius: 4px; transition: transform 0.2s;}
+        .lp-gallery img:hover {transform: scale(1.1); border-color: #e47911;}
         
-        <div class="card">
-            <div class="rank-title">👑 No.3 <a href="https://www.amazon.co.jp/%E3%83%96%E3%83%AA%E3%82%BF-%E3%82%AB%E3%83%BC%E3%83%88%E3%83%AA%E3%83%83%E3%82%B8-%E3%83%9E%E3%82%AF%E3%82%B9%E3%83%88%E3%83%A9-%E3%83%94%E3%83%A5%E3%82%A2%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9-%E3%80%90%E6%97%A5%E6%9C%AC%E6%AD%A3%E8%A6%8F%E5%93%81%E3%80%91/dp/B0CPL3QTJD/ref=zg_bs_g_kitchen_d_sccl_3/357-1663634-8047300?psc=1" target="_blank" style="margin-left:10px;text-decoration:none;color:#333">Item 3</a></div>
-            <div style="text-align:center"><small>メイン画像</small><br><img src="rank03_main.jpg" class="main-img"></div>
-            <hr style="border:0;border-top:1px solid #eee;margin:20px 0">
-            <strong>📸 LP・サブ画像</strong>
-            <div class="sub-gallery"><a href="rank03_02.jpg" target="_blank"><img src="rank03_02.jpg"></a><a href="rank03_03.jpg" target="_blank"><img src="rank03_03.jpg"></a><a href="rank03_04.jpg" target="_blank"><img src="rank03_04.jpg"></a><a href="rank03_05.jpg" target="_blank"><img src="rank03_05.jpg"></a><a href="rank03_06.jpg" target="_blank"><img src="rank03_06.jpg"></a></div>
-        </div>
+        a {text-decoration: none; color: #007185; font-weight: bold;}
+        a:hover {text-decoration: underline; color: #c7511f;}
+    </style></head><body>
+    <h1>Amazon LP Archive (2026-02-12 17:58)</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>順位</th>
+                <th>メイン画像</th>
+                <th>商品情報</th>
+                <th>LP・サブ画像構成 (横スクロール)</th>
+            </tr>
+        </thead>
+        <tbody>
+    
+        <tr>
+            <td class="col-rank">1</td>
+            <td class="col-main">
+                <a href="rank01_main.jpg" target="_blank"><img src="rank01_main.jpg" class="main-img"></a>
+            </td>
+            <td class="col-info">
+                <a href="https://www.amazon.co.jp/%E3%80%90Amazon-co-jp%E9%99%90%E5%AE%9A%E3%80%91%E3%82%BF%E3%82%AA%E3%83%AB%E7%A0%94%E7%A9%B6%E6%89%80-%E3%83%9C%E3%83%AA%E3%83%A5%E3%83%BC%E3%83%A0%E3%83%AA%E3%83%83%E3%83%81-003-%E3%83%81%E3%83%A3%E3%82%B3%E3%83%BC%E3%83%AB%E3%82%B0%E3%83%AC%E3%83%BC-Technology/dp/B086WCH4FH/ref=zg_bs_g_kitchen_d_sccl_1/357-1663634-8047300?psc=1" target="_blank">Item 1</a>
+                <br><br>
+                <small style="color:#666">クリックで商品ページへ</small>
+            </td>
+            <td class="col-lp">
+                <div class="lp-gallery">
+                    <a href="rank01_02.jpg" target="_blank"><img src="rank01_02.jpg"></a><a href="rank01_03.jpg" target="_blank"><img src="rank01_03.jpg"></a><a href="rank01_04.jpg" target="_blank"><img src="rank01_04.jpg"></a><a href="rank01_05.jpg" target="_blank"><img src="rank01_05.jpg"></a><a href="rank01_06.jpg" target="_blank"><img src="rank01_06.jpg"></a>
+                </div>
+            </td>
+        </tr>
         
-        <div class="card">
-            <div class="rank-title">👑 No.4 <a href="https://www.amazon.co.jp/%E3%83%AC%E3%83%83%E3%82%AF-%E6%BF%80%E8%90%BD%E3%81%A1%E3%81%8F%E3%82%93-%E6%99%82%E7%9F%AD%E3%82%B1%E3%83%BC%E3%82%B9%E4%BB%98%E3%81%8D-%E3%83%9B%E3%82%B3%E3%83%AA%E5%8F%96%E3%82%8A-%E3%81%8F%E3%82%8A%E8%BF%94%E3%81%97%E4%BD%BF%E3%81%88%E3%81%A6%E3%80%81%E3%81%84%E3%81%A4%E3%81%A7%E3%82%82%E3%82%AD%E3%83%AC%E3%82%A4%E3%81%AA%E9%AB%98%E5%AF%86%E5%BA%A6%E3%83%96%E3%83%A9%E3%82%B7%E3%83%A2%E3%83%83%E3%83%97/dp/B08NJR8BN7/ref=zg_bs_g_kitchen_d_sccl_4/357-1663634-8047300?psc=1" target="_blank" style="margin-left:10px;text-decoration:none;color:#333">Item 4</a></div>
-            <div style="text-align:center"><small>メイン画像</small><br><img src="rank04_main.jpg" class="main-img"></div>
-            <hr style="border:0;border-top:1px solid #eee;margin:20px 0">
-            <strong>📸 LP・サブ画像</strong>
-            <div class="sub-gallery"><span style='color:#999;font-size:0.9em'>サブ画像なし</span></div>
-        </div>
+        <tr>
+            <td class="col-rank">2</td>
+            <td class="col-main">
+                <a href="rank02_main.jpg" target="_blank"><img src="rank02_main.jpg" class="main-img"></a>
+            </td>
+            <td class="col-info">
+                <a href="https://www.amazon.co.jp/HEIKO-PP%E9%A3%9F%E3%83%91%E3%83%B3%E8%A2%8B%E5%8D%8A%E6%96%A4%E7%94%A8-300%E6%9E%9A%EF%BC%88100%E6%9E%9A%C3%973%E6%9D%9F%EF%BC%89-%E3%83%98%E3%82%A4%E3%82%B3%E3%83%BC-%E3%81%AB%E3%81%8A%E3%81%84%E8%A2%8B/dp/B0BFKKVLSQ/ref=zg_bs_g_kitchen_d_sccl_2/357-1663634-8047300?psc=1" target="_blank">Item 2</a>
+                <br><br>
+                <small style="color:#666">クリックで商品ページへ</small>
+            </td>
+            <td class="col-lp">
+                <div class="lp-gallery">
+                    <a href="rank02_02.jpg" target="_blank"><img src="rank02_02.jpg"></a><a href="rank02_03.jpg" target="_blank"><img src="rank02_03.jpg"></a><a href="rank02_04.jpg" target="_blank"><img src="rank02_04.jpg"></a><a href="rank02_05.jpg" target="_blank"><img src="rank02_05.jpg"></a><a href="rank02_06.jpg" target="_blank"><img src="rank02_06.jpg"></a><a href="rank02_07.jpg" target="_blank"><img src="rank02_07.jpg"></a>
+                </div>
+            </td>
+        </tr>
         
-        <div class="card">
-            <div class="rank-title">👑 No.5 <a href="https://www.amazon.co.jp/%E3%82%B9%E3%83%88%E3%83%AC%E3%83%83%E3%83%81-%E3%82%B4%E3%83%9F%E8%A2%8B-%E5%8D%8A%E9%80%8F%E6%98%8E-45L-50%E6%9E%9A%E5%85%A5/dp/B00LX1C46I/ref=zg_bs_g_kitchen_d_sccl_5/357-1663634-8047300?psc=1" target="_blank" style="margin-left:10px;text-decoration:none;color:#333">Item 5</a></div>
-            <div style="text-align:center"><small>メイン画像</small><br><img src="rank05_main.jpg" class="main-img"></div>
-            <hr style="border:0;border-top:1px solid #eee;margin:20px 0">
-            <strong>📸 LP・サブ画像</strong>
-            <div class="sub-gallery"><span style='color:#999;font-size:0.9em'>サブ画像なし</span></div>
-        </div>
+        <tr>
+            <td class="col-rank">3</td>
+            <td class="col-main">
+                <a href="rank03_main.jpg" target="_blank"><img src="rank03_main.jpg" class="main-img"></a>
+            </td>
+            <td class="col-info">
+                <a href="https://www.amazon.co.jp/%E3%83%96%E3%83%AA%E3%82%BF-%E3%82%AB%E3%83%BC%E3%83%88%E3%83%AA%E3%83%83%E3%82%B8-%E3%83%9E%E3%82%AF%E3%82%B9%E3%83%88%E3%83%A9-%E3%83%94%E3%83%A5%E3%82%A2%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9-%E3%80%90%E6%97%A5%E6%9C%AC%E6%AD%A3%E8%A6%8F%E5%93%81%E3%80%91/dp/B0CPL3QTJD/ref=zg_bs_g_kitchen_d_sccl_3/357-1663634-8047300?psc=1" target="_blank">Item 3</a>
+                <br><br>
+                <small style="color:#666">クリックで商品ページへ</small>
+            </td>
+            <td class="col-lp">
+                <div class="lp-gallery">
+                    <a href="rank03_02.jpg" target="_blank"><img src="rank03_02.jpg"></a><a href="rank03_03.jpg" target="_blank"><img src="rank03_03.jpg"></a><a href="rank03_04.jpg" target="_blank"><img src="rank03_04.jpg"></a><a href="rank03_05.jpg" target="_blank"><img src="rank03_05.jpg"></a><a href="rank03_06.jpg" target="_blank"><img src="rank03_06.jpg"></a>
+                </div>
+            </td>
+        </tr>
         
-        <div class="card">
-            <div class="rank-title">👑 No.6 <a href="https://www.amazon.co.jp/%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E-%E5%8F%A3%E9%87%91%E7%9B%B4%E5%BE%8426mm-60W%E5%BD%A2%E7%9B%B8%E5%BD%93-%E5%AF%86%E9%96%89%E5%99%A8%E5%85%B7%E5%AF%BE%E5%BF%9C-LDA7L-G-6T62P/dp/B07PY1WV5V/ref=zg_bs_g_kitchen_d_sccl_6/357-1663634-8047300?psc=1" target="_blank" style="margin-left:10px;text-decoration:none;color:#333">Item 6</a></div>
-            <div style="text-align:center"><small>メイン画像</small><br><img src="rank06_main.jpg" class="main-img"></div>
-            <hr style="border:0;border-top:1px solid #eee;margin:20px 0">
-            <strong>📸 LP・サブ画像</strong>
-            <div class="sub-gallery"><span style='color:#999;font-size:0.9em'>サブ画像なし</span></div>
-        </div>
+        <tr>
+            <td class="col-rank">4</td>
+            <td class="col-main">
+                <a href="rank04_main.jpg" target="_blank"><img src="rank04_main.jpg" class="main-img"></a>
+            </td>
+            <td class="col-info">
+                <a href="https://www.amazon.co.jp/%E3%83%AC%E3%83%83%E3%82%AF-%E6%BF%80%E8%90%BD%E3%81%A1%E3%81%8F%E3%82%93-%E6%99%82%E7%9F%AD%E3%82%B1%E3%83%BC%E3%82%B9%E4%BB%98%E3%81%8D-%E3%83%9B%E3%82%B3%E3%83%AA%E5%8F%96%E3%82%8A-%E3%81%8F%E3%82%8A%E8%BF%94%E3%81%97%E4%BD%BF%E3%81%88%E3%81%A6%E3%80%81%E3%81%84%E3%81%A4%E3%81%A7%E3%82%82%E3%82%AD%E3%83%AC%E3%82%A4%E3%81%AA%E9%AB%98%E5%AF%86%E5%BA%A6%E3%83%96%E3%83%A9%E3%82%B7%E3%83%A2%E3%83%83%E3%83%97/dp/B08NJR8BN7/ref=zg_bs_g_kitchen_d_sccl_4/357-1663634-8047300?psc=1" target="_blank">Item 4</a>
+                <br><br>
+                <small style="color:#666">クリックで商品ページへ</small>
+            </td>
+            <td class="col-lp">
+                <div class="lp-gallery">
+                    <span style='color:#999'>サブ画像なし</span>
+                </div>
+            </td>
+        </tr>
         
-        <div class="card">
-            <div class="rank-title">👑 No.7 <a href="https://www.amazon.co.jp/%E8%B2%9D%E5%8D%B0-%E8%BB%BD%E9%87%8F%E3%83%BB%E9%AB%98%E7%86%B1%E5%8A%B9%E7%8E%87-Kai-Select-DW5629/dp/B002GGRDSI/ref=zg_bs_g_kitchen_d_sccl_7/357-1663634-8047300?psc=1" target="_blank" style="margin-left:10px;text-decoration:none;color:#333">Item 7</a></div>
-            <div style="text-align:center"><small>メイン画像</small><br><img src="rank07_main.jpg" class="main-img"></div>
-            <hr style="border:0;border-top:1px solid #eee;margin:20px 0">
-            <strong>📸 LP・サブ画像</strong>
-            <div class="sub-gallery"><span style='color:#999;font-size:0.9em'>サブ画像なし</span></div>
-        </div>
+        <tr>
+            <td class="col-rank">5</td>
+            <td class="col-main">
+                <a href="rank05_main.jpg" target="_blank"><img src="rank05_main.jpg" class="main-img"></a>
+            </td>
+            <td class="col-info">
+                <a href="https://www.amazon.co.jp/%E3%82%B9%E3%83%88%E3%83%AC%E3%83%83%E3%83%81-%E3%82%B4%E3%83%9F%E8%A2%8B-%E5%8D%8A%E9%80%8F%E6%98%8E-45L-50%E6%9E%9A%E5%85%A5/dp/B00LX1C46I/ref=zg_bs_g_kitchen_d_sccl_5/357-1663634-8047300?psc=1" target="_blank">Item 5</a>
+                <br><br>
+                <small style="color:#666">クリックで商品ページへ</small>
+            </td>
+            <td class="col-lp">
+                <div class="lp-gallery">
+                    <span style='color:#999'>サブ画像なし</span>
+                </div>
+            </td>
+        </tr>
         
-        <div class="card">
-            <div class="rank-title">👑 No.8 <a href="https://www.amazon.co.jp/%E3%83%AC%E3%83%83%E3%82%AF-%E6%BF%80%E3%82%B3%E3%83%AD-%E3%82%B9%E3%82%B4%E6%8A%80%E3%82%AB%E3%83%83%E3%83%88-%E3%82%AB%E3%83%BC%E3%83%9A%E3%83%83%E3%83%88%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC-S-821/dp/B01HEVDHU2/ref=zg_bs_g_kitchen_d_sccl_8/357-1663634-8047300?psc=1" target="_blank" style="margin-left:10px;text-decoration:none;color:#333">Item 8</a></div>
-            <div style="text-align:center"><small>メイン画像</small><br><img src="rank08_main.jpg" class="main-img"></div>
-            <hr style="border:0;border-top:1px solid #eee;margin:20px 0">
-            <strong>📸 LP・サブ画像</strong>
-            <div class="sub-gallery"><span style='color:#999;font-size:0.9em'>サブ画像なし</span></div>
-        </div>
+        <tr>
+            <td class="col-rank">6</td>
+            <td class="col-main">
+                <a href="rank06_main.jpg" target="_blank"><img src="rank06_main.jpg" class="main-img"></a>
+            </td>
+            <td class="col-info">
+                <a href="https://www.amazon.co.jp/Hansleep-%E3%82%AB%E3%83%BC%E3%83%86%E3%83%B3-1%E7%B4%9A%E9%81%AE%E5%85%89-%E3%83%AA%E3%83%93%E3%83%B3%E3%82%B0%E7%94%A8-%E5%B9%85100cm%C3%97%E4%B8%88178cm/dp/B08GC1KJ3J/ref=zg_bs_g_kitchen_d_sccl_6/357-1663634-8047300?psc=1" target="_blank">Item 6</a>
+                <br><br>
+                <small style="color:#666">クリックで商品ページへ</small>
+            </td>
+            <td class="col-lp">
+                <div class="lp-gallery">
+                    <span style='color:#999'>サブ画像なし</span>
+                </div>
+            </td>
+        </tr>
         
-        <div class="card">
-            <div class="rank-title">👑 No.9 <a href="https://www.amazon.co.jp/%E3%80%902024%E6%96%B0%E7%99%BB%E5%A0%B4%E3%80%91-Type-C%E5%85%85%E9%9B%BB%E5%BC%8F-%E5%A4%A7%E5%AE%B9%E9%87%8F350ML-%E6%AC%A1%E4%BA%9C%E5%A1%A9%E7%B4%A0%E9%85%B8%E6%B0%B4%E5%AF%BE%E5%BF%9C-7%E8%89%B2LED%E3%83%A9%E3%82%A4%E3%83%88/dp/B0DCFXF1H1/ref=zg_bs_g_kitchen_d_sccl_9/357-1663634-8047300?psc=1" target="_blank" style="margin-left:10px;text-decoration:none;color:#333">Item 9</a></div>
-            <div style="text-align:center"><small>メイン画像</small><br><img src="rank09_main.jpg" class="main-img"></div>
-            <hr style="border:0;border-top:1px solid #eee;margin:20px 0">
-            <strong>📸 LP・サブ画像</strong>
-            <div class="sub-gallery"><span style='color:#999;font-size:0.9em'>サブ画像なし</span></div>
-        </div>
+        <tr>
+            <td class="col-rank">7</td>
+            <td class="col-main">
+                <a href="rank07_main.jpg" target="_blank"><img src="rank07_main.jpg" class="main-img"></a>
+            </td>
+            <td class="col-info">
+                <a href="https://www.amazon.co.jp/%E3%83%AC%E3%83%83%E3%82%AF-%E6%BF%80%E3%82%B3%E3%83%AD-%E3%82%B9%E3%82%B4%E6%8A%80%E3%82%AB%E3%83%83%E3%83%88-%E3%82%AB%E3%83%BC%E3%83%9A%E3%83%83%E3%83%88%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%8A%E3%83%BC-S-821/dp/B01HEVDHU2/ref=zg_bs_g_kitchen_d_sccl_7/357-1663634-8047300?psc=1" target="_blank">Item 7</a>
+                <br><br>
+                <small style="color:#666">クリックで商品ページへ</small>
+            </td>
+            <td class="col-lp">
+                <div class="lp-gallery">
+                    <span style='color:#999'>サブ画像なし</span>
+                </div>
+            </td>
+        </tr>
         
-        <div class="card">
-            <div class="rank-title">👑 No.10 <a href="https://www.amazon.co.jp/Hansleep-%E3%82%AB%E3%83%BC%E3%83%86%E3%83%B3-1%E7%B4%9A%E9%81%AE%E5%85%89-%E3%83%AA%E3%83%93%E3%83%B3%E3%82%B0%E7%94%A8-%E5%B9%85100cm%C3%97%E4%B8%88178cm/dp/B08GC1KJ3J/ref=zg_bs_g_kitchen_d_sccl_10/357-1663634-8047300?psc=1" target="_blank" style="margin-left:10px;text-decoration:none;color:#333">Item 10</a></div>
-            <div style="text-align:center"><small>メイン画像</small><br><img src="rank10_main.jpg" class="main-img"></div>
-            <hr style="border:0;border-top:1px solid #eee;margin:20px 0">
-            <strong>📸 LP・サブ画像</strong>
-            <div class="sub-gallery"><span style='color:#999;font-size:0.9em'>サブ画像なし</span></div>
-        </div>
-        </div></body></html>
+        <tr>
+            <td class="col-rank">8</td>
+            <td class="col-main">
+                <a href="rank08_main.jpg" target="_blank"><img src="rank08_main.jpg" class="main-img"></a>
+            </td>
+            <td class="col-info">
+                <a href="https://www.amazon.co.jp/%E3%80%90Amazon-co-jp-%E3%82%B9%E3%82%AF%E3%83%A9%E3%83%93%E3%83%B3%E3%82%B0%E3%83%90%E3%83%96%E3%83%AB-%E6%B5%81%E3%81%9B%E3%82%8B%E3%83%88%E3%82%A4%E3%83%AC%E3%83%96%E3%83%A9%E3%82%B7-%E3%83%95%E3%83%AD%E3%83%BC%E3%83%A9%E3%83%AB%E3%82%BD%E3%83%BC%E3%83%97%E3%81%AE%E9%A6%99%E3%82%8A-%E4%BB%98%E3%81%91%E6%9B%BF%E3%81%88%E7%94%A8/dp/B0BBFRWQKR/ref=zg_bs_g_kitchen_d_sccl_8/357-1663634-8047300?psc=1" target="_blank">Item 8</a>
+                <br><br>
+                <small style="color:#666">クリックで商品ページへ</small>
+            </td>
+            <td class="col-lp">
+                <div class="lp-gallery">
+                    <span style='color:#999'>サブ画像なし</span>
+                </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="col-rank">9</td>
+            <td class="col-main">
+                <a href="rank09_main.jpg" target="_blank"><img src="rank09_main.jpg" class="main-img"></a>
+            </td>
+            <td class="col-info">
+                <a href="https://www.amazon.co.jp/%E8%B2%9D%E5%8D%B0-%E8%BB%BD%E9%87%8F%E3%83%BB%E9%AB%98%E7%86%B1%E5%8A%B9%E7%8E%87-Kai-Select-DW5629/dp/B002GGRDSI/ref=zg_bs_g_kitchen_d_sccl_9/357-1663634-8047300?psc=1" target="_blank">Item 9</a>
+                <br><br>
+                <small style="color:#666">クリックで商品ページへ</small>
+            </td>
+            <td class="col-lp">
+                <div class="lp-gallery">
+                    <span style='color:#999'>サブ画像なし</span>
+                </div>
+            </td>
+        </tr>
+        
+        <tr>
+            <td class="col-rank">10</td>
+            <td class="col-main">
+                <a href="rank10_main.jpg" target="_blank"><img src="rank10_main.jpg" class="main-img"></a>
+            </td>
+            <td class="col-info">
+                <a href="https://www.amazon.co.jp/%E3%82%A2%E3%82%A4%E3%83%AA%E3%82%B9%E3%82%AA%E3%83%BC%E3%83%A4%E3%83%9E-%E5%8F%A3%E9%87%91%E7%9B%B4%E5%BE%8426mm-60W%E5%BD%A2%E7%9B%B8%E5%BD%93-%E5%AF%86%E9%96%89%E5%99%A8%E5%85%B7%E5%AF%BE%E5%BF%9C-LDA7L-G-6T62P/dp/B07PY1WV5V/ref=zg_bs_g_kitchen_d_sccl_10/357-1663634-8047300?psc=1" target="_blank">Item 10</a>
+                <br><br>
+                <small style="color:#666">クリックで商品ページへ</small>
+            </td>
+            <td class="col-lp">
+                <div class="lp-gallery">
+                    <span style='color:#999'>サブ画像なし</span>
+                </div>
+            </td>
+        </tr>
+        </tbody></table></body></html>

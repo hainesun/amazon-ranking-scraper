@@ -14,7 +14,6 @@ def save_image(url, path):
     try:
         if not url: return False
         # URLの「._AC_...」などのリサイズ指定を削除して、本来の高画質URLにする
-        # 例: image._AC_US40_.jpg -> image.jpg
         high_res_url = url.split("._")[0] + ".jpg"
         
         headers = {
@@ -32,20 +31,65 @@ def save_image(url, path):
 
 def generate_html(results):
     now_str = datetime.now().strftime('%Y-%m-%d %H:%M')
-    html = f"""<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Amazon LP Archive</title><style>body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#f4f4f4;padding:20px;color:#333}}.card{{background:white;margin-bottom:30px;padding:20px;border-radius:12px;box-shadow:0 4px 12px rgba(0,0,0,0.05)}}.rank-title{{font-weight:bold;font-size:1.2em;margin-bottom:15px;color:#e47911;display:flex;align-items:center;}}.main-img{{display:block;max-height:250px;margin:0 auto 20px;border:1px solid #eee}}.sub-gallery{{display:flex;overflow-x:auto;gap:10px;padding-bottom:10px}}.sub-gallery img{{height:180px;border-radius:6px;border:1px solid #ddd;transition:transform 0.2s}}.sub-gallery img:hover{{transform:scale(1.05)}}</style></head><body><h1>Amazon LP Archive ({now_str})</h1><div style="max-width:1000px;margin:auto;">"""
+    # ★ここからデザイン変更：テーブル（リスト）形式にするCSS
+    html = f"""<!DOCTYPE html><html lang="ja"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0"><title>Amazon LP Archive</title>
+    <style>
+        body{{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;background:#f9f9f9;padding:20px;color:#333}}
+        h1{{text-align:center;margin-bottom:20px;color:#232f3e}}
+        /* テーブルのデザイン */
+        table {{width: 100%; border-collapse: collapse; background: white; box-shadow: 0 2px 8px rgba(0,0,0,0.1);}}
+        th, td {{border: 1px solid #ddd; padding: 15px; vertical-align: top;}}
+        th {{background: #232f3e; color: white; text-align: left;}}
+        
+        /* 各列の幅調整 */
+        .col-rank {{width: 60px; text-align: center; font-weight: bold; font-size: 1.5em; color: #e47911;}}
+        .col-main {{width: 150px; text-align: center;}}
+        .col-info {{width: 25%;}}
+        .col-lp {{}} /* 残りの幅全部 */
+
+        /* 画像のデザイン */
+        .main-img {{width: 120px; border: 1px solid #eee;}}
+        .lp-gallery {{display: flex; gap: 10px; overflow-x: auto; padding-bottom: 10px;}}
+        .lp-gallery img {{height: 120px; border: 1px solid #ccc; border-radius: 4px; transition: transform 0.2s;}}
+        .lp-gallery img:hover {{transform: scale(1.1); border-color: #e47911;}}
+        
+        a {{text-decoration: none; color: #007185; font-weight: bold;}}
+        a:hover {{text-decoration: underline; color: #c7511f;}}
+    </style></head><body>
+    <h1>Amazon LP Archive ({now_str})</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>順位</th>
+                <th>メイン画像</th>
+                <th>商品情報</th>
+                <th>LP・サブ画像構成 (横スクロール)</th>
+            </tr>
+        </thead>
+        <tbody>
+    """
     
     for r in results:
         subs_html = "".join([f'<a href="{s}" target="_blank"><img src="{s}"></a>' for s in r["subs"]])
         html += f"""
-        <div class="card">
-            <div class="rank-title">👑 No.{r["rank"]} <a href="{r['url']}" target="_blank" style="margin-left:10px;text-decoration:none;color:#333">{r["title"]}</a></div>
-            <div style="text-align:center"><small>メイン画像</small><br><img src="{r["main"]}" class="main-img"></div>
-            <hr style="border:0;border-top:1px solid #eee;margin:20px 0">
-            <strong>📸 LP・サブ画像</strong>
-            <div class="sub-gallery">{subs_html if subs_html else "<span style='color:#999;font-size:0.9em'>サブ画像なし</span>"}</div>
-        </div>
+        <tr>
+            <td class="col-rank">{r["rank"]}</td>
+            <td class="col-main">
+                <a href="{r['main']}" target="_blank"><img src="{r['main']}" class="main-img"></a>
+            </td>
+            <td class="col-info">
+                <a href="{r['url']}" target="_blank">{r['title']}</a>
+                <br><br>
+                <small style="color:#666">クリックで商品ページへ</small>
+            </td>
+            <td class="col-lp">
+                <div class="lp-gallery">
+                    {subs_html if subs_html else "<span style='color:#999'>サブ画像なし</span>"}
+                </div>
+            </td>
+        </tr>
         """
-    html += "</div></body></html>"
+    html += "</tbody></table></body></html>"
     with open(os.path.join(SAVE_DIR, "index.html"), "w", encoding="utf-8") as f:
         f.write(html)
 
@@ -117,20 +161,14 @@ def run_scraper():
                     p2.goto(url, wait_until="domcontentloaded")
                     time.sleep(2)
                     
-                    # ★ここを変更：ホバーせず、サムネイルのURLから直接高画質版を取得
-                    # 左側のサムネイル画像のリストを取得
+                    # ホバーせず、サムネイルのURLから直接高画質版を取得
                     thumb_imgs = p2.query_selector_all("#altImages li.item.imageThumbnail img")
-                    
-                    # 2枚目〜7枚目くらいを取得
                     for j, img in enumerate(thumb_imgs[1:7]):
                         src = img.get_attribute("src")
                         if src:
-                            # ファイル名: rank01_02.jpg
                             s_name = f"rank{rank:02d}_{j+2:02d}.jpg"
-                            # save_image関数内で自動的に高画質URLに変換される
                             if save_image(src, s_name):
                                 subs.append(s_name)
-                    
                     p2.close()
                 except Exception as e:
                     print(f"詳細エラー: {e}")
