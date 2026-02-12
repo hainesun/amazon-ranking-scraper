@@ -1,16 +1,13 @@
-2026/02/12-18:25:02.537 79de7 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/02/12-18:25:02.540 79de7 Recovering log #6
-2026/02/12-18:25:02.542 79de7 Level-0 table #9: started
-2026/02/12-18:25:02.551 79de7 Level-0 table #9: 153515 bytes OK
-2026/02/12-18:25:02.552 79de7 Recovering log #8
-2026/02/12-18:25:02.553 79de7 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000008.log 
-2026/02/12-18:25:02.555 79de7 Delete type=0 #6
-2026/02/12-18:25:02.558 79dea Compacting 4@0 + 0@1 files
-2026/02/12-18:25:02.564 79dea Generated table #10@0: 26 keys, 152231 bytes
-2026/02/12-18:25:02.564 79dea Compacted 4@0 + 0@1 files => 152231 bytes
-2026/02/12-18:25:02.566 79dea compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/02/12-18:25:02.567 79dea Delete type=2 #3
-2026/02/12-18:25:02.567 79dea Delete type=2 #7
-2026/02/12-18:25:02.567 79dea Delete type=2 #4
-2026/02/12-18:25:02.567 79dea Delete type=2 #9
-2026/02/12-18:25:29.566 79de7 Level-0 table #12: started
+2026/02/12-18:40:58.037 7e47b Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/02/12-18:40:58.045 7e47b Recovering log #13
+2026/02/12-18:40:58.047 7e47b Level-0 table #16: started
+2026/02/12-18:40:58.055 7e47b Level-0 table #16: 155329 bytes OK
+2026/02/12-18:40:58.056 7e47b Recovering log #15
+2026/02/12-18:40:58.057 7e47b Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000015.log 
+2026/02/12-18:40:58.059 7e47b Delete type=0 #13
+2026/02/12-18:44:11.963 7eb56 Level-0 table #18: started
+2026/02/12-18:44:11.980 7eb56 Level-0 table #18: 138275 bytes OK
+2026/02/12-18:44:11.980 7e47b Current memtable full; waiting...
+2026/02/12-18:44:11.982 7eb56 Delete type=0 #15
+2026/02/12-18:44:11.983 7eb56 Compacting 4@0 + 1@1 files
+2026/02/12-18:44:11.985 7eb56 compacted to: files[ 4 1 0 0 0 0 0 ]
