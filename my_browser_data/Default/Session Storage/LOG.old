@@ -1,3 +1,6 @@
-2026/02/12-17:58:05.660 73004 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/02/12-17:58:05.660 73004 Recovering log #3
-2026/02/12-17:58:05.661 73004 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000003.log 
+2026/02/12-18:25:02.589 79de7 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/02/12-18:25:02.591 79de7 Recovering log #3
+2026/02/12-18:25:02.592 79de7 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000003.log 
+2026/02/12-18:25:10.453 79dea Level-0 table #5: started
+2026/02/12-18:25:10.456 79dea Level-0 table #5: 27941 bytes OK
+2026/02/12-18:25:10.466 79dea Delete type=0 #3
