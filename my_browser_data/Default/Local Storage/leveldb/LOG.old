@@ -1,10 +1,23 @@
-2026/02/13-09:54:48.875 29f3 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/02/13-09:54:48.878 29f3 Recovering log #19
-2026/02/13-09:54:48.879 29f3 Level-0 table #23: started
-2026/02/13-09:54:48.885 29f3 Level-0 table #23: 19257 bytes OK
-2026/02/13-09:54:48.887 29f3 Delete type=0 #19
-2026/02/13-09:55:48.894 29f6 Level-0 table #26: started
-2026/02/13-09:55:48.896 29f6 Level-0 table #26: 21337 bytes OK
-2026/02/13-09:55:48.897 29f6 Delete type=0 #24
-2026/02/13-09:56:29.262 3c26 Level-0 table #28: started
-2026/02/13-09:56:29.285 3c26 Level-0 table #28: 111693 bytes OK
+2026/02/13-09:56:42.054 45d8 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/02/13-09:56:42.057 45d8 Recovering log #25
+2026/02/13-09:56:42.058 45d8 Level-0 table #28: started
+2026/02/13-09:56:42.062 45d8 Level-0 table #28: 111693 bytes OK
+2026/02/13-09:56:42.062 45d8 Recovering log #27
+2026/02/13-09:56:42.063 45d8 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000027.log 
+2026/02/13-09:56:42.065 45d8 Delete type=0 #25
+2026/02/13-10:01:45.165 45db Level-0 table #30: started
+2026/02/13-10:01:45.170 45db Level-0 table #30: 143605 bytes OK
+2026/02/13-10:01:45.175 45db Delete type=0 #27
+2026/02/13-10:01:45.175 45db Compacting 4@0 + 1@1 files
+2026/02/13-10:01:45.180 45db Generated table #31@0: 46 keys, 136160 bytes
+2026/02/13-10:01:45.180 45db Compacted 4@0 + 1@1 files => 136160 bytes
+2026/02/13-10:01:45.181 45db compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/02/13-10:01:45.181 45db Delete type=2 #28
+2026/02/13-10:01:45.181 45db Delete type=2 #21
+2026/02/13-10:01:45.181 45db Delete type=2 #23
+2026/02/13-10:01:45.181 45db Delete type=2 #26
+2026/02/13-10:01:45.181 45db Delete type=2 #30
+2026/02/13-10:03:02.700 45db Level-0 table #33: started
+2026/02/13-10:03:02.705 45db Level-0 table #33: 134586 bytes OK
+2026/02/13-10:03:02.706 52d4 Current memtable full; waiting...
+2026/02/13-10:03:02.713 45db Delete type=0 #29

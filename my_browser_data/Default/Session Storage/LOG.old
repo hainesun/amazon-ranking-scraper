@@ -1,6 +1,21 @@
-2026/02/13-09:54:52.458 29f3 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/02/13-09:54:52.459 29f3 Recovering log #12
-2026/02/13-09:54:52.460 29f3 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000012.log 
-2026/02/13-09:56:02.582 29f6 Level-0 table #16: started
-2026/02/13-09:56:02.586 29f6 Level-0 table #16: 24265 bytes OK
-2026/02/13-09:56:02.590 29f6 Delete type=0 #12
+2026/02/13-09:56:42.169 45d8 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/02/13-09:56:42.170 45d8 Recovering log #15
+2026/02/13-09:56:42.170 45d8 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000015.log 
+2026/02/13-09:59:31.084 45db Level-0 table #19: started
+2026/02/13-09:59:31.088 45db Level-0 table #19: 30190 bytes OK
+2026/02/13-09:59:31.092 45db Delete type=0 #15
+2026/02/13-09:59:31.095 45d8 Compacting 4@0 + 1@1 files
+2026/02/13-09:59:31.100 45d8 Generated table #20@0: 724 keys, 27477 bytes
+2026/02/13-09:59:31.100 45d8 Compacted 4@0 + 1@1 files => 27477 bytes
+2026/02/13-09:59:31.101 45d8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/13-09:59:31.102 45d8 Delete type=2 #16
+2026/02/13-09:59:31.102 45d8 Delete type=2 #13
+2026/02/13-09:59:31.102 45d8 Delete type=2 #11
+2026/02/13-09:59:31.102 45d8 Delete type=2 #8
+2026/02/13-09:59:31.102 45d8 Delete type=2 #19
+2026/02/13-10:01:13.197 45db Level-0 table #22: started
+2026/02/13-10:01:13.209 45db Level-0 table #22: 27093 bytes OK
+2026/02/13-10:01:13.220 45db Delete type=0 #18
+2026/02/13-10:03:02.716 8204 Level-0 table #24: started
+2026/02/13-10:03:02.728 8204 Level-0 table #24: 28563 bytes OK
+2026/02/13-10:03:02.730 8204 Delete type=0 #21
