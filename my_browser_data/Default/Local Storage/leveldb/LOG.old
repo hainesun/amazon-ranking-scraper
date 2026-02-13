@@ -1,13 +1,10 @@
-2026/02/12-18:40:58.037 7e47b Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/02/12-18:40:58.045 7e47b Recovering log #13
-2026/02/12-18:40:58.047 7e47b Level-0 table #16: started
-2026/02/12-18:40:58.055 7e47b Level-0 table #16: 155329 bytes OK
-2026/02/12-18:40:58.056 7e47b Recovering log #15
-2026/02/12-18:40:58.057 7e47b Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000015.log 
-2026/02/12-18:40:58.059 7e47b Delete type=0 #13
-2026/02/12-18:44:11.963 7eb56 Level-0 table #18: started
-2026/02/12-18:44:11.980 7eb56 Level-0 table #18: 138275 bytes OK
-2026/02/12-18:44:11.980 7e47b Current memtable full; waiting...
-2026/02/12-18:44:11.982 7eb56 Delete type=0 #15
-2026/02/12-18:44:11.983 7eb56 Compacting 4@0 + 1@1 files
-2026/02/12-18:44:11.985 7eb56 compacted to: files[ 4 1 0 0 0 0 0 ]
+2026/02/13-09:54:48.875 29f3 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/02/13-09:54:48.878 29f3 Recovering log #19
+2026/02/13-09:54:48.879 29f3 Level-0 table #23: started
+2026/02/13-09:54:48.885 29f3 Level-0 table #23: 19257 bytes OK
+2026/02/13-09:54:48.887 29f3 Delete type=0 #19
+2026/02/13-09:55:48.894 29f6 Level-0 table #26: started
+2026/02/13-09:55:48.896 29f6 Level-0 table #26: 21337 bytes OK
+2026/02/13-09:55:48.897 29f6 Delete type=0 #24
+2026/02/13-09:56:29.262 3c26 Level-0 table #28: started
+2026/02/13-09:56:29.285 3c26 Level-0 table #28: 111693 bytes OK

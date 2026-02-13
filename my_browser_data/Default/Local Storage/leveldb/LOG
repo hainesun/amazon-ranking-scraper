@@ -1,17 +1,23 @@
-2026/02/12-18:51:13.365 81a3d Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/02/12-18:51:13.370 81a3d Recovering log #17
-2026/02/12-18:51:13.372 81a3d Level-0 table #20: started
-2026/02/12-18:51:13.382 81a3d Level-0 table #20: 165222 bytes OK
-2026/02/12-18:51:13.383 81a3d Recovering log #19
-2026/02/12-18:51:13.384 81a3d Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000019.log 
-2026/02/12-18:51:13.397 81a3d Delete type=0 #17
-2026/02/12-18:51:13.400 81a40 Compacting 5@0 + 1@1 files
-2026/02/12-18:51:13.409 81a40 Generated table #21@0: 90 keys, 162601 bytes
-2026/02/12-18:51:13.409 81a40 Compacted 5@0 + 1@1 files => 162601 bytes
-2026/02/12-18:51:13.410 81a40 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/02/12-18:51:13.412 81a40 Delete type=2 #14
-2026/02/12-18:51:13.412 81a40 Delete type=2 #16
-2026/02/12-18:51:13.412 81a40 Delete type=2 #12
-2026/02/12-18:51:13.412 81a40 Delete type=2 #10
-2026/02/12-18:51:13.412 81a40 Delete type=2 #20
-2026/02/12-18:51:13.412 81a40 Delete type=2 #18
+2026/02/13-09:56:42.054 45d8 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/02/13-09:56:42.057 45d8 Recovering log #25
+2026/02/13-09:56:42.058 45d8 Level-0 table #28: started
+2026/02/13-09:56:42.062 45d8 Level-0 table #28: 111693 bytes OK
+2026/02/13-09:56:42.062 45d8 Recovering log #27
+2026/02/13-09:56:42.063 45d8 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000027.log 
+2026/02/13-09:56:42.065 45d8 Delete type=0 #25
+2026/02/13-10:01:45.165 45db Level-0 table #30: started
+2026/02/13-10:01:45.170 45db Level-0 table #30: 143605 bytes OK
+2026/02/13-10:01:45.175 45db Delete type=0 #27
+2026/02/13-10:01:45.175 45db Compacting 4@0 + 1@1 files
+2026/02/13-10:01:45.180 45db Generated table #31@0: 46 keys, 136160 bytes
+2026/02/13-10:01:45.180 45db Compacted 4@0 + 1@1 files => 136160 bytes
+2026/02/13-10:01:45.181 45db compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/02/13-10:01:45.181 45db Delete type=2 #28
+2026/02/13-10:01:45.181 45db Delete type=2 #21
+2026/02/13-10:01:45.181 45db Delete type=2 #23
+2026/02/13-10:01:45.181 45db Delete type=2 #26
+2026/02/13-10:01:45.181 45db Delete type=2 #30
+2026/02/13-10:03:02.700 45db Level-0 table #33: started
+2026/02/13-10:03:02.705 45db Level-0 table #33: 134586 bytes OK
+2026/02/13-10:03:02.706 52d4 Current memtable full; waiting...
+2026/02/13-10:03:02.713 45db Delete type=0 #29
