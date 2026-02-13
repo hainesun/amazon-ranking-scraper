@@ -39,24 +39,20 @@ def save_image(url, path):
         pass
     return False
 
-# --- 日付リンク生成（復活！） ---
+# --- 日付リンク生成 ---
 def get_date_links(current_date_str):
     if not os.path.exists(ARCHIVE_ROOT): return ""
-    
-    # フォルダがある日付を取得してソート
     dates = sorted([d for d in os.listdir(ARCHIVE_ROOT) if os.path.isdir(os.path.join(ARCHIVE_ROOT, d))], reverse=True)
-    
     html = '<div class="date-nav-bar"><span class="nav-label">📅 履歴:</span> '
     for d in dates:
         if d == current_date_str:
             html += f'<span class="nav-current">{d}</span> '
         else:
-            # 同じ階層の別フォルダへ移動
             html += f'<a href="../{d}/index.html" class="nav-link">{d}</a> '
     html += '</div>'
     return html
 
-# --- ルートのインデックスページ（ダッシュボード） ---
+# --- ルートのインデックスページ ---
 def update_root_index():
     if not os.path.exists(ARCHIVE_ROOT): return
     dates = sorted([d for d in os.listdir(ARCHIVE_ROOT) if os.path.isdir(os.path.join(ARCHIVE_ROOT, d))], reverse=True)
@@ -116,10 +112,7 @@ def update_root_index():
 
 # --- 日次レポートページ生成 ---
 def generate_html(all_data, save_dir, date_str):
-    # 日付ナビゲーションを取得
     date_nav_html = get_date_links(date_str)
-    
-    # 目次
     toc_html = '<div class="toc"><strong>📂 カテゴリ:</strong> '
     for cat in all_data:
         toc_html += f'<a href="#{cat["folder"]}">{cat["name"]}</a> '
@@ -134,7 +127,6 @@ def generate_html(all_data, save_dir, date_str):
         h1 {{color:#232f3e; margin:0; font-size:24px;}}
         .home-link {{display:inline-block; margin-top:5px; color:#007185; text-decoration:none; font-size:0.9em;}}
         
-        /* 日付ナビゲーションバー */
         .date-nav-bar {{background:white; padding:10px; margin-bottom:15px; border-radius:8px; text-align:center; font-size:0.9em; overflow-x:auto; white-space:nowrap;}}
         .nav-label {{font-weight:bold; color:#555; margin-right:5px;}}
         .nav-link {{display:inline-block; padding:4px 8px; margin:0 2px; color:#007185; text-decoration:none; border:1px solid #ddd; border-radius:4px;}}
@@ -153,13 +145,28 @@ def generate_html(all_data, save_dir, date_str):
         th, td {{border-bottom:1px solid #eee; padding:12px 8px; vertical-align:top;}}
         th {{background:#f9f9f9; color:#555; text-align:left; font-size:0.85em; font-weight:bold;}}
         .col-rank {{width:50px; text-align:center; font-weight:bold; font-size:1.4em; color:#e47911;}}
-        .col-main {{width:140px; text-align:center;}}
-        .col-info {{width:250px; font-size:0.9em; line-height:1.5;}}
-        .main-img {{width:120px; height:auto; border-radius:4px; border:1px solid #eee; transition:transform 0.2s; cursor:pointer;}}
+        .col-main {{width:130px; text-align:center;}}
+        .col-info {{width:220px; font-size:0.9em; line-height:1.5;}}
+        
+        .main-img {{width:110px; height:auto; border-radius:4px; border:1px solid #eee; transition:transform 0.2s; cursor:pointer;}}
         .main-img:hover {{transform:scale(1.05);}}
-        .lp-gallery {{display:flex; flex-wrap:wrap; gap:8px;}}
-        .lp-thumb {{height:100px; width:auto; border-radius:4px; border:1px solid #ddd; cursor:zoom-in; transition:0.2s;}}
-        .lp-thumb:hover {{border-color:#e47911; transform:translateY(-2px);}}
+        
+        .lp-gallery {{
+            display: flex; 
+            flex-wrap: wrap; 
+            gap: 5px; 
+            overflow-x: visible;
+        }}
+        .lp-thumb {{
+            height: 80px; 
+            width: auto; 
+            border-radius:4px; 
+            border:1px solid #ddd; 
+            cursor:zoom-in; 
+            transition:0.2s;
+        }}
+        .lp-thumb:hover {{border-color:#e47911; transform:scale(1.05); z-index:1;}}
+
         .product-title {{font-weight:bold; color:#007185; text-decoration:none; display:-webkit-box; -webkit-line-clamp:3; -webkit-box-orient:vertical; overflow:hidden;}}
         .no-lp {{color:#ccc; font-size:0.8em; font-style:italic;}}
 
@@ -174,7 +181,8 @@ def generate_html(all_data, save_dir, date_str):
                 <a href="../../index.html" class="home-link">← ダッシュボードに戻る</a>
                 <h1>Amazon LP Daily Report</h1>
                 <div style="color:#666; font-size:0.9em; margin-bottom:10px;">{date_str}</div>
-                {date_nav_html} </div>
+                {date_nav_html}
+            </div>
             {toc_html}
     """
     
@@ -184,7 +192,7 @@ def generate_html(all_data, save_dir, date_str):
             <h2 class="cat-title"><span class="cat-icon">📦</span> {cat['name']}</h2>
             <table>
                 <thead>
-                    <tr><th style="width:50px;">Rank</th><th style="width:140px;">Thumb</th><th style="width:250px;">Product Info</th><th>LP Gallery (Click to Zoom)</th></tr>
+                    <tr><th style="width:50px;">Rank</th><th style="width:130px;">Thumb</th><th style="width:220px;">Product Info</th><th>LP Gallery (All Visible)</th></tr>
                 </thead>
                 <tbody>
         """
@@ -194,7 +202,9 @@ def generate_html(all_data, save_dir, date_str):
             for s in r['subs']:
                 s_path = f"{cat['folder']}/{s}"
                 subs_html += f'<img src="{s_path}" class="lp-thumb" onclick="openModal(this.src)">'
-            if not subs_html: subs_html = '<span class="no-lp">No LP Images (Top 5 Only)</span>'
+            
+            # 6位以下も取得するので、本当に画像がない時だけメッセージ
+            if not subs_html: subs_html = '<span class="no-lp">画像なし or 取得失敗</span>'
 
             display_title = r['title'] if r['title'] and r['title'] != "Item 1" else "商品タイトル取得不可"
 
@@ -245,14 +255,13 @@ def run_scraper():
         browser = p.chromium.launch_persistent_context(user_data_dir=USER_DATA_DIR, headless=False, channel="chrome", viewport={"width": 1280, "height": 900}, user_agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36")
         page = browser.pages[0]
         
-        print("\n" + "="*60 + "\n🚀 マルチカテゴリ収集開始 (V2.1)\n" + "="*60)
+        print("\n" + "="*60 + "\n🚀 マルチカテゴリ収集 (V2.3: 1位〜10位全取得)\n" + "="*60)
         
         all_categories_data = []
-
         for idx, target in enumerate(TARGETS):
             print(f"\n[{idx+1}/{len(TARGETS)}] カテゴリ: {target['name']} をスキャン中...")
             try: page.goto(target['url'], wait_until="domcontentloaded")
-            except: print("読み込みタイムアウト（続行）")
+            except: pass
 
             items = []
             selectors = [".p13n-sc-unpb-faceout", "#gridItemRoot", ".zg-grid-general-faceout", "div[id^='p13n-asin-index']"]
@@ -262,8 +271,8 @@ def run_scraper():
                     found = page.query_selector_all(sel)
                     if len(found) > 0: items = found[:10]; break
                 if len(items) > 0: break
-                print("⚠️ ロボット確認画面が出ていたら手動でクリアしてください。")
-                input("準備ができたらエンターキーを押してください >> ")
+                print("⚠️ ロボット確認画面が出ていたら手動でクリアして、エンターを押してください。")
+                input(">> ")
                 retry += 1
             
             if len(items) == 0:
@@ -280,7 +289,6 @@ def run_scraper():
                     url_part = link.get_attribute("href")
                     full_url = "https://www.amazon.co.jp" + url_part if not url_part.startswith("http") else url_part
                     
-                    # タイトル取得ロジック
                     title = "Item"
                     t1 = item.query_selector(".p13n-sc-truncate-desktop-type2") or item.query_selector("div[class*='truncate']")
                     if t1: title = t1.inner_text().strip()
@@ -294,7 +302,7 @@ def run_scraper():
                     scan_data.append({"rank": rank, "title": title, "url": full_url, "img_src": img_src})
                 except: continue
             
-            print(f"  -> 画像を取得中...")
+            print(f"  -> 全10件の画像を取得中（時間がかかります）...")
             cat_dir = os.path.join(daily_root_dir, target['folder'])
             if not os.path.exists(cat_dir): os.makedirs(cat_dir)
             
@@ -303,22 +311,25 @@ def run_scraper():
                 main_img_name = f"rank{data['rank']:02d}_main.jpg"
                 save_image(data['img_src'], os.path.join(cat_dir, main_img_name))
                 subs = []
-                if data['rank'] <= 5:
-                    try:
-                        p2 = browser.new_page()
-                        p2.goto(data['url'], wait_until="domcontentloaded")
-                        time.sleep(1.5)
-                        for j, img in enumerate(p2.query_selector_all("#altImages li.item.imageThumbnail img")[1:7]):
-                            src = img.get_attribute("src")
-                            if src:
-                                s_name = f"rank{data['rank']:02d}_{j+2:02d}.jpg"
-                                if save_image(src, os.path.join(cat_dir, s_name)): subs.append(s_name)
-                        p2.close()
-                        print(f"    - {data['rank']}位 完了", end="\r")
-                    except: 
-                        if not p2.is_closed(): p2.close()
+                
+                # ★ここで順位制限を解除しました（全員見に行きます）
+                try:
+                    p2 = browser.new_page()
+                    p2.goto(data['url'], wait_until="domcontentloaded")
+                    time.sleep(1.5)
+                    for j, img in enumerate(p2.query_selector_all("#altImages li.item.imageThumbnail img")[1:7]):
+                        src = img.get_attribute("src")
+                        if src:
+                            s_name = f"rank{data['rank']:02d}_{j+2:02d}.jpg"
+                            if save_image(src, os.path.join(cat_dir, s_name)): subs.append(s_name)
+                    p2.close()
+                    print(f"    - {data['rank']}位 完了", end="\r")
+                except: 
+                    if not p2.is_closed(): p2.close()
+                
                 results.append({"rank": data['rank'], "title": data['title'], "url": data['url'], "main": main_img_name, "subs": subs})
-                if data['rank'] <= 5: time.sleep(random.uniform(1, 2))
+                # BAN対策：少し待ち時間をランダムに入れる
+                time.sleep(random.uniform(2, 4))
 
             print("")
             all_categories_data.append({"name": target['name'], "folder": target['folder'], "results": results})
