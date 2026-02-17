@@ -1,25 +1,17 @@
-2026/02/13-14:47:11.377 43f02 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/02/13-14:47:11.380 43f02 Recovering log #32
-2026/02/13-14:47:11.382 43f02 Level-0 table #35: started
-2026/02/13-14:47:11.387 43f02 Level-0 table #35: 158284 bytes OK
-2026/02/13-14:47:11.388 43f02 Recovering log #34
-2026/02/13-14:47:11.389 43f02 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000034.log 
-2026/02/13-14:47:11.391 43f02 Delete type=0 #32
-2026/02/13-14:51:18.191 43f05 Level-0 table #37: started
-2026/02/13-14:51:18.198 43f05 Level-0 table #37: 131043 bytes OK
-2026/02/13-14:51:18.202 43f05 Delete type=0 #34
-2026/02/13-14:56:22.602 43f05 Level-0 table #39: started
-2026/02/13-14:56:22.605 43f05 Level-0 table #39: 159411 bytes OK
-2026/02/13-14:56:22.607 43f05 Delete type=0 #36
-2026/02/13-14:56:22.609 43f05 Compacting 4@0 + 1@1 files
-2026/02/13-14:56:22.613 43f05 Generated table #40@0: 46 keys, 156647 bytes
-2026/02/13-14:56:22.613 43f05 Compacted 4@0 + 1@1 files => 156647 bytes
-2026/02/13-14:56:22.614 43f05 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/02/13-14:56:22.614 43f05 Delete type=2 #39
-2026/02/13-14:56:22.614 43f05 Delete type=2 #35
-2026/02/13-14:56:22.614 43f05 Delete type=2 #37
-2026/02/13-14:56:22.614 43f05 Delete type=2 #33
-2026/02/13-14:56:22.614 43f05 Delete type=2 #31
-2026/02/13-14:56:41.465 43f05 Level-0 table #42: started
-2026/02/13-14:56:41.470 43f05 Level-0 table #42: 155505 bytes OK
-2026/02/13-14:56:41.474 43f05 Delete type=0 #38
+2026/02/16-10:15:58.997 17442 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/02/16-10:15:59.001 17442 Recovering log #47
+2026/02/16-10:15:59.004 17442 Level-0 table #50: started
+2026/02/16-10:15:59.027 17442 Level-0 table #50: 158380 bytes OK
+2026/02/16-10:15:59.028 17442 Recovering log #49
+2026/02/16-10:15:59.028 17442 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000049.log 
+2026/02/16-10:15:59.030 17442 Delete type=0 #47
+2026/02/16-10:15:59.031 17446 Compacting 5@0 + 1@1 files
+2026/02/16-10:15:59.041 17446 Generated table #51@0: 84 keys, 155884 bytes
+2026/02/16-10:15:59.042 17446 Compacted 5@0 + 1@1 files => 155884 bytes
+2026/02/16-10:15:59.043 17446 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/02/16-10:15:59.044 17446 Delete type=2 #48
+2026/02/16-10:15:59.044 17446 Delete type=2 #42
+2026/02/16-10:15:59.044 17446 Delete type=2 #40
+2026/02/16-10:15:59.044 17446 Delete type=2 #50
+2026/02/16-10:15:59.044 17446 Delete type=2 #44
+2026/02/16-10:15:59.044 17446 Delete type=2 #46

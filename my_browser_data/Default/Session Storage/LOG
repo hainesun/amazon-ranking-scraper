@@ -1,30 +1,30 @@
-2026/02/16-10:07:49.181 13476 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/02/16-10:07:49.183 13476 Recovering log #37
-2026/02/16-10:07:49.184 13476 Level-0 table #41: started
-2026/02/16-10:07:49.187 13476 Level-0 table #41: 23830 bytes OK
-2026/02/16-10:07:49.187 13476 Recovering log #40
-2026/02/16-10:07:49.188 13476 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000040.log 
-2026/02/16-10:07:49.190 13476 Delete type=0 #37
-2026/02/16-10:09:21.346 13479 Level-0 table #43: started
-2026/02/16-10:09:21.352 13479 Level-0 table #43: 26810 bytes OK
-2026/02/16-10:09:21.357 13479 Delete type=0 #40
-2026/02/16-10:11:11.961 13479 Level-0 table #45: started
-2026/02/16-10:11:11.965 13479 Level-0 table #45: 26828 bytes OK
-2026/02/16-10:11:11.967 13479 Delete type=0 #42
-2026/02/16-10:12:36.621 13479 Level-0 table #47: started
-2026/02/16-10:12:36.623 13479 Level-0 table #47: 25455 bytes OK
-2026/02/16-10:12:36.632 13479 Delete type=0 #44
-2026/02/16-10:12:36.634 13479 Compacting 4@0 + 1@1 files
-2026/02/16-10:12:36.640 13479 Generated table #48@0: 1903 keys, 60734 bytes
-2026/02/16-10:12:36.640 13479 Compacted 4@0 + 1@1 files => 60734 bytes
-2026/02/16-10:12:36.640 13479 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/02/16-10:12:36.641 13479 Delete type=2 #39
-2026/02/16-10:12:36.641 13479 Delete type=2 #43
-2026/02/16-10:12:36.642 13479 Delete type=2 #41
-2026/02/16-10:12:36.642 13479 Delete type=2 #45
-2026/02/16-10:12:36.642 13479 Delete type=2 #47
-2026/02/16-10:14:19.088 13479 Level-0 table #50: started
-2026/02/16-10:14:19.094 13479 Level-0 table #50: 27267 bytes OK
-2026/02/16-10:14:19.096 13479 Delete type=0 #46
-2026/02/16-10:15:23.338 170a4 Level-0 table #52: started
-2026/02/16-10:15:23.343 170a4 Level-0 table #52: 23088 bytes OK
+2026/02/17-10:29:34.735 19dea Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/02/17-10:29:34.738 19dea Recovering log #51
+2026/02/17-10:29:34.739 19dea Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000051.log 
+2026/02/17-10:30:54.482 19ded Level-0 table #55: started
+2026/02/17-10:30:54.485 19ded Level-0 table #55: 26359 bytes OK
+2026/02/17-10:30:54.487 19ded Delete type=0 #51
+2026/02/17-10:32:37.366 19ded Level-0 table #57: started
+2026/02/17-10:32:37.374 19ded Level-0 table #57: 27698 bytes OK
+2026/02/17-10:32:37.381 19ded Delete type=0 #54
+2026/02/17-10:32:37.386 19ded Compacting 4@0 + 1@1 files
+2026/02/17-10:32:37.391 19ded Generated table #58@0: 2335 keys, 73121 bytes
+2026/02/17-10:32:37.391 19ded Compacted 4@0 + 1@1 files => 73121 bytes
+2026/02/17-10:32:37.392 19ded compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/17-10:32:37.392 19ded Delete type=2 #48
+2026/02/17-10:32:37.392 19ded Delete type=2 #57
+2026/02/17-10:32:37.392 19ded Delete type=2 #55
+2026/02/17-10:32:37.392 19ded Delete type=2 #50
+2026/02/17-10:32:37.392 19ded Delete type=2 #52
+2026/02/17-10:34:09.725 19ded Level-0 table #60: started
+2026/02/17-10:34:09.731 19ded Level-0 table #60: 26562 bytes OK
+2026/02/17-10:34:09.739 19ded Delete type=0 #56
+2026/02/17-10:35:34.826 19ded Level-0 table #62: started
+2026/02/17-10:35:34.829 19ded Level-0 table #62: 26166 bytes OK
+2026/02/17-10:35:34.835 19ded Delete type=0 #59
+2026/02/17-10:36:53.799 19ded Level-0 table #64: started
+2026/02/17-10:36:53.805 19ded Level-0 table #64: 27102 bytes OK
+2026/02/17-10:36:53.814 19ded Delete type=0 #61
+2026/02/17-10:38:08.975 1e058 Level-0 table #66: started
+2026/02/17-10:38:08.987 1e058 Level-0 table #66: 24855 bytes OK
+2026/02/17-10:38:08.992 1e058 Delete type=0 #63
