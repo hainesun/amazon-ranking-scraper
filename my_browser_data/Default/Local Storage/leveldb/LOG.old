@@ -1,17 +1,17 @@
-2026/02/16-10:15:58.997 17442 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/02/16-10:15:59.001 17442 Recovering log #47
-2026/02/16-10:15:59.004 17442 Level-0 table #50: started
-2026/02/16-10:15:59.027 17442 Level-0 table #50: 158380 bytes OK
-2026/02/16-10:15:59.028 17442 Recovering log #49
-2026/02/16-10:15:59.028 17442 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000049.log 
-2026/02/16-10:15:59.030 17442 Delete type=0 #47
-2026/02/16-10:15:59.031 17446 Compacting 5@0 + 1@1 files
-2026/02/16-10:15:59.041 17446 Generated table #51@0: 84 keys, 155884 bytes
-2026/02/16-10:15:59.042 17446 Compacted 5@0 + 1@1 files => 155884 bytes
-2026/02/16-10:15:59.043 17446 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/02/16-10:15:59.044 17446 Delete type=2 #48
-2026/02/16-10:15:59.044 17446 Delete type=2 #42
-2026/02/16-10:15:59.044 17446 Delete type=2 #40
-2026/02/16-10:15:59.044 17446 Delete type=2 #50
-2026/02/16-10:15:59.044 17446 Delete type=2 #44
-2026/02/16-10:15:59.044 17446 Delete type=2 #46
+2026/02/17-10:29:34.602 19dea Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/02/17-10:29:34.605 19dea Recovering log #49
+2026/02/17-10:29:34.608 19dea Level-0 table #53: started
+2026/02/17-10:29:34.614 19dea Level-0 table #53: 153175 bytes OK
+2026/02/17-10:29:34.617 19dea Delete type=0 #49
+2026/02/17-10:33:28.973 19ded Level-0 table #56: started
+2026/02/17-10:33:28.980 19ded Level-0 table #56: 128113 bytes OK
+2026/02/17-10:33:28.983 19ded Delete type=0 #54
+2026/02/17-10:37:43.147 19ded Level-0 table #58: started
+2026/02/17-10:37:43.155 19ded Level-0 table #58: 136176 bytes OK
+2026/02/17-10:37:43.160 19ded Delete type=0 #55
+2026/02/17-10:38:08.961 19ded Level-0 table #60: started
+2026/02/17-10:38:08.967 19dea Current memtable full; waiting...
+2026/02/17-10:38:08.984 19ded Level-0 table #60: 135769 bytes OK
+2026/02/17-10:38:08.988 19ded Delete type=0 #57
+2026/02/17-10:38:08.991 19ded Compacting 4@0 + 1@1 files
+2026/02/17-10:38:08.992 19ded compacted to: files[ 4 1 0 0 0 0 0 ]
