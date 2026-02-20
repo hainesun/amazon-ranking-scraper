@@ -1,36 +1,39 @@
-2026/02/18-09:25:59.026 8d577 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/02/18-09:25:59.026 8d577 Recovering log #65
-2026/02/18-09:25:59.027 8d577 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000065.log 
-2026/02/18-09:25:59.027 8d57a Compacting 4@0 + 1@1 files
-2026/02/18-09:25:59.167 8d57a Generated table #68@0: 2726 keys, 84051 bytes
-2026/02/18-09:25:59.167 8d57a Compacted 4@0 + 1@1 files => 84051 bytes
-2026/02/18-09:25:59.175 8d57a compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/02/18-09:25:59.175 8d57a Delete type=2 #62
-2026/02/18-09:25:59.176 8d57a Delete type=2 #60
-2026/02/18-09:25:59.176 8d57a Delete type=2 #64
-2026/02/18-09:25:59.176 8d57a Delete type=2 #58
-2026/02/18-09:25:59.176 8d57a Delete type=2 #66
-2026/02/18-09:27:40.316 8d57a Level-0 table #70: started
-2026/02/18-09:27:40.321 8d57a Level-0 table #70: 22720 bytes OK
-2026/02/18-09:27:40.326 8d57a Delete type=0 #65
-2026/02/18-09:29:09.825 8d57a Level-0 table #72: started
-2026/02/18-09:29:09.834 8d57a Level-0 table #72: 24957 bytes OK
-2026/02/18-09:29:09.838 8d57a Delete type=0 #69
-2026/02/18-09:30:35.484 8d57a Level-0 table #74: started
-2026/02/18-09:30:35.487 8d57a Level-0 table #74: 27203 bytes OK
-2026/02/18-09:30:35.489 8d57a Delete type=0 #71
-2026/02/18-09:31:59.109 8d57a Level-0 table #76: started
-2026/02/18-09:31:59.141 8d57a Level-0 table #76: 26484 bytes OK
-2026/02/18-09:31:59.145 8d57a Delete type=0 #73
-2026/02/18-09:31:59.147 8d57a Compacting 4@0 + 1@1 files
-2026/02/18-09:31:59.151 8d57a Generated table #77@0: 3197 keys, 84975 bytes
-2026/02/18-09:31:59.151 8d57a Compacted 4@0 + 1@1 files => 84975 bytes
-2026/02/18-09:31:59.154 8d57a compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/02/18-09:31:59.158 8d57a Delete type=2 #76
-2026/02/18-09:31:59.158 8d57a Delete type=2 #74
-2026/02/18-09:31:59.158 8d57a Delete type=2 #70
-2026/02/18-09:31:59.158 8d57a Delete type=2 #72
-2026/02/18-09:31:59.158 8d57a Delete type=2 #68
-2026/02/18-09:33:20.158 8d57e Level-0 table #79: started
-2026/02/18-09:33:20.162 8d57e Level-0 table #79: 24487 bytes OK
-2026/02/18-09:33:20.172 8d57e Delete type=0 #75
+2026/02/20-15:33:33.884 54ebe Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/02/20-15:33:33.885 54ebe Recovering log #90
+2026/02/20-15:33:33.885 54ebe Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000090.log 
+2026/02/20-15:34:46.013 54ebe Level-0 table #94: started
+2026/02/20-15:34:46.018 54ebe Level-0 table #94: 24829 bytes OK
+2026/02/20-15:34:46.029 54ebe Delete type=0 #90
+2026/02/20-15:36:23.237 54ebe Level-0 table #96: started
+2026/02/20-15:36:23.241 54ebe Level-0 table #96: 25744 bytes OK
+2026/02/20-15:36:23.243 54ebe Delete type=0 #93
+2026/02/20-15:36:23.244 54ebe Compacting 4@0 + 1@1 files
+2026/02/20-15:36:23.252 54ebe Generated table #97@0: 4055 keys, 105641 bytes
+2026/02/20-15:36:23.252 54ebe Compacted 4@0 + 1@1 files => 105641 bytes
+2026/02/20-15:36:23.253 54ebe compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/20-15:36:23.253 54ebe Delete type=2 #89
+2026/02/20-15:36:23.253 54ebe Delete type=2 #94
+2026/02/20-15:36:23.253 54ebe Delete type=2 #96
+2026/02/20-15:36:23.253 54ebe Delete type=2 #87
+2026/02/20-15:36:23.253 54ebe Delete type=2 #91
+2026/02/20-15:38:00.906 54ebe Level-0 table #99: started
+2026/02/20-15:38:00.909 54ebe Level-0 table #99: 27566 bytes OK
+2026/02/20-15:38:00.911 54ebe Delete type=0 #95
+2026/02/20-15:39:33.133 54ebe Level-0 table #101: started
+2026/02/20-15:39:33.136 54ebe Level-0 table #101: 28537 bytes OK
+2026/02/20-15:39:33.137 54ebe Delete type=0 #98
+2026/02/20-15:41:02.688 54ebe Level-0 table #103: started
+2026/02/20-15:41:02.692 54ebe Level-0 table #103: 25193 bytes OK
+2026/02/20-15:41:02.696 54ebe Delete type=0 #100
+2026/02/20-15:42:28.749 54ebe Level-0 table #105: started
+2026/02/20-15:42:28.754 54ebe Level-0 table #105: 26537 bytes OK
+2026/02/20-15:42:28.759 54ebe Delete type=0 #102
+2026/02/20-15:42:28.761 54ebe Compacting 4@0 + 1@1 files
+2026/02/20-15:42:28.769 54ebe Generated table #106@0: 4466 keys, 124226 bytes
+2026/02/20-15:42:28.769 54ebe Compacted 4@0 + 1@1 files => 124226 bytes
+2026/02/20-15:42:28.771 54ebe compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/20-15:42:28.772 54ebe Delete type=2 #103
+2026/02/20-15:42:28.772 54ebe Delete type=2 #101
+2026/02/20-15:42:28.772 54ebe Delete type=2 #105
+2026/02/20-15:42:28.772 54ebe Delete type=2 #99
+2026/02/20-15:42:28.772 54ebe Delete type=2 #97

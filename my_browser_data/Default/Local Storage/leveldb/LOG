@@ -1,26 +1,26 @@
-2026/02/18-09:25:58.860 8d577 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/02/18-09:25:58.864 8d577 Recovering log #59
-2026/02/18-09:25:58.867 8d577 Level-0 table #62: started
-2026/02/18-09:25:58.874 8d577 Level-0 table #62: 141342 bytes OK
-2026/02/18-09:25:58.875 8d577 Recovering log #61
-2026/02/18-09:25:58.875 8d577 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000061.log 
-2026/02/18-09:25:58.879 8d577 Delete type=0 #59
-2026/02/18-09:25:58.885 8d57a Compacting 5@0 + 1@1 files
-2026/02/18-09:25:58.895 8d57a Generated table #63@0: 84 keys, 144052 bytes
-2026/02/18-09:25:58.895 8d57a Compacted 5@0 + 1@1 files => 144052 bytes
-2026/02/18-09:25:58.897 8d57a compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/02/18-09:25:58.897 8d57a Delete type=2 #62
-2026/02/18-09:25:58.897 8d57a Delete type=2 #60
-2026/02/18-09:25:58.897 8d57a Delete type=2 #58
-2026/02/18-09:25:58.897 8d57a Delete type=2 #56
-2026/02/18-09:25:58.897 8d57a Delete type=2 #51
-2026/02/18-09:25:58.897 8d57a Delete type=2 #53
-2026/02/18-09:30:57.306 8d57a Level-0 table #65: started
-2026/02/18-09:30:57.322 8d57a Level-0 table #65: 154059 bytes OK
-2026/02/18-09:30:57.331 8d57a Delete type=0 #61
-2026/02/18-09:33:20.159 9127b Level-0 table #67: started
-2026/02/18-09:33:20.164 8d57a Current memtable full; waiting...
-2026/02/18-09:33:20.172 9127b Level-0 table #67: 142098 bytes OK
-2026/02/18-09:33:20.185 9127b Delete type=0 #64
-2026/02/18-09:33:20.187 8d57e Level-0 table #69: started
-2026/02/18-09:33:20.193 8d57e Level-0 table #69: 154895 bytes OK
+2026/02/20-15:33:33.878 54eb8 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/02/20-15:33:33.881 54eb8 Recovering log #73
+2026/02/20-15:33:33.883 54eb8 Level-0 table #76: started
+2026/02/20-15:33:33.888 54eb8 Level-0 table #76: 150992 bytes OK
+2026/02/20-15:33:33.918 54eb8 Delete type=0 #73
+2026/02/20-15:37:24.176 54ebe Level-0 table #79: started
+2026/02/20-15:37:24.188 54ebe Level-0 table #79: 125350 bytes OK
+2026/02/20-15:37:24.191 54ebe Delete type=0 #77
+2026/02/20-15:42:03.807 54ebe Level-0 table #81: started
+2026/02/20-15:42:03.817 54ebe Level-0 table #81: 141426 bytes OK
+2026/02/20-15:42:03.821 54ebe Delete type=0 #78
+2026/02/20-15:42:03.822 54ebe Compacting 4@0 + 1@1 files
+2026/02/20-15:42:03.832 54ebe Generated table #82@0: 49 keys, 140350 bytes
+2026/02/20-15:42:03.832 54ebe Compacted 4@0 + 1@1 files => 140350 bytes
+2026/02/20-15:42:03.833 54ebe compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/02/20-15:42:03.834 54ebe Delete type=2 #76
+2026/02/20-15:42:03.834 54ebe Delete type=2 #74
+2026/02/20-15:42:03.834 54ebe Delete type=2 #72
+2026/02/20-15:42:03.834 54ebe Delete type=2 #81
+2026/02/20-15:42:03.834 54ebe Delete type=2 #79
+2026/02/20-15:42:38.221 54ebe Level-0 table #84: started
+2026/02/20-15:42:38.226 54ebe Level-0 table #84: 154502 bytes OK
+2026/02/20-15:42:38.227 54ec0 Current memtable full; waiting...
+2026/02/20-15:42:38.238 54ebe Delete type=0 #80
+2026/02/20-15:42:38.241 54ebe Level-0 table #86: started
+2026/02/20-15:42:38.248 54ebe Level-0 table #86: 140785 bytes OK
