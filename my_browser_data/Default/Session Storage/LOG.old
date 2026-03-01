@@ -1,27 +1,39 @@
-2026/02/19-16:20:07.101 9a0bb Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/02/19-16:20:07.102 9a0bb Recovering log #78
-2026/02/19-16:20:07.103 9a0bb Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000078.log 
-2026/02/19-16:21:24.835 9a0bb Level-0 table #82: started
-2026/02/19-16:21:24.840 9a0bb Level-0 table #82: 27968 bytes OK
-2026/02/19-16:21:24.844 9a0bb Delete type=0 #78
-2026/02/19-16:22:45.329 9a0be Level-0 table #84: started
-2026/02/19-16:22:45.336 9a0be Level-0 table #84: 27032 bytes OK
-2026/02/19-16:22:45.342 9a0be Delete type=0 #81
-2026/02/19-16:24:19.635 9a0be Level-0 table #86: started
-2026/02/19-16:24:19.645 9a0be Level-0 table #86: 25923 bytes OK
-2026/02/19-16:24:19.649 9a0be Delete type=0 #83
-2026/02/19-16:24:19.651 9a0be Compacting 4@0 + 1@1 files
-2026/02/19-16:24:19.657 9a0be Generated table #87@0: 3632 keys, 97613 bytes
-2026/02/19-16:24:19.657 9a0be Compacted 4@0 + 1@1 files => 97613 bytes
-2026/02/19-16:24:19.658 9a0be compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/02/19-16:24:19.659 9a0be Delete type=2 #77
-2026/02/19-16:24:19.659 9a0be Delete type=2 #82
-2026/02/19-16:24:19.659 9a0be Delete type=2 #86
-2026/02/19-16:24:19.659 9a0be Delete type=2 #79
-2026/02/19-16:24:19.659 9a0be Delete type=2 #84
-2026/02/19-16:25:54.727 9a0be Level-0 table #89: started
-2026/02/19-16:25:54.729 9a0be Level-0 table #89: 25465 bytes OK
-2026/02/19-16:25:54.732 9a0be Delete type=0 #85
-2026/02/19-16:27:33.661 9a0bb Level-0 table #91: started
-2026/02/19-16:27:33.680 9a0bb Level-0 table #91: 25839 bytes OK
-2026/02/19-16:27:33.686 9a0bb Delete type=0 #88
+2026/02/20-15:33:33.884 54ebe Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/02/20-15:33:33.885 54ebe Recovering log #90
+2026/02/20-15:33:33.885 54ebe Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000090.log 
+2026/02/20-15:34:46.013 54ebe Level-0 table #94: started
+2026/02/20-15:34:46.018 54ebe Level-0 table #94: 24829 bytes OK
+2026/02/20-15:34:46.029 54ebe Delete type=0 #90
+2026/02/20-15:36:23.237 54ebe Level-0 table #96: started
+2026/02/20-15:36:23.241 54ebe Level-0 table #96: 25744 bytes OK
+2026/02/20-15:36:23.243 54ebe Delete type=0 #93
+2026/02/20-15:36:23.244 54ebe Compacting 4@0 + 1@1 files
+2026/02/20-15:36:23.252 54ebe Generated table #97@0: 4055 keys, 105641 bytes
+2026/02/20-15:36:23.252 54ebe Compacted 4@0 + 1@1 files => 105641 bytes
+2026/02/20-15:36:23.253 54ebe compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/20-15:36:23.253 54ebe Delete type=2 #89
+2026/02/20-15:36:23.253 54ebe Delete type=2 #94
+2026/02/20-15:36:23.253 54ebe Delete type=2 #96
+2026/02/20-15:36:23.253 54ebe Delete type=2 #87
+2026/02/20-15:36:23.253 54ebe Delete type=2 #91
+2026/02/20-15:38:00.906 54ebe Level-0 table #99: started
+2026/02/20-15:38:00.909 54ebe Level-0 table #99: 27566 bytes OK
+2026/02/20-15:38:00.911 54ebe Delete type=0 #95
+2026/02/20-15:39:33.133 54ebe Level-0 table #101: started
+2026/02/20-15:39:33.136 54ebe Level-0 table #101: 28537 bytes OK
+2026/02/20-15:39:33.137 54ebe Delete type=0 #98
+2026/02/20-15:41:02.688 54ebe Level-0 table #103: started
+2026/02/20-15:41:02.692 54ebe Level-0 table #103: 25193 bytes OK
+2026/02/20-15:41:02.696 54ebe Delete type=0 #100
+2026/02/20-15:42:28.749 54ebe Level-0 table #105: started
+2026/02/20-15:42:28.754 54ebe Level-0 table #105: 26537 bytes OK
+2026/02/20-15:42:28.759 54ebe Delete type=0 #102
+2026/02/20-15:42:28.761 54ebe Compacting 4@0 + 1@1 files
+2026/02/20-15:42:28.769 54ebe Generated table #106@0: 4466 keys, 124226 bytes
+2026/02/20-15:42:28.769 54ebe Compacted 4@0 + 1@1 files => 124226 bytes
+2026/02/20-15:42:28.771 54ebe compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/02/20-15:42:28.772 54ebe Delete type=2 #103
+2026/02/20-15:42:28.772 54ebe Delete type=2 #101
+2026/02/20-15:42:28.772 54ebe Delete type=2 #105
+2026/02/20-15:42:28.772 54ebe Delete type=2 #99
+2026/02/20-15:42:28.772 54ebe Delete type=2 #97
