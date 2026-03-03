@@ -1,27 +1,27 @@
-2026/03/02-08:46:41.038 31340 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/03/02-08:46:41.041 31340 Recovering log #104
-2026/03/02-08:46:41.042 31340 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000104.log 
-2026/03/02-08:48:01.546 31343 Level-0 table #109: started
-2026/03/02-08:48:01.551 31343 Level-0 table #109: 25116 bytes OK
-2026/03/02-08:48:01.556 31343 Delete type=0 #104
-2026/03/02-08:49:31.626 31343 Level-0 table #111: started
-2026/03/02-08:49:31.628 31343 Level-0 table #111: 27247 bytes OK
-2026/03/02-08:49:31.631 31343 Delete type=0 #108
-2026/03/02-08:51:04.220 31340 Level-0 table #113: started
-2026/03/02-08:51:04.225 31340 Level-0 table #113: 25698 bytes OK
-2026/03/02-08:51:04.231 31340 Delete type=0 #110
-2026/03/02-08:52:29.118 31343 Level-0 table #115: started
-2026/03/02-08:52:29.120 31343 Level-0 table #115: 28350 bytes OK
-2026/03/02-08:52:29.122 31343 Delete type=0 #112
-2026/03/02-08:52:29.123 31343 Compacting 4@0 + 1@1 files
-2026/03/02-08:52:29.128 31343 Generated table #116@0: 4924 keys, 121069 bytes
-2026/03/02-08:52:29.128 31343 Compacted 4@0 + 1@1 files => 121069 bytes
-2026/03/02-08:52:29.128 31343 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/02-08:52:29.129 31343 Delete type=2 #115
-2026/03/02-08:52:29.129 31343 Delete type=2 #111
-2026/03/02-08:52:29.129 31343 Delete type=2 #113
-2026/03/02-08:52:29.129 31343 Delete type=2 #106
-2026/03/02-08:52:29.129 31343 Delete type=2 #109
-2026/03/02-08:53:48.103 31340 Level-0 table #118: started
-2026/03/02-08:53:48.109 31340 Level-0 table #118: 26377 bytes OK
-2026/03/02-08:53:48.112 31340 Delete type=0 #114
+2026/03/03-14:44:48.220 55449 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/03/03-14:44:48.221 55449 Recovering log #117
+2026/03/03-14:44:48.222 55449 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000117.log 
+2026/03/03-14:45:33.378 5544c Level-0 table #121: started
+2026/03/03-14:45:33.382 5544c Level-0 table #121: 26022 bytes OK
+2026/03/03-14:45:33.386 5544c Delete type=0 #117
+2026/03/03-14:47:12.061 5544c Level-0 table #123: started
+2026/03/03-14:47:12.064 5544c Level-0 table #123: 28720 bytes OK
+2026/03/03-14:47:12.068 5544c Delete type=0 #120
+2026/03/03-14:48:44.744 5544c Level-0 table #125: started
+2026/03/03-14:48:44.751 5544c Level-0 table #125: 26413 bytes OK
+2026/03/03-14:48:44.754 5544c Delete type=0 #122
+2026/03/03-14:48:44.758 5544c Compacting 4@0 + 1@1 files
+2026/03/03-14:48:44.762 5544c Generated table #126@0: 5364 keys, 132500 bytes
+2026/03/03-14:48:44.762 5544c Compacted 4@0 + 1@1 files => 132500 bytes
+2026/03/03-14:48:44.763 5544c compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/03-14:48:44.763 5544c Delete type=2 #116
+2026/03/03-14:48:44.763 5544c Delete type=2 #123
+2026/03/03-14:48:44.763 5544c Delete type=2 #121
+2026/03/03-14:48:44.763 5544c Delete type=2 #125
+2026/03/03-14:48:44.764 5544c Delete type=2 #118
+2026/03/03-14:50:15.767 5544c Level-0 table #128: started
+2026/03/03-14:50:15.769 5544c Level-0 table #128: 23786 bytes OK
+2026/03/03-14:50:15.778 5544c Delete type=0 #124
+2026/03/03-14:52:00.302 5544c Level-0 table #130: started
+2026/03/03-14:52:00.304 5544c Level-0 table #130: 23535 bytes OK
+2026/03/03-14:52:00.305 5544c Delete type=0 #127

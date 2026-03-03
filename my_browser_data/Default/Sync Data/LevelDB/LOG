@@ -1,3 +1,3 @@
-2026/03/02-08:46:40.857 312fc Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Sync Data/LevelDB/MANIFEST-000001
-2026/03/02-08:46:40.860 312fc Recovering log #3
-2026/03/02-08:46:40.860 312fc Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Sync Data/LevelDB/000003.log 
+2026/03/03-14:44:48.020 55405 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Sync Data/LevelDB/MANIFEST-000001
+2026/03/03-14:44:48.024 55405 Recovering log #3
+2026/03/03-14:44:48.024 55405 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Sync Data/LevelDB/000003.log 
