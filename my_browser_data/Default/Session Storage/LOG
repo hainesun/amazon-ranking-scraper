@@ -1,27 +1,39 @@
-2026/03/03-14:44:48.220 55449 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/03/03-14:44:48.221 55449 Recovering log #117
-2026/03/03-14:44:48.222 55449 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000117.log 
-2026/03/03-14:45:33.378 5544c Level-0 table #121: started
-2026/03/03-14:45:33.382 5544c Level-0 table #121: 26022 bytes OK
-2026/03/03-14:45:33.386 5544c Delete type=0 #117
-2026/03/03-14:47:12.061 5544c Level-0 table #123: started
-2026/03/03-14:47:12.064 5544c Level-0 table #123: 28720 bytes OK
-2026/03/03-14:47:12.068 5544c Delete type=0 #120
-2026/03/03-14:48:44.744 5544c Level-0 table #125: started
-2026/03/03-14:48:44.751 5544c Level-0 table #125: 26413 bytes OK
-2026/03/03-14:48:44.754 5544c Delete type=0 #122
-2026/03/03-14:48:44.758 5544c Compacting 4@0 + 1@1 files
-2026/03/03-14:48:44.762 5544c Generated table #126@0: 5364 keys, 132500 bytes
-2026/03/03-14:48:44.762 5544c Compacted 4@0 + 1@1 files => 132500 bytes
-2026/03/03-14:48:44.763 5544c compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/03-14:48:44.763 5544c Delete type=2 #116
-2026/03/03-14:48:44.763 5544c Delete type=2 #123
-2026/03/03-14:48:44.763 5544c Delete type=2 #121
-2026/03/03-14:48:44.763 5544c Delete type=2 #125
-2026/03/03-14:48:44.764 5544c Delete type=2 #118
-2026/03/03-14:50:15.767 5544c Level-0 table #128: started
-2026/03/03-14:50:15.769 5544c Level-0 table #128: 23786 bytes OK
-2026/03/03-14:50:15.778 5544c Delete type=0 #124
-2026/03/03-14:52:00.302 5544c Level-0 table #130: started
-2026/03/03-14:52:00.304 5544c Level-0 table #130: 23535 bytes OK
-2026/03/03-14:52:00.305 5544c Delete type=0 #127
+2026/03/04-10:15:29.361 117a0 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/03/04-10:15:29.362 117a0 Recovering log #129
+2026/03/04-10:15:29.363 117a0 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000129.log 
+2026/03/04-10:16:14.755 117a0 Level-0 table #133: started
+2026/03/04-10:16:14.760 117a0 Level-0 table #133: 25374 bytes OK
+2026/03/04-10:16:14.765 117a0 Delete type=0 #129
+2026/03/04-10:18:08.118 117a0 Level-0 table #135: started
+2026/03/04-10:18:08.126 117a0 Level-0 table #135: 27679 bytes OK
+2026/03/04-10:18:08.129 117a0 Delete type=0 #132
+2026/03/04-10:18:08.137 117a0 Compacting 4@0 + 1@1 files
+2026/03/04-10:18:08.148 117a0 Generated table #136@0: 5822 keys, 127661 bytes
+2026/03/04-10:18:08.148 117a0 Compacted 4@0 + 1@1 files => 127661 bytes
+2026/03/04-10:18:08.150 117a0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/04-10:18:08.150 117a0 Delete type=2 #128
+2026/03/04-10:18:08.150 117a0 Delete type=2 #135
+2026/03/04-10:18:08.150 117a0 Delete type=2 #130
+2026/03/04-10:18:08.150 117a0 Delete type=2 #126
+2026/03/04-10:18:08.150 117a0 Delete type=2 #133
+2026/03/04-10:20:00.104 117a0 Level-0 table #138: started
+2026/03/04-10:20:00.111 117a0 Level-0 table #138: 28447 bytes OK
+2026/03/04-10:20:00.115 117a0 Delete type=0 #134
+2026/03/04-10:21:32.195 117a0 Level-0 table #140: started
+2026/03/04-10:21:32.197 117a0 Level-0 table #140: 27063 bytes OK
+2026/03/04-10:21:32.198 117a0 Delete type=0 #137
+2026/03/04-10:23:21.078 117a0 Level-0 table #142: started
+2026/03/04-10:23:21.083 117a0 Level-0 table #142: 29341 bytes OK
+2026/03/04-10:23:21.091 117a0 Delete type=0 #139
+2026/03/04-10:24:53.541 117a0 Level-0 table #144: started
+2026/03/04-10:24:53.549 117a0 Level-0 table #144: 27521 bytes OK
+2026/03/04-10:24:53.554 117a0 Delete type=0 #141
+2026/03/04-10:24:53.556 117a0 Compacting 4@0 + 1@1 files
+2026/03/04-10:24:53.566 117a0 Generated table #145@0: 6278 keys, 148854 bytes
+2026/03/04-10:24:53.566 117a0 Compacted 4@0 + 1@1 files => 148854 bytes
+2026/03/04-10:24:53.567 117a0 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/04-10:24:53.567 117a0 Delete type=2 #138
+2026/03/04-10:24:53.567 117a0 Delete type=2 #140
+2026/03/04-10:24:53.567 117a0 Delete type=2 #142
+2026/03/04-10:24:53.567 117a0 Delete type=2 #144
+2026/03/04-10:24:53.567 117a0 Delete type=2 #136
