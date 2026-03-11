@@ -1,33 +1,45 @@
-2026/03/09-09:09:51.953 7af0 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/03/09-09:09:51.955 7af0 Recovering log #172
-2026/03/09-09:09:51.958 7af0 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000172.log 
-2026/03/09-09:10:11.843 7af3 Level-0 table #177: started
-2026/03/09-09:10:11.846 7af3 Level-0 table #177: 23521 bytes OK
-2026/03/09-09:10:11.849 7af3 Delete type=0 #172
-2026/03/09-09:11:54.114 7af3 Level-0 table #179: started
-2026/03/09-09:11:54.117 7af3 Level-0 table #179: 26984 bytes OK
-2026/03/09-09:11:54.121 7af3 Delete type=0 #176
-2026/03/09-09:13:26.216 7af3 Level-0 table #181: started
-2026/03/09-09:13:26.223 7af3 Level-0 table #181: 26728 bytes OK
-2026/03/09-09:13:26.225 7af3 Delete type=0 #178
-2026/03/09-09:14:53.887 7af3 Level-0 table #183: started
-2026/03/09-09:14:53.894 7af3 Level-0 table #183: 27081 bytes OK
-2026/03/09-09:14:53.897 7af3 Delete type=0 #180
-2026/03/09-09:14:53.899 7af3 Compacting 4@0 + 1@1 files
-2026/03/09-09:14:53.909 7af3 Generated table #184@0: 8052 keys, 187275 bytes
-2026/03/09-09:14:53.909 7af3 Compacted 4@0 + 1@1 files => 187275 bytes
-2026/03/09-09:14:53.910 7af3 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/09-09:14:53.911 7af3 Delete type=2 #174
-2026/03/09-09:14:53.911 7af3 Delete type=2 #177
-2026/03/09-09:14:53.911 7af3 Delete type=2 #183
-2026/03/09-09:14:53.911 7af3 Delete type=2 #181
-2026/03/09-09:14:53.911 7af3 Delete type=2 #179
-2026/03/09-09:16:30.996 7af3 Level-0 table #186: started
-2026/03/09-09:16:31.007 7af3 Level-0 table #186: 26598 bytes OK
-2026/03/09-09:16:31.013 7af3 Delete type=0 #182
-2026/03/09-09:18:03.718 7af3 Level-0 table #188: started
-2026/03/09-09:18:03.723 7af3 Level-0 table #188: 27619 bytes OK
-2026/03/09-09:18:03.726 7af3 Delete type=0 #185
-2026/03/09-09:19:32.717 7af3 Level-0 table #190: started
-2026/03/09-09:19:32.723 7af3 Level-0 table #190: 26956 bytes OK
-2026/03/09-09:19:32.725 7af3 Delete type=0 #187
+2026/03/10-10:18:02.480 c0c3 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/03/10-10:18:02.481 c0c3 Recovering log #189
+2026/03/10-10:18:02.481 c0c3 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000189.log 
+2026/03/10-10:21:23.391 c0c8 Level-0 table #193: started
+2026/03/10-10:21:23.394 c0c8 Level-0 table #193: 28222 bytes OK
+2026/03/10-10:21:23.401 c0c8 Delete type=0 #189
+2026/03/10-10:21:23.404 c0c8 Compacting 4@0 + 1@1 files
+2026/03/10-10:21:23.409 c0c8 Generated table #194@0: 8457 keys, 173266 bytes
+2026/03/10-10:21:23.409 c0c8 Compacted 4@0 + 1@1 files => 173266 bytes
+2026/03/10-10:21:23.410 c0c8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/10-10:21:23.411 c0c8 Delete type=2 #188
+2026/03/10-10:21:23.411 c0c8 Delete type=2 #184
+2026/03/10-10:21:23.411 c0c8 Delete type=2 #190
+2026/03/10-10:21:23.411 c0c8 Delete type=2 #186
+2026/03/10-10:21:23.411 c0c8 Delete type=2 #193
+2026/03/10-10:26:14.534 c0c8 Level-0 table #196: started
+2026/03/10-10:26:14.539 c0c8 Level-0 table #196: 29849 bytes OK
+2026/03/10-10:26:14.541 c0c8 Delete type=0 #192
+2026/03/10-10:31:06.529 c0c8 Level-0 table #198: started
+2026/03/10-10:31:06.533 c0c8 Level-0 table #198: 30355 bytes OK
+2026/03/10-10:31:06.538 c0c8 Delete type=0 #195
+2026/03/10-10:36:38.283 c0c8 Level-0 table #200: started
+2026/03/10-10:36:38.287 c0c8 Level-0 table #200: 31762 bytes OK
+2026/03/10-10:36:38.291 c0c8 Delete type=0 #197
+2026/03/10-10:39:48.334 c0c8 Level-0 table #202: started
+2026/03/10-10:39:48.337 c0c8 Level-0 table #202: 27738 bytes OK
+2026/03/10-10:39:48.341 c0c8 Delete type=0 #199
+2026/03/10-10:39:48.344 c0c8 Compacting 4@0 + 1@1 files
+2026/03/10-10:39:48.351 c0c8 Generated table #203@0: 8808 keys, 198463 bytes
+2026/03/10-10:39:48.351 c0c8 Compacted 4@0 + 1@1 files => 198463 bytes
+2026/03/10-10:39:48.352 c0c8 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/10-10:39:48.355 c0c8 Delete type=2 #202
+2026/03/10-10:39:48.355 c0c8 Delete type=2 #200
+2026/03/10-10:39:48.355 c0c8 Delete type=2 #198
+2026/03/10-10:39:48.355 c0c8 Delete type=2 #196
+2026/03/10-10:39:48.355 c0c8 Delete type=2 #194
+2026/03/10-10:43:28.395 c0c8 Level-0 table #205: started
+2026/03/10-10:43:28.399 c0c8 Level-0 table #205: 30961 bytes OK
+2026/03/10-10:43:28.401 c0c8 Delete type=0 #201
+2026/03/10-10:46:13.383 c0c8 Level-0 table #207: started
+2026/03/10-10:46:13.386 c0c8 Level-0 table #207: 28668 bytes OK
+2026/03/10-10:46:13.393 c0c8 Delete type=0 #204
+2026/03/10-10:50:03.766 c0c8 Level-0 table #209: started
+2026/03/10-10:50:03.768 c0c8 Level-0 table #209: 26119 bytes OK
+2026/03/10-10:50:03.771 c0c8 Delete type=0 #206
