@@ -1,14 +1,14 @@
-2026/03/12-10:02:03.993 cc3e Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/03/12-10:02:03.996 cc3e Recovering log #184
-2026/03/12-10:02:03.997 cc3e Level-0 table #187: started
-2026/03/12-10:02:04.004 cc3e Level-0 table #187: 139585 bytes OK
-2026/03/12-10:02:04.007 cc3e Delete type=0 #184
-2026/03/12-10:02:04.009 cc41 Compacting 4@0 + 1@1 files
-2026/03/12-10:02:04.014 cc41 Generated table #189@0: 109 keys, 137510 bytes
-2026/03/12-10:02:04.014 cc41 Compacted 4@0 + 1@1 files => 137510 bytes
-2026/03/12-10:02:04.015 cc41 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/03/12-10:02:04.015 cc41 Delete type=2 #183
-2026/03/12-10:02:04.015 cc41 Delete type=2 #181
-2026/03/12-10:02:04.015 cc41 Delete type=2 #185
-2026/03/12-10:02:04.015 cc41 Delete type=2 #179
-2026/03/12-10:02:04.015 cc41 Delete type=2 #187
+2026/03/13-06:47:39.008 37688 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/03/13-06:47:39.011 37688 Recovering log #188
+2026/03/13-06:47:39.013 37688 Level-0 table #191: started
+2026/03/13-06:47:39.019 37688 Level-0 table #191: 119732 bytes OK
+2026/03/13-06:47:39.035 37688 Delete type=0 #188
+2026/03/13-07:27:38.350 3768b Level-0 table #194: started
+2026/03/13-07:27:38.358 3768b Level-0 table #194: 127252 bytes OK
+2026/03/13-07:27:38.360 3768b Delete type=0 #192
+2026/03/13-07:36:32.691 3768b Level-0 table #196: started
+2026/03/13-07:36:32.696 3768b Level-0 table #196: 253544 bytes OK
+2026/03/13-07:36:32.702 3768b Delete type=0 #193
+2026/03/13-07:36:39.843 3768b Level-0 table #198: started
+2026/03/13-07:36:39.847 3768b Level-0 table #198: 157625 bytes OK
+2026/03/13-07:36:39.857 3768b Delete type=0 #195
