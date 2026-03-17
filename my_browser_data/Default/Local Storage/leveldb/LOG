@@ -1,21 +1,23 @@
-2026/03/16-09:07:16.943 11b7a Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/03/16-09:07:16.946 11b7a Recovering log #197
-2026/03/16-09:07:16.946 11b7a Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000197.log 
-2026/03/16-09:07:16.947 11b7d Compacting 4@0 + 1@1 files
-2026/03/16-09:07:16.956 11b7d Generated table #200@0: 106 keys, 146989 bytes
-2026/03/16-09:07:16.956 11b7d Compacted 4@0 + 1@1 files => 146989 bytes
-2026/03/16-09:07:16.958 11b7d compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/03/16-09:07:16.958 11b7d Delete type=2 #189
-2026/03/16-09:07:16.958 11b7d Delete type=2 #198
-2026/03/16-09:07:16.958 11b7d Delete type=2 #196
-2026/03/16-09:07:16.958 11b7d Delete type=2 #194
-2026/03/16-09:07:16.958 11b7d Delete type=2 #191
-2026/03/16-09:11:09.323 11b7d Level-0 table #202: started
-2026/03/16-09:11:09.328 11b7d Level-0 table #202: 134960 bytes OK
-2026/03/16-09:11:09.331 11b7d Delete type=0 #197
-2026/03/16-09:15:38.385 11b7d Level-0 table #204: started
-2026/03/16-09:15:38.394 11b7d Level-0 table #204: 149433 bytes OK
-2026/03/16-09:15:38.406 11b7d Delete type=0 #201
-2026/03/16-09:17:16.257 11b7d Level-0 table #206: started
-2026/03/16-09:17:16.269 11b7d Level-0 table #206: 132835 bytes OK
-2026/03/16-09:17:16.272 11b7d Delete type=0 #203
+2026/03/17-09:10:18.132 10099d Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/03/17-09:10:18.134 10099d Recovering log #205
+2026/03/17-09:10:18.136 10099d Level-0 table #208: started
+2026/03/17-09:10:18.148 10099d Level-0 table #208: 130702 bytes OK
+2026/03/17-09:10:18.156 10099d Delete type=0 #205
+2026/03/17-09:10:18.161 1009a2 Compacting 4@0 + 1@1 files
+2026/03/17-09:10:18.169 1009a2 Generated table #210@0: 109 keys, 130748 bytes
+2026/03/17-09:10:18.170 1009a2 Compacted 4@0 + 1@1 files => 130748 bytes
+2026/03/17-09:10:18.171 1009a2 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/03/17-09:10:18.171 1009a2 Delete type=2 #202
+2026/03/17-09:10:18.171 1009a2 Delete type=2 #200
+2026/03/17-09:10:18.171 1009a2 Delete type=2 #204
+2026/03/17-09:10:18.171 1009a2 Delete type=2 #206
+2026/03/17-09:10:18.171 1009a2 Delete type=2 #208
+2026/03/17-09:13:37.146 1009a2 Level-0 table #212: started
+2026/03/17-09:13:37.151 1009a2 Level-0 table #212: 118952 bytes OK
+2026/03/17-09:13:37.155 1009a2 Delete type=0 #209
+2026/03/17-09:17:07.061 1009a2 Level-0 table #214: started
+2026/03/17-09:17:07.070 1009a2 Level-0 table #214: 117680 bytes OK
+2026/03/17-09:17:07.075 1009a2 Delete type=0 #211
+2026/03/17-09:20:06.674 10099d Level-0 table #216: started
+2026/03/17-09:20:06.678 10099d Level-0 table #216: 127602 bytes OK
+2026/03/17-09:20:06.680 10099d Delete type=0 #213

@@ -1,14 +1,21 @@
-2026/03/13-06:47:39.008 37688 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/03/13-06:47:39.011 37688 Recovering log #188
-2026/03/13-06:47:39.013 37688 Level-0 table #191: started
-2026/03/13-06:47:39.019 37688 Level-0 table #191: 119732 bytes OK
-2026/03/13-06:47:39.035 37688 Delete type=0 #188
-2026/03/13-07:27:38.350 3768b Level-0 table #194: started
-2026/03/13-07:27:38.358 3768b Level-0 table #194: 127252 bytes OK
-2026/03/13-07:27:38.360 3768b Delete type=0 #192
-2026/03/13-07:36:32.691 3768b Level-0 table #196: started
-2026/03/13-07:36:32.696 3768b Level-0 table #196: 253544 bytes OK
-2026/03/13-07:36:32.702 3768b Delete type=0 #193
-2026/03/13-07:36:39.843 3768b Level-0 table #198: started
-2026/03/13-07:36:39.847 3768b Level-0 table #198: 157625 bytes OK
-2026/03/13-07:36:39.857 3768b Delete type=0 #195
+2026/03/16-09:07:16.943 11b7a Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/03/16-09:07:16.946 11b7a Recovering log #197
+2026/03/16-09:07:16.946 11b7a Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000197.log 
+2026/03/16-09:07:16.947 11b7d Compacting 4@0 + 1@1 files
+2026/03/16-09:07:16.956 11b7d Generated table #200@0: 106 keys, 146989 bytes
+2026/03/16-09:07:16.956 11b7d Compacted 4@0 + 1@1 files => 146989 bytes
+2026/03/16-09:07:16.958 11b7d compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/03/16-09:07:16.958 11b7d Delete type=2 #189
+2026/03/16-09:07:16.958 11b7d Delete type=2 #198
+2026/03/16-09:07:16.958 11b7d Delete type=2 #196
+2026/03/16-09:07:16.958 11b7d Delete type=2 #194
+2026/03/16-09:07:16.958 11b7d Delete type=2 #191
+2026/03/16-09:11:09.323 11b7d Level-0 table #202: started
+2026/03/16-09:11:09.328 11b7d Level-0 table #202: 134960 bytes OK
+2026/03/16-09:11:09.331 11b7d Delete type=0 #197
+2026/03/16-09:15:38.385 11b7d Level-0 table #204: started
+2026/03/16-09:15:38.394 11b7d Level-0 table #204: 149433 bytes OK
+2026/03/16-09:15:38.406 11b7d Delete type=0 #201
+2026/03/16-09:17:16.257 11b7d Level-0 table #206: started
+2026/03/16-09:17:16.269 11b7d Level-0 table #206: 132835 bytes OK
+2026/03/16-09:17:16.272 11b7d Delete type=0 #203
