@@ -1,30 +1,42 @@
-2026/03/16-09:07:17.081 11b7a Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/03/16-09:07:17.082 11b7a Recovering log #252
-2026/03/16-09:07:17.083 11b7a Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000252.log 
-2026/03/16-09:07:30.690 11b7d Level-0 table #256: started
-2026/03/16-09:07:30.699 11b7d Level-0 table #256: 25624 bytes OK
-2026/03/16-09:07:30.701 11b7d Delete type=0 #252
-2026/03/16-09:09:12.841 11b7d Level-0 table #258: started
-2026/03/16-09:09:12.845 11b7d Level-0 table #258: 25821 bytes OK
-2026/03/16-09:09:12.848 11b7d Delete type=0 #255
-2026/03/16-09:10:49.152 11b7d Level-0 table #260: started
-2026/03/16-09:10:49.156 11b7d Level-0 table #260: 26973 bytes OK
-2026/03/16-09:10:49.158 11b7d Delete type=0 #257
-2026/03/16-09:10:49.159 11b7d Compacting 4@0 + 1@1 files
-2026/03/16-09:10:49.173 11b7d Generated table #261@0: 11345 keys, 246098 bytes
-2026/03/16-09:10:49.173 11b7d Compacted 4@0 + 1@1 files => 246098 bytes
-2026/03/16-09:10:49.174 11b7d compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/16-09:10:49.174 11b7d Delete type=2 #260
-2026/03/16-09:10:49.174 11b7d Delete type=2 #258
-2026/03/16-09:10:49.174 11b7d Delete type=2 #256
-2026/03/16-09:10:49.174 11b7d Delete type=2 #253
-2026/03/16-09:10:49.174 11b7d Delete type=2 #251
-2026/03/16-09:12:41.177 11b7d Level-0 table #263: started
-2026/03/16-09:12:41.183 11b7d Level-0 table #263: 26421 bytes OK
-2026/03/16-09:12:41.200 11b7d Delete type=0 #259
-2026/03/16-09:14:19.381 11b7d Level-0 table #265: started
-2026/03/16-09:14:19.393 11b7d Level-0 table #265: 25521 bytes OK
-2026/03/16-09:14:19.397 11b7d Delete type=0 #262
-2026/03/16-09:16:08.884 11b7d Level-0 table #267: started
-2026/03/16-09:16:08.892 11b7d Level-0 table #267: 26070 bytes OK
-2026/03/16-09:16:08.901 11b7d Delete type=0 #264
+2026/03/17-09:10:18.463 10099d Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/03/17-09:10:18.467 10099d Recovering log #266
+2026/03/17-09:10:18.495 10099d Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000266.log 
+2026/03/17-09:10:36.194 1009a2 Level-0 table #270: started
+2026/03/17-09:10:36.200 1009a2 Level-0 table #270: 24429 bytes OK
+2026/03/17-09:10:36.207 1009a2 Delete type=0 #266
+2026/03/17-09:10:36.210 1009a2 Compacting 4@0 + 1@1 files
+2026/03/17-09:10:36.220 1009a2 Generated table #271@0: 11797 keys, 232854 bytes
+2026/03/17-09:10:36.220 1009a2 Compacted 4@0 + 1@1 files => 232854 bytes
+2026/03/17-09:10:36.221 1009a2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/17-09:10:36.222 1009a2 Delete type=2 #261
+2026/03/17-09:10:36.222 1009a2 Delete type=2 #263
+2026/03/17-09:10:36.222 1009a2 Delete type=2 #267
+2026/03/17-09:10:36.222 1009a2 Delete type=2 #265
+2026/03/17-09:10:36.222 1009a2 Delete type=2 #270
+2026/03/17-09:12:15.648 1009a2 Level-0 table #273: started
+2026/03/17-09:12:15.653 1009a2 Level-0 table #273: 29649 bytes OK
+2026/03/17-09:12:15.658 1009a2 Delete type=0 #269
+2026/03/17-09:13:39.216 1009a2 Level-0 table #275: started
+2026/03/17-09:13:39.224 1009a2 Level-0 table #275: 26355 bytes OK
+2026/03/17-09:13:39.228 1009a2 Delete type=0 #272
+2026/03/17-09:15:04.327 1009a2 Level-0 table #277: started
+2026/03/17-09:15:04.334 1009a2 Level-0 table #277: 25573 bytes OK
+2026/03/17-09:15:04.342 1009a2 Delete type=0 #274
+2026/03/17-09:16:19.838 1009a2 Level-0 table #279: started
+2026/03/17-09:16:19.841 1009a2 Level-0 table #279: 27129 bytes OK
+2026/03/17-09:16:19.842 1009a2 Delete type=0 #276
+2026/03/17-09:16:19.846 1009a2 Compacting 4@0 + 1@1 files
+2026/03/17-09:16:19.854 1009a2 Generated table #280@0: 12162 keys, 274205 bytes
+2026/03/17-09:16:19.855 1009a2 Compacted 4@0 + 1@1 files => 274205 bytes
+2026/03/17-09:16:19.856 1009a2 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/17-09:16:19.856 1009a2 Delete type=2 #275
+2026/03/17-09:16:19.856 1009a2 Delete type=2 #277
+2026/03/17-09:16:19.856 1009a2 Delete type=2 #273
+2026/03/17-09:16:19.856 1009a2 Delete type=2 #271
+2026/03/17-09:16:19.856 1009a2 Delete type=2 #279
+2026/03/17-09:17:55.313 10099d Level-0 table #282: started
+2026/03/17-09:17:55.318 10099d Level-0 table #282: 25558 bytes OK
+2026/03/17-09:17:55.328 10099d Delete type=0 #278
+2026/03/17-09:19:32.788 1009a2 Level-0 table #284: started
+2026/03/17-09:19:32.790 1009a2 Level-0 table #284: 27343 bytes OK
+2026/03/17-09:19:32.803 1009a2 Delete type=0 #281
