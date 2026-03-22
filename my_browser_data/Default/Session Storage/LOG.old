@@ -1,39 +1,30 @@
-2026/03/18-09:11:35.042 3554 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/03/18-09:11:35.042 3554 Recovering log #283
-2026/03/18-09:11:35.043 3554 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000283.log 
-2026/03/18-09:12:19.418 3557 Level-0 table #287: started
-2026/03/18-09:12:19.422 3557 Level-0 table #287: 25320 bytes OK
-2026/03/18-09:12:19.430 3557 Delete type=0 #283
-2026/03/18-09:14:21.698 3557 Level-0 table #289: started
-2026/03/18-09:14:21.705 3557 Level-0 table #289: 26603 bytes OK
-2026/03/18-09:14:21.707 3557 Delete type=0 #286
-2026/03/18-09:14:21.709 3557 Compacting 4@0 + 1@1 files
-2026/03/18-09:14:21.727 3557 Generated table #290@0: 12584 keys, 265667 bytes
-2026/03/18-09:14:21.727 3557 Compacted 4@0 + 1@1 files => 265667 bytes
-2026/03/18-09:14:21.728 3557 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/18-09:14:21.729 3557 Delete type=2 #289
-2026/03/18-09:14:21.729 3557 Delete type=2 #282
-2026/03/18-09:14:21.729 3557 Delete type=2 #280
-2026/03/18-09:14:21.729 3557 Delete type=2 #284
-2026/03/18-09:14:21.729 3557 Delete type=2 #287
-2026/03/18-09:16:11.442 3557 Level-0 table #292: started
-2026/03/18-09:16:11.453 3557 Level-0 table #292: 24511 bytes OK
-2026/03/18-09:16:11.458 3557 Delete type=0 #288
-2026/03/18-09:17:39.436 3557 Level-0 table #294: started
-2026/03/18-09:17:39.440 3557 Level-0 table #294: 28057 bytes OK
-2026/03/18-09:17:39.452 3557 Delete type=0 #291
-2026/03/18-09:19:10.851 3557 Level-0 table #296: started
-2026/03/18-09:19:10.856 3557 Level-0 table #296: 27190 bytes OK
-2026/03/18-09:19:10.864 3557 Delete type=0 #293
-2026/03/18-09:20:58.849 3557 Level-0 table #298: started
-2026/03/18-09:20:58.853 3557 Level-0 table #298: 27165 bytes OK
-2026/03/18-09:20:58.858 3557 Delete type=0 #295
-2026/03/18-09:20:58.862 3557 Compacting 4@0 + 1@1 files
-2026/03/18-09:20:58.873 3557 Generated table #299@0: 13021 keys, 284554 bytes
-2026/03/18-09:20:58.873 3557 Compacted 4@0 + 1@1 files => 284554 bytes
-2026/03/18-09:20:58.875 3557 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/18-09:20:58.875 3557 Delete type=2 #298
-2026/03/18-09:20:58.875 3557 Delete type=2 #296
-2026/03/18-09:20:58.875 3557 Delete type=2 #294
-2026/03/18-09:20:58.875 3557 Delete type=2 #290
-2026/03/18-09:20:58.875 3557 Delete type=2 #292
+2026/03/19-09:35:08.213 24eac Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/03/19-09:35:08.214 24eac Recovering log #297
+2026/03/19-09:35:08.215 24eac Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000297.log 
+2026/03/19-09:35:32.148 24ea9 Level-0 table #302: started
+2026/03/19-09:35:32.153 24ea9 Level-0 table #302: 23426 bytes OK
+2026/03/19-09:35:32.160 24ea9 Delete type=0 #297
+2026/03/19-09:37:12.100 24eac Level-0 table #304: started
+2026/03/19-09:37:12.106 24eac Level-0 table #304: 27218 bytes OK
+2026/03/19-09:37:12.111 24eac Delete type=0 #301
+2026/03/19-09:39:12.209 24eac Level-0 table #306: started
+2026/03/19-09:39:12.215 24eac Level-0 table #306: 25534 bytes OK
+2026/03/19-09:39:12.216 24eac Delete type=0 #303
+2026/03/19-09:40:47.561 24eac Level-0 table #308: started
+2026/03/19-09:40:47.568 24eac Level-0 table #308: 25720 bytes OK
+2026/03/19-09:40:47.572 24eac Delete type=0 #305
+2026/03/19-09:40:47.573 24eac Compacting 4@0 + 1@1 files
+2026/03/19-09:40:47.591 24eac Generated table #309@0: 13490 keys, 281624 bytes
+2026/03/19-09:40:47.591 24eac Compacted 4@0 + 1@1 files => 281624 bytes
+2026/03/19-09:40:47.592 24eac compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/19-09:40:47.592 24eac Delete type=2 #302
+2026/03/19-09:40:47.592 24eac Delete type=2 #306
+2026/03/19-09:40:47.592 24eac Delete type=2 #299
+2026/03/19-09:40:47.592 24eac Delete type=2 #304
+2026/03/19-09:40:47.592 24eac Delete type=2 #308
+2026/03/19-09:42:05.251 24eac Level-0 table #311: started
+2026/03/19-09:42:05.254 24eac Level-0 table #311: 25824 bytes OK
+2026/03/19-09:42:05.256 24eac Delete type=0 #307
+2026/03/19-09:43:45.080 24eac Level-0 table #313: started
+2026/03/19-09:43:45.084 24eac Level-0 table #313: 29873 bytes OK
+2026/03/19-09:43:45.091 24eac Delete type=0 #310

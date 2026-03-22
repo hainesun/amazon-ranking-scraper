@@ -1,23 +1,23 @@
-2026/03/19-09:35:08.209 24ea9 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/03/19-09:35:08.213 24ea9 Recovering log #225
-2026/03/19-09:35:08.214 24ea9 Level-0 table #228: started
-2026/03/19-09:35:08.216 24ea9 Level-0 table #228: 131705 bytes OK
-2026/03/19-09:35:08.231 24ea9 Delete type=0 #225
-2026/03/19-09:35:08.232 24eac Compacting 4@0 + 1@1 files
-2026/03/19-09:35:08.238 24eac Generated table #230@0: 109 keys, 130710 bytes
-2026/03/19-09:35:08.238 24eac Compacted 4@0 + 1@1 files => 130710 bytes
-2026/03/19-09:35:08.239 24eac compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/03/19-09:35:08.239 24eac Delete type=2 #228
-2026/03/19-09:35:08.239 24eac Delete type=2 #222
-2026/03/19-09:35:08.239 24eac Delete type=2 #220
-2026/03/19-09:35:08.239 24eac Delete type=2 #224
-2026/03/19-09:35:08.239 24eac Delete type=2 #226
-2026/03/19-09:38:19.295 24eac Level-0 table #232: started
-2026/03/19-09:38:19.302 24eac Level-0 table #232: 119557 bytes OK
-2026/03/19-09:38:19.311 24eac Delete type=0 #229
-2026/03/19-09:41:58.942 24eac Level-0 table #234: started
-2026/03/19-09:41:58.949 24eac Level-0 table #234: 129321 bytes OK
-2026/03/19-09:41:58.951 24eac Delete type=0 #231
-2026/03/19-09:44:50.378 24eac Level-0 table #236: started
-2026/03/19-09:44:50.382 24eac Level-0 table #236: 113535 bytes OK
-2026/03/19-09:44:50.386 24eac Delete type=0 #233
+2026/03/23-08:42:42.170 a2dd Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/03/23-08:42:42.174 a2dd Recovering log #235
+2026/03/23-08:42:42.175 a2dd Level-0 table #238: started
+2026/03/23-08:42:42.183 a2dd Level-0 table #238: 133493 bytes OK
+2026/03/23-08:42:42.194 a2dd Delete type=0 #235
+2026/03/23-08:42:42.195 a2e0 Compacting 4@0 + 1@1 files
+2026/03/23-08:42:42.203 a2e0 Generated table #240@0: 109 keys, 130988 bytes
+2026/03/23-08:42:42.203 a2e0 Compacted 4@0 + 1@1 files => 130988 bytes
+2026/03/23-08:42:42.205 a2e0 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/03/23-08:42:42.205 a2e0 Delete type=2 #238
+2026/03/23-08:42:42.205 a2e0 Delete type=2 #236
+2026/03/23-08:42:42.205 a2e0 Delete type=2 #234
+2026/03/23-08:42:42.205 a2e0 Delete type=2 #230
+2026/03/23-08:42:42.205 a2e0 Delete type=2 #232
+2026/03/23-08:46:28.749 a2e0 Level-0 table #242: started
+2026/03/23-08:46:28.755 a2e0 Level-0 table #242: 132307 bytes OK
+2026/03/23-08:46:28.758 a2e0 Delete type=0 #239
+2026/03/23-08:50:14.958 a2e0 Level-0 table #244: started
+2026/03/23-08:50:14.963 a2e0 Level-0 table #244: 132889 bytes OK
+2026/03/23-08:50:14.970 a2e0 Delete type=0 #241
+2026/03/23-08:53:10.744 a2e0 Level-0 table #246: started
+2026/03/23-08:53:10.748 a2e0 Level-0 table #246: 129125 bytes OK
+2026/03/23-08:53:10.753 a2e0 Delete type=0 #243
