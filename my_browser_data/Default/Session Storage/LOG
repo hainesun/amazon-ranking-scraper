@@ -1,42 +1,30 @@
-2026/03/23-08:42:42.287 a2dd Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/03/23-08:42:42.289 a2dd Recovering log #312
-2026/03/23-08:42:42.289 a2dd Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000312.log 
-2026/03/23-08:42:58.616 a2e0 Level-0 table #316: started
-2026/03/23-08:42:58.624 a2e0 Level-0 table #316: 24697 bytes OK
-2026/03/23-08:42:58.630 a2e0 Delete type=0 #312
-2026/03/23-08:44:43.478 a2e0 Level-0 table #318: started
-2026/03/23-08:44:43.483 a2e0 Level-0 table #318: 26521 bytes OK
-2026/03/23-08:44:43.487 a2e0 Delete type=0 #315
-2026/03/23-08:44:43.489 a2dd Compacting 4@0 + 1@1 files
-2026/03/23-08:44:43.503 a2dd Generated table #319@0: 13907 keys, 289620 bytes
-2026/03/23-08:44:43.504 a2dd Compacted 4@0 + 1@1 files => 289620 bytes
-2026/03/23-08:44:43.505 a2dd compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/23-08:44:43.505 a2dd Delete type=2 #316
-2026/03/23-08:44:43.505 a2dd Delete type=2 #313
-2026/03/23-08:44:43.505 a2dd Delete type=2 #311
-2026/03/23-08:44:43.505 a2dd Delete type=2 #309
-2026/03/23-08:44:43.505 a2dd Delete type=2 #318
-2026/03/23-08:46:18.922 a2e0 Level-0 table #321: started
-2026/03/23-08:46:18.928 a2e0 Level-0 table #321: 25613 bytes OK
-2026/03/23-08:46:18.937 a2e0 Delete type=0 #317
-2026/03/23-08:48:05.198 a2e0 Level-0 table #323: started
-2026/03/23-08:48:05.202 a2e0 Level-0 table #323: 25149 bytes OK
-2026/03/23-08:48:05.204 a2e0 Delete type=0 #320
-2026/03/23-08:49:44.868 a2e0 Level-0 table #325: started
-2026/03/23-08:49:44.871 a2e0 Level-0 table #325: 26716 bytes OK
-2026/03/23-08:49:44.874 a2e0 Delete type=0 #322
-2026/03/23-08:51:23.205 a2e0 Level-0 table #327: started
-2026/03/23-08:51:23.214 a2e0 Level-0 table #327: 27176 bytes OK
-2026/03/23-08:51:23.219 a2e0 Delete type=0 #324
-2026/03/23-08:51:23.223 a2e0 Compacting 4@0 + 1@1 files
-2026/03/23-08:51:23.235 a2e0 Generated table #328@0: 14335 keys, 308701 bytes
-2026/03/23-08:51:23.235 a2e0 Compacted 4@0 + 1@1 files => 308701 bytes
-2026/03/23-08:51:23.236 a2e0 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/23-08:51:23.237 a2e0 Delete type=2 #321
-2026/03/23-08:51:23.237 a2e0 Delete type=2 #323
-2026/03/23-08:51:23.237 a2e0 Delete type=2 #327
-2026/03/23-08:51:23.237 a2e0 Delete type=2 #319
-2026/03/23-08:51:23.237 a2e0 Delete type=2 #325
-2026/03/23-08:53:10.744 a2eb Level-0 table #330: started
-2026/03/23-08:53:10.748 a2eb Level-0 table #330: 26294 bytes OK
-2026/03/23-08:53:10.760 a2eb Delete type=0 #326
+2026/03/24-02:04:51.070 2e4a Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/03/24-02:04:51.071 2e4a Recovering log #329
+2026/03/24-02:04:51.071 2e4a Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000329.log 
+2026/03/24-02:06:25.438 2e4d Level-0 table #333: started
+2026/03/24-02:06:25.446 2e4d Level-0 table #333: 25130 bytes OK
+2026/03/24-02:06:25.454 2e4d Delete type=0 #329
+2026/03/24-02:08:03.436 2e4a Level-0 table #335: started
+2026/03/24-02:08:03.449 2e4a Level-0 table #335: 25273 bytes OK
+2026/03/24-02:08:03.454 2e4a Delete type=0 #332
+2026/03/24-02:09:36.026 2e4d Level-0 table #337: started
+2026/03/24-02:09:36.030 2e4d Level-0 table #337: 26300 bytes OK
+2026/03/24-02:09:36.034 2e4d Delete type=0 #334
+2026/03/24-02:09:36.035 2e4d Compacting 4@0 + 1@1 files
+2026/03/24-02:09:36.050 2e4d Generated table #338@0: 14789 keys, 317241 bytes
+2026/03/24-02:09:36.050 2e4d Compacted 4@0 + 1@1 files => 317241 bytes
+2026/03/24-02:09:36.051 2e4d compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/24-02:09:36.052 2e4d Delete type=2 #328
+2026/03/24-02:09:36.052 2e4d Delete type=2 #335
+2026/03/24-02:09:36.052 2e4d Delete type=2 #337
+2026/03/24-02:09:36.052 2e4d Delete type=2 #333
+2026/03/24-02:09:36.052 2e4d Delete type=2 #330
+2026/03/24-02:11:10.522 2e4d Level-0 table #340: started
+2026/03/24-02:11:10.529 2e4d Level-0 table #340: 25966 bytes OK
+2026/03/24-02:11:10.531 2e4d Delete type=0 #336
+2026/03/24-02:12:41.598 2e4a Level-0 table #342: started
+2026/03/24-02:12:41.603 2e4a Level-0 table #342: 27196 bytes OK
+2026/03/24-02:12:41.606 2e4a Delete type=0 #339
+2026/03/24-02:14:23.006 2e4a Level-0 table #344: started
+2026/03/24-02:14:23.012 2e4a Level-0 table #344: 26824 bytes OK
+2026/03/24-02:14:23.016 2e4a Delete type=0 #341
