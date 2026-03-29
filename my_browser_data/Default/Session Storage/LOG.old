@@ -1,41 +1,32 @@
-2026/03/25-09:58:34.091 b8ee3 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/03/25-09:58:34.095 b8ee3 Recovering log #343
-2026/03/25-09:58:34.096 b8ee3 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000343.log 
-2026/03/25-10:00:00.550 b8ee6 Level-0 table #347: started
-2026/03/25-10:00:00.553 b8ee6 Level-0 table #347: 25393 bytes OK
-2026/03/25-10:00:00.559 b8ee6 Delete type=0 #343
-2026/03/25-10:00:00.561 b8ee6 Compacting 4@0 + 1@1 files
-2026/03/25-10:00:00.568 b8ee6 Generated table #348@0: 15230 keys, 307477 bytes
-2026/03/25-10:00:00.568 b8ee6 Compacted 4@0 + 1@1 files => 307477 bytes
-2026/03/25-10:00:00.569 b8ee6 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/25-10:00:00.569 b8ee6 Delete type=2 #338
-2026/03/25-10:00:00.569 b8ee6 Delete type=2 #342
-2026/03/25-10:00:00.569 b8ee6 Delete type=2 #340
-2026/03/25-10:00:00.569 b8ee6 Delete type=2 #344
-2026/03/25-10:00:00.569 b8ee6 Delete type=2 #347
-2026/03/25-10:01:45.745 b8ee6 Level-0 table #350: started
-2026/03/25-10:01:45.747 b8ee6 Level-0 table #350: 25661 bytes OK
-2026/03/25-10:01:45.750 b8ee6 Delete type=0 #346
-2026/03/25-10:03:22.581 b8ee6 Level-0 table #352: started
-2026/03/25-10:03:22.587 b8ee6 Level-0 table #352: 28241 bytes OK
-2026/03/25-10:03:22.596 b8ee6 Delete type=0 #349
-2026/03/25-10:05:01.106 b8ee6 Level-0 table #354: started
-2026/03/25-10:05:01.112 b8ee6 Level-0 table #354: 29061 bytes OK
-2026/03/25-10:05:01.118 b8ee6 Delete type=0 #351
-2026/03/25-10:06:27.695 b8ee6 Level-0 table #356: started
-2026/03/25-10:06:27.698 b8ee6 Level-0 table #356: 27102 bytes OK
-2026/03/25-10:06:27.703 b8ee6 Delete type=0 #353
-2026/03/25-10:06:27.705 b8ee3 Compacting 4@0 + 1@1 files
-2026/03/25-10:06:27.712 b8ee3 Generated table #357@0: 15654 keys, 333255 bytes
-2026/03/25-10:06:27.712 b8ee3 Compacted 4@0 + 1@1 files => 333255 bytes
-2026/03/25-10:06:27.713 b8ee3 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/25-10:06:27.713 b8ee3 Delete type=2 #348
-2026/03/25-10:06:27.713 b8ee3 Delete type=2 #356
-2026/03/25-10:06:27.713 b8ee3 Delete type=2 #354
-2026/03/25-10:06:27.713 b8ee3 Delete type=2 #350
-2026/03/25-10:06:27.713 b8ee3 Delete type=2 #352
-2026/03/25-10:08:08.528 b8ee6 Level-0 table #359: started
-2026/03/25-10:08:08.540 b8ee6 Level-0 table #359: 26598 bytes OK
-2026/03/25-10:08:08.545 b8ee6 Delete type=0 #355
-2026/03/25-10:09:00.772 b8ee6 Level-0 table #361: started
-2026/03/25-10:09:00.774 b8ee6 Level-0 table #361: 23626 bytes OK
+2026/03/27-15:41:24.706 c132 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/03/27-15:41:24.708 c132 Recovering log #373
+2026/03/27-15:41:24.709 c132 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000373.log 
+2026/03/27-15:42:50.904 c135 Level-0 table #378: started
+2026/03/27-15:42:50.914 c135 Level-0 table #378: 27373 bytes OK
+2026/03/27-15:42:50.917 c135 Delete type=0 #373
+2026/03/27-15:44:48.620 c135 Level-0 table #380: started
+2026/03/27-15:44:48.623 c135 Level-0 table #380: 36803 bytes OK
+2026/03/27-15:44:48.630 c135 Delete type=0 #377
+2026/03/27-15:46:00.439 c135 Level-0 table #382: started
+2026/03/27-15:46:00.447 c135 Level-0 table #382: 30992 bytes OK
+2026/03/27-15:46:00.455 c135 Delete type=0 #379
+2026/03/27-15:47:39.539 c135 Level-0 table #384: started
+2026/03/27-15:47:39.542 c135 Level-0 table #384: 26740 bytes OK
+2026/03/27-15:47:39.546 c135 Delete type=0 #381
+2026/03/27-15:47:39.547 c135 Compacting 4@0 + 1@1 files
+2026/03/27-15:47:39.560 c135 Generated table #385@0: 16935 keys, 361024 bytes
+2026/03/27-15:47:39.560 c135 Compacted 4@0 + 1@1 files => 361024 bytes
+2026/03/27-15:47:39.561 c135 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/27-15:47:39.562 c135 Delete type=2 #375
+2026/03/27-15:47:39.562 c135 Delete type=2 #380
+2026/03/27-15:47:39.562 c135 Delete type=2 #382
+2026/03/27-15:47:39.562 c135 Delete type=2 #378
+2026/03/27-15:47:39.562 c135 Delete type=2 #384
+2026/03/27-15:49:27.538 c132 Level-0 table #387: started
+2026/03/27-15:49:27.543 c132 Level-0 table #387: 25356 bytes OK
+2026/03/27-15:49:27.545 c132 Delete type=0 #383
+2026/03/27-15:50:55.900 c135 Level-0 table #389: started
+2026/03/27-15:50:55.905 c135 Level-0 table #389: 26168 bytes OK
+2026/03/27-15:50:55.909 c135 Delete type=0 #386
+2026/03/27-15:51:53.131 c135 Level-0 table #391: started
+2026/03/27-15:51:53.134 c135 Level-0 table #391: 23403 bytes OK
