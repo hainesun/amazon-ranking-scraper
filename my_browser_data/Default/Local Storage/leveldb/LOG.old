@@ -1,22 +1,29 @@
-2026/03/27-15:41:24.516 c132 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/03/27-15:41:24.520 c132 Recovering log #275
-2026/03/27-15:41:24.522 c132 Level-0 table #278: started
-2026/03/27-15:41:24.529 c132 Level-0 table #278: 131358 bytes OK
-2026/03/27-15:41:24.535 c132 Delete type=0 #275
-2026/03/27-15:41:24.537 c135 Compacting 4@0 + 1@1 files
-2026/03/27-15:41:24.548 c135 Generated table #280@0: 109 keys, 129568 bytes
-2026/03/27-15:41:24.548 c135 Compacted 4@0 + 1@1 files => 129568 bytes
-2026/03/27-15:41:24.549 c135 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/03/27-15:41:24.550 c135 Delete type=2 #274
-2026/03/27-15:41:24.550 c135 Delete type=2 #276
-2026/03/27-15:41:24.550 c135 Delete type=2 #272
-2026/03/27-15:41:24.550 c135 Delete type=2 #270
-2026/03/27-15:41:24.550 c135 Delete type=2 #278
-2026/03/27-15:44:30.771 c135 Level-0 table #282: started
-2026/03/27-15:44:30.780 c135 Level-0 table #282: 114648 bytes OK
-2026/03/27-15:44:30.783 c135 Delete type=0 #279
-2026/03/27-15:48:23.359 c135 Level-0 table #284: started
-2026/03/27-15:48:23.367 c135 Level-0 table #284: 134498 bytes OK
-2026/03/27-15:48:23.376 c135 Delete type=0 #281
-2026/03/27-15:51:53.098 c135 Level-0 table #286: started
-2026/03/27-15:51:53.125 c135 Level-0 table #286: 132627 bytes OK
+2026/03/30-05:09:18.825 49f6 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/03/30-05:09:18.829 49f6 Recovering log #283
+2026/03/30-05:09:18.829 49f6 Level-0 table #286: started
+2026/03/30-05:09:18.845 49f6 Level-0 table #286: 132627 bytes OK
+2026/03/30-05:09:18.845 49f6 Recovering log #285
+2026/03/30-05:09:18.846 49f6 Level-0 table #287: started
+2026/03/30-05:09:18.850 49f6 Level-0 table #287: 137619 bytes OK
+2026/03/30-05:09:18.870 49f6 Delete type=0 #285
+2026/03/30-05:09:18.870 49f6 Delete type=0 #283
+2026/03/30-05:09:18.873 4a07 Compacting 4@0 + 1@1 files
+2026/03/30-05:09:18.879 4a07 Generated table #289@0: 109 keys, 134172 bytes
+2026/03/30-05:09:18.879 4a07 Compacted 4@0 + 1@1 files => 134172 bytes
+2026/03/30-05:09:18.880 4a07 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/03/30-05:09:18.881 4a07 Delete type=2 #282
+2026/03/30-05:09:18.881 4a07 Delete type=2 #280
+2026/03/30-05:09:18.881 4a07 Delete type=2 #284
+2026/03/30-05:09:18.881 4a07 Delete type=2 #287
+2026/03/30-05:09:18.881 4a07 Delete type=2 #286
+2026/03/30-05:12:27.973 49fb Level-0 table #291: started
+2026/03/30-05:12:27.979 49fb Level-0 table #291: 115988 bytes OK
+2026/03/30-05:12:27.985 49fb Delete type=0 #288
+2026/03/30-05:15:35.898 49fb Level-0 table #293: started
+2026/03/30-05:15:35.908 49fb Level-0 table #293: 114394 bytes OK
+2026/03/30-05:15:35.917 49fb Delete type=0 #290
+2026/03/30-05:17:31.680 49fb Level-0 table #295: started
+2026/03/30-05:17:31.684 49fb Level-0 table #295: 79756 bytes OK
+2026/03/30-05:17:31.687 49fb Delete type=0 #292
+2026/03/30-05:19:39.415 4a07 Level-0 table #297: started
+2026/03/30-05:19:39.442 4a07 Level-0 table #297: 129149 bytes OK
