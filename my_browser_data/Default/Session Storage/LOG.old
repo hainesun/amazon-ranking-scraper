@@ -1,43 +1,30 @@
-2026/03/30-05:09:18.852 49fb Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/03/30-05:09:18.854 49fb Recovering log #388
-2026/03/30-05:09:18.870 49fb Level-0 table #391: started
-2026/03/30-05:09:18.872 49fb Level-0 table #391: 23403 bytes OK
-2026/03/30-05:09:18.873 49fb Recovering log #390
-2026/03/30-05:09:18.873 49fb Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000390.log 
-2026/03/30-05:09:18.876 49fb Delete type=0 #388
-2026/03/30-05:11:19.242 49fb Level-0 table #393: started
-2026/03/30-05:11:19.245 49fb Level-0 table #393: 28686 bytes OK
-2026/03/30-05:11:19.252 49fb Delete type=0 #390
-2026/03/30-05:11:19.253 49f6 Compacting 4@0 + 1@1 files
-2026/03/30-05:11:19.266 49f6 Generated table #394@0: 17344 keys, 356906 bytes
-2026/03/30-05:11:19.267 49f6 Compacted 4@0 + 1@1 files => 356906 bytes
-2026/03/30-05:11:19.268 49f6 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/30-05:11:19.268 49f6 Delete type=2 #389
-2026/03/30-05:11:19.269 49f6 Delete type=2 #393
-2026/03/30-05:11:19.269 49f6 Delete type=2 #387
-2026/03/30-05:11:19.269 49f6 Delete type=2 #391
-2026/03/30-05:11:19.269 49f6 Delete type=2 #385
-2026/03/30-05:12:48.973 49fb Level-0 table #396: started
-2026/03/30-05:12:48.980 49fb Level-0 table #396: 24651 bytes OK
-2026/03/30-05:12:48.989 49fb Delete type=0 #392
-2026/03/30-05:14:46.819 49fb Level-0 table #398: started
-2026/03/30-05:14:46.823 49fb Level-0 table #398: 27914 bytes OK
-2026/03/30-05:14:46.834 49fb Delete type=0 #395
-2026/03/30-05:16:16.799 49fb Level-0 table #400: started
-2026/03/30-05:16:16.805 49fb Level-0 table #400: 26974 bytes OK
-2026/03/30-05:16:16.810 49fb Delete type=0 #397
-2026/03/30-05:17:41.364 49f6 Level-0 table #402: started
-2026/03/30-05:17:41.367 49f6 Level-0 table #402: 29493 bytes OK
-2026/03/30-05:17:41.371 49f6 Delete type=0 #399
-2026/03/30-05:17:41.372 49f6 Compacting 4@0 + 1@1 files
-2026/03/30-05:17:41.384 49f6 Generated table #403@0: 17768 keys, 374748 bytes
-2026/03/30-05:17:41.384 49f6 Compacted 4@0 + 1@1 files => 374748 bytes
-2026/03/30-05:17:41.385 49f6 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/30-05:17:41.386 49f6 Delete type=2 #402
-2026/03/30-05:17:41.386 49f6 Delete type=2 #400
-2026/03/30-05:17:41.386 49f6 Delete type=2 #398
-2026/03/30-05:17:41.386 49f6 Delete type=2 #394
-2026/03/30-05:17:41.386 49f6 Delete type=2 #396
-2026/03/30-05:19:10.914 49fb Level-0 table #405: started
-2026/03/30-05:19:10.917 49fb Level-0 table #405: 27751 bytes OK
-2026/03/30-05:19:10.924 49fb Delete type=0 #401
+2026/03/31-16:44:45.297 fa6b Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/03/31-16:44:45.298 fa6b Recovering log #404
+2026/03/31-16:44:45.299 fa6b Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000404.log 
+2026/03/31-16:45:48.528 fa6e Level-0 table #408: started
+2026/03/31-16:45:48.533 fa6e Level-0 table #408: 25983 bytes OK
+2026/03/31-16:45:48.544 fa6e Delete type=0 #404
+2026/03/31-16:47:45.708 fa6b Level-0 table #410: started
+2026/03/31-16:47:45.723 fa6b Level-0 table #410: 29822 bytes OK
+2026/03/31-16:47:45.730 fa6b Delete type=0 #407
+2026/03/31-16:49:27.562 fa6b Level-0 table #412: started
+2026/03/31-16:49:27.570 fa6b Level-0 table #412: 26031 bytes OK
+2026/03/31-16:49:27.579 fa6b Delete type=0 #409
+2026/03/31-16:49:27.579 fa6b Compacting 4@0 + 1@1 files
+2026/03/31-16:49:27.596 fa6b Generated table #413@0: 18231 keys, 377723 bytes
+2026/03/31-16:49:27.596 fa6b Compacted 4@0 + 1@1 files => 377723 bytes
+2026/03/31-16:49:27.596 fa6b compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/03/31-16:49:27.597 fa6b Delete type=2 #405
+2026/03/31-16:49:27.597 fa6b Delete type=2 #410
+2026/03/31-16:49:27.597 fa6b Delete type=2 #412
+2026/03/31-16:49:27.597 fa6b Delete type=2 #403
+2026/03/31-16:49:27.597 fa6b Delete type=2 #408
+2026/03/31-16:51:25.966 fa6b Level-0 table #415: started
+2026/03/31-16:51:25.977 fa6b Level-0 table #415: 26200 bytes OK
+2026/03/31-16:51:25.985 fa6b Delete type=0 #411
+2026/03/31-16:53:15.739 fa6b Level-0 table #417: started
+2026/03/31-16:53:15.743 fa6b Level-0 table #417: 29190 bytes OK
+2026/03/31-16:53:15.750 fa6b Delete type=0 #414
+2026/03/31-16:54:46.186 fa6e Level-0 table #419: started
+2026/03/31-16:54:46.189 fa6e Level-0 table #419: 24259 bytes OK
+2026/03/31-16:54:46.196 fa6e Delete type=0 #416
