@@ -1,23 +1,8 @@
-2026/04/02-13:54:49.704 107fe1 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/04/02-13:54:49.708 107fe1 Recovering log #305
-2026/04/02-13:54:49.712 107fe1 Level-0 table #308: started
-2026/04/02-13:54:49.718 107fe1 Level-0 table #308: 135124 bytes OK
-2026/04/02-13:54:49.729 107fe1 Delete type=0 #305
-2026/04/02-13:54:49.731 107fe4 Compacting 4@0 + 1@1 files
-2026/04/02-13:54:49.742 107fe4 Generated table #310@0: 109 keys, 133695 bytes
-2026/04/02-13:54:49.742 107fe4 Compacted 4@0 + 1@1 files => 133695 bytes
-2026/04/02-13:54:49.743 107fe4 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/04/02-13:54:49.745 107fe4 Delete type=2 #300
-2026/04/02-13:54:49.745 107fe4 Delete type=2 #302
-2026/04/02-13:54:49.745 107fe4 Delete type=2 #306
-2026/04/02-13:54:49.745 107fe4 Delete type=2 #304
-2026/04/02-13:54:49.745 107fe4 Delete type=2 #308
-2026/04/02-13:57:49.728 107fe4 Level-0 table #312: started
-2026/04/02-13:57:49.740 107fe4 Level-0 table #312: 103002 bytes OK
-2026/04/02-13:57:49.747 107fe4 Delete type=0 #309
-2026/04/02-14:01:18.779 107fe4 Level-0 table #314: started
-2026/04/02-14:01:18.786 107fe4 Level-0 table #314: 117697 bytes OK
-2026/04/02-14:01:18.789 107fe4 Delete type=0 #311
-2026/04/02-14:04:21.440 107fe1 Level-0 table #316: started
-2026/04/02-14:04:21.443 107fe1 Level-0 table #316: 116437 bytes OK
-2026/04/02-14:04:21.449 107fe1 Delete type=0 #313
+2026/04/03-09:49:15.461 2d2a8 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/04/03-09:49:15.466 2d2a8 Recovering log #319
+2026/04/03-09:49:15.470 2d2a8 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000319.log 
+2026/04/03-09:53:03.758 2d2af Level-0 table #323: started
+2026/04/03-09:53:03.777 2d2af Level-0 table #323: 137066 bytes OK
+2026/04/03-09:53:03.826 2d2af Delete type=0 #319
+2026/04/03-09:56:27.494 2d2af Level-0 table #325: started
+2026/04/03-09:56:27.502 2d2af Level-0 table #325: 143516 bytes OK

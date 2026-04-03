@@ -1,30 +1,5 @@
-2026/03/31-16:44:45.297 fa6b Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/03/31-16:44:45.298 fa6b Recovering log #404
-2026/03/31-16:44:45.299 fa6b Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000404.log 
-2026/03/31-16:45:48.528 fa6e Level-0 table #408: started
-2026/03/31-16:45:48.533 fa6e Level-0 table #408: 25983 bytes OK
-2026/03/31-16:45:48.544 fa6e Delete type=0 #404
-2026/03/31-16:47:45.708 fa6b Level-0 table #410: started
-2026/03/31-16:47:45.723 fa6b Level-0 table #410: 29822 bytes OK
-2026/03/31-16:47:45.730 fa6b Delete type=0 #407
-2026/03/31-16:49:27.562 fa6b Level-0 table #412: started
-2026/03/31-16:49:27.570 fa6b Level-0 table #412: 26031 bytes OK
-2026/03/31-16:49:27.579 fa6b Delete type=0 #409
-2026/03/31-16:49:27.579 fa6b Compacting 4@0 + 1@1 files
-2026/03/31-16:49:27.596 fa6b Generated table #413@0: 18231 keys, 377723 bytes
-2026/03/31-16:49:27.596 fa6b Compacted 4@0 + 1@1 files => 377723 bytes
-2026/03/31-16:49:27.596 fa6b compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/03/31-16:49:27.597 fa6b Delete type=2 #405
-2026/03/31-16:49:27.597 fa6b Delete type=2 #410
-2026/03/31-16:49:27.597 fa6b Delete type=2 #412
-2026/03/31-16:49:27.597 fa6b Delete type=2 #403
-2026/03/31-16:49:27.597 fa6b Delete type=2 #408
-2026/03/31-16:51:25.966 fa6b Level-0 table #415: started
-2026/03/31-16:51:25.977 fa6b Level-0 table #415: 26200 bytes OK
-2026/03/31-16:51:25.985 fa6b Delete type=0 #411
-2026/03/31-16:53:15.739 fa6b Level-0 table #417: started
-2026/03/31-16:53:15.743 fa6b Level-0 table #417: 29190 bytes OK
-2026/03/31-16:53:15.750 fa6b Delete type=0 #414
-2026/03/31-16:54:46.186 fa6e Level-0 table #419: started
-2026/03/31-16:54:46.189 fa6e Level-0 table #419: 24259 bytes OK
-2026/03/31-16:54:46.196 fa6e Delete type=0 #416
+2026/04/03-09:30:24.737 27b4f Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/04/03-09:30:24.738 27b4f Recovering log #430
+2026/04/03-09:30:24.739 27b4f Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000430.log 
+2026/04/03-09:30:28.151 27b63 Level-0 table #435: started
+2026/04/03-09:30:28.169 27b63 Level-0 table #435: 26540 bytes OK
