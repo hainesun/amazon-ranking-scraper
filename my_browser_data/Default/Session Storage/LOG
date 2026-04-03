@@ -1,26 +1,12 @@
-2026/04/03-09:49:15.481 2d2af Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/04/03-09:49:15.483 2d2af Recovering log #430
-2026/04/03-09:49:15.488 2d2af Level-0 table #434: started
-2026/04/03-09:49:15.493 2d2af Level-0 table #434: 26540 bytes OK
-2026/04/03-09:49:15.493 2d2af Recovering log #434
-2026/04/03-09:49:15.494 2d2af Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000434.log 
-2026/04/03-09:49:15.497 2d2af Delete type=2 #435
-2026/04/03-09:49:15.497 2d2af Delete type=0 #430
-2026/04/03-09:51:16.144 2d2af Level-0 table #436: started
-2026/04/03-09:51:16.150 2d2af Level-0 table #436: 26411 bytes OK
-2026/04/03-09:51:16.157 2d2af Delete type=0 #434
-2026/04/03-09:53:08.093 2d2af Level-0 table #438: started
-2026/04/03-09:53:08.097 2d2af Level-0 table #438: 26717 bytes OK
-2026/04/03-09:53:08.099 2d2af Delete type=0 #435
-2026/04/03-09:54:47.396 2d2af Level-0 table #440: started
-2026/04/03-09:54:47.402 2d2af Level-0 table #440: 27379 bytes OK
-2026/04/03-09:54:47.408 2d2af Delete type=0 #437
-2026/04/03-09:54:47.412 2d2af Compacting 4@0 + 1@1 files
-2026/04/03-09:54:47.422 2d2af Generated table #441@0: 19490 keys, 411331 bytes
-2026/04/03-09:54:47.422 2d2af Compacted 4@0 + 1@1 files => 411331 bytes
-2026/04/03-09:54:47.423 2d2af compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/04/03-09:54:47.424 2d2af Delete type=2 #438
-2026/04/03-09:54:47.424 2d2af Delete type=2 #432
-2026/04/03-09:54:47.424 2d2af Delete type=2 #436
-2026/04/03-09:54:47.424 2d2af Delete type=2 #434
-2026/04/03-09:54:47.424 2d2af Delete type=2 #440
+2026/04/03-10:11:09.959 3509d Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/04/03-10:11:09.961 3509d Recovering log #439
+2026/04/03-10:11:09.962 3509d Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000439.log 
+2026/04/03-10:11:45.411 350a1 Level-0 table #444: started
+2026/04/03-10:11:45.416 350a1 Level-0 table #444: 26647 bytes OK
+2026/04/03-10:11:45.427 350a1 Delete type=0 #439
+2026/04/03-10:13:51.696 350a1 Level-0 table #446: started
+2026/04/03-10:13:51.701 350a1 Level-0 table #446: 26815 bytes OK
+2026/04/03-10:13:51.713 350a1 Delete type=0 #443
+2026/04/03-10:15:19.089 350a1 Level-0 table #448: started
+2026/04/03-10:15:19.098 350a1 Level-0 table #448: 25763 bytes OK
+2026/04/03-10:15:19.106 350a1 Delete type=0 #445

@@ -11,7 +11,7 @@ BASE_DIR = "."
 ARCHIVE_ROOT = "archives"
 USER_DATA_DIR = "./my_browser_data"
 
-# ★ ランキングのターゲット（LP詳細＋サムネイル）
+# ★ ランキングのターゲット
 TARGETS = [
     {"name": "メンズバッグ・財布", "folder": "mens_bag_wallet", "url": "https://www.amazon.co.jp/gp/bestsellers/fashion/2221074051/"},
     {"name": "レディースバッグ", "folder": "ladies_bag", "url": "https://www.amazon.co.jp/gp/bestsellers/fashion/5355945051/"},
@@ -19,7 +19,7 @@ TARGETS = [
     {"name": "収納用品", "folder": "storage", "url": "https://www.amazon.co.jp/gp/bestsellers/kitchen/2491381051/"}
 ]
 
-# ★ 新機能！検索キーワードのターゲット（ご指定の8キーワード）
+# ★ 検索キーワードのターゲット
 SEARCH_TARGETS = [
     {"keyword": "名刺入れ レディース", "folder": "search_meishi_ladies"},
     {"keyword": "買い物 amazon", "folder": "search_kaimono_amazon"},
@@ -31,18 +31,30 @@ SEARCH_TARGETS = [
     {"keyword": "バッグ レディース", "folder": "search_bag_ladies"}
 ]
 
+# ★★★ 修正ポイント：画像保存を「二段構え」にして確実に取得する ★★★
 def save_image(url, path):
     try:
         if not url: return False
-        high_res_url = url.split("._")[0] + ".jpg"
+        
         headers = {
             "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
             "Referer": "https://www.amazon.co.jp/"
         }
-        res = requests.get(high_res_url, headers=headers, timeout=10)
+        
+        # 1. まず「高画質化」を試す
+        if "._" in url:
+            high_res_url = url.split("._")[0] + ".jpg"
+            res = requests.get(high_res_url, headers=headers, timeout=10)
+            if res.status_code == 200:
+                with open(path, 'wb') as f: f.write(res.content)
+                return True
+
+        # 2. 高画質化に失敗した、または特殊なURLの場合は「元のURL」で確実に保存
+        res = requests.get(url, headers=headers, timeout=10)
         if res.status_code == 200:
             with open(path, 'wb') as f: f.write(res.content)
             return True
+            
     except: pass
     return False
 
@@ -167,6 +179,7 @@ def generate_gallery_html(all_data, save_dir, date_str, filename, title, tab_id)
         .card:hover {{transform: scale(1.15); z-index: 10; box-shadow: 0 10px 25px rgba(0,0,0,0.8); cursor: crosshair;}}
         .card img {{width: 140px; height: 140px; object-fit: contain; background: #fff; border-radius: 4px; display: block;}}
         .rank {{position: absolute; top: -8px; left: -8px; background: #e47911; color: #fff; padding: 4px 12px; font-weight: bold; font-size: 14px; border-radius: 4px; box-shadow: 2px 2px 5px rgba(0,0,0,0.4); z-index: 2;}}
+        .error-msg {{color: #ff6b6b; font-size: 12px; padding: 20px;}}
     </style></head><body>
     <div class="header-area">
         <a href="../../index.html" class="home-link">← ダッシュボードに戻る</a>
@@ -177,6 +190,11 @@ def generate_gallery_html(all_data, save_dir, date_str, filename, title, tab_id)
     """
     for cat in all_data:
         html += f'<h2 id="{cat["folder"]}">{rank_icon} {cat["name"]}</h2><div class="gallery">\n'
+        
+        # 画像が1枚もない場合のエラーハンドリング
+        if not cat["items"]:
+            html += '<div class="error-msg">※このキーワードの検索結果、または画像の取得に失敗しました</div>'
+            
         for r in cat["items"]:
             main_path = f"{cat['folder']}/{r['main']}"
             html += f'<div class="card"><div class="rank">{r["rank"]}</div><img src="{main_path}" loading="lazy" title="{r["title"]}"></div>\n'
@@ -240,26 +258,26 @@ def run_scraper():
                     img_src = img_el.get_attribute("src") if img_el else ""
                     
                     main_img_name = f"rank{rank:02d}_main.jpg"
-                    save_image(img_src, os.path.join(cat_dir, main_img_name))
-                    
-                    subs = []
-                    if rank <= 10:
-                        try:
-                            p2 = browser.new_page()
-                            p2.goto(full_url, wait_until="domcontentloaded")
-                            time.sleep(1.5)
-                            for j, img in enumerate(p2.query_selector_all("#altImages li.item.imageThumbnail img")[1:7]):
-                                src = img.get_attribute("src")
-                                if src:
-                                    s_name = f"rank{rank:02d}_{j+2:02d}.jpg"
-                                    if save_image(src, os.path.join(cat_dir, s_name)): subs.append(s_name)
-                            p2.close()
-                            print(f"    - ランキング {rank}位 LP詳細完了", end="\r")
-                        except: 
-                            if not p2.is_closed(): p2.close()
-                        time.sleep(random.uniform(1.0, 2.0))
+                    if save_image(img_src, os.path.join(cat_dir, main_img_name)):
+                        # メイン画像の保存に成功した場合のみリストに追加
+                        subs = []
+                        if rank <= 10:
+                            try:
+                                p2 = browser.new_page()
+                                p2.goto(full_url, wait_until="domcontentloaded")
+                                time.sleep(1.5)
+                                for j, img in enumerate(p2.query_selector_all("#altImages li.item.imageThumbnail img")[1:7]):
+                                    src = img.get_attribute("src")
+                                    if src:
+                                        s_name = f"rank{rank:02d}_{j+2:02d}.jpg"
+                                        if save_image(src, os.path.join(cat_dir, s_name)): subs.append(s_name)
+                                p2.close()
+                                print(f"    - ランキング {rank}位 LP詳細完了", end="\r")
+                            except: 
+                                if not p2.is_closed(): p2.close()
+                            time.sleep(random.uniform(1.0, 2.0))
 
-                    cat_items.append({"rank": rank, "title": title, "url": full_url, "main": main_img_name, "subs": subs})
+                        cat_items.append({"rank": rank, "title": title, "url": full_url, "main": main_img_name, "subs": subs})
                 except: continue
 
             print("")
@@ -301,20 +319,23 @@ def run_scraper():
             for i, item in enumerate(items_els):
                 try:
                     rank = i + 1
-                    link = item.query_selector("h2 a")
+                    link = item.query_selector("h2 a") or item.query_selector("a.a-link-normal")
                     if not link: continue
                     url_part = link.get_attribute("href")
                     full_url = "https://www.amazon.co.jp" + url_part if not url_part.startswith("http") else url_part
                     
-                    title = link.inner_text().strip()
+                    title_el = item.query_selector("h2 span") or item.query_selector("h2")
+                    title = title_el.inner_text().strip() if title_el else f"Search Item {rank}"
+                    
                     img_el = item.query_selector("img.s-image")
                     img_src = img_el.get_attribute("src") if img_el else ""
                     
                     main_img_name = f"seo{rank:02d}_main.jpg"
-                    save_image(img_src, os.path.join(cat_dir, main_img_name))
                     
-                    cat_items.append({"rank": rank, "title": title, "url": full_url, "main": main_img_name, "subs": []})
-                    print(f"    - SEO {rank}位 画像取得完了", end="\r")
+                    # ★ここで画像の保存に成功した要素だけをリストに追加する
+                    if save_image(img_src, os.path.join(cat_dir, main_img_name)):
+                        cat_items.append({"rank": rank, "title": title, "url": full_url, "main": main_img_name, "subs": []})
+                        print(f"    - SEO {rank}位 画像取得完了", end="\r")
                 except: continue
             
             print("")
