@@ -1,12 +1,21 @@
-2026/04/03-10:11:09.959 3509d Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/04/03-10:11:09.961 3509d Recovering log #439
-2026/04/03-10:11:09.962 3509d Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000439.log 
-2026/04/03-10:11:45.411 350a1 Level-0 table #444: started
-2026/04/03-10:11:45.416 350a1 Level-0 table #444: 26647 bytes OK
-2026/04/03-10:11:45.427 350a1 Delete type=0 #439
-2026/04/03-10:13:51.696 350a1 Level-0 table #446: started
-2026/04/03-10:13:51.701 350a1 Level-0 table #446: 26815 bytes OK
-2026/04/03-10:13:51.713 350a1 Delete type=0 #443
-2026/04/03-10:15:19.089 350a1 Level-0 table #448: started
-2026/04/03-10:15:19.098 350a1 Level-0 table #448: 25763 bytes OK
-2026/04/03-10:15:19.106 350a1 Delete type=0 #445
+2026/04/04-09:08:40.464 87c6 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/04/04-09:08:40.467 87c6 Recovering log #447
+2026/04/04-09:08:40.467 87c6 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000447.log 
+2026/04/04-09:09:33.063 87c6 Level-0 table #451: started
+2026/04/04-09:09:33.075 87c6 Level-0 table #451: 25935 bytes OK
+2026/04/04-09:09:33.084 87c6 Delete type=0 #447
+2026/04/04-09:09:33.085 87c6 Compacting 4@0 + 1@1 files
+2026/04/04-09:09:33.096 87c6 Generated table #452@0: 19974 keys, 401372 bytes
+2026/04/04-09:09:33.096 87c6 Compacted 4@0 + 1@1 files => 401372 bytes
+2026/04/04-09:09:33.097 87c6 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/04-09:09:33.097 87c6 Delete type=2 #448
+2026/04/04-09:09:33.097 87c6 Delete type=2 #446
+2026/04/04-09:09:33.097 87c6 Delete type=2 #444
+2026/04/04-09:09:33.097 87c6 Delete type=2 #451
+2026/04/04-09:09:33.097 87c6 Delete type=2 #441
+2026/04/04-09:11:30.480 87c6 Level-0 table #454: started
+2026/04/04-09:11:30.488 87c6 Level-0 table #454: 27417 bytes OK
+2026/04/04-09:11:30.499 87c6 Delete type=0 #450
+2026/04/04-09:12:41.398 87c6 Level-0 table #456: started
+2026/04/04-09:12:41.400 87c6 Level-0 table #456: 26754 bytes OK
+2026/04/04-09:12:41.401 87c6 Delete type=0 #453

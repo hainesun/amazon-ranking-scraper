@@ -1,13 +1,17 @@
-2026/04/03-10:11:09.668 3509d Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/04/03-10:11:09.671 3509d Recovering log #322
-2026/04/03-10:11:09.673 3509d Level-0 table #325: started
-2026/04/03-10:11:09.679 3509d Level-0 table #325: 143516 bytes OK
-2026/04/03-10:11:09.679 3509d Recovering log #324
-2026/04/03-10:11:09.680 3509d Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000324.log 
-2026/04/03-10:11:09.682 3509d Delete type=0 #322
-2026/04/03-10:14:49.360 350a1 Level-0 table #327: started
-2026/04/03-10:14:49.372 350a1 Level-0 table #327: 135457 bytes OK
-2026/04/03-10:14:49.380 350a1 Delete type=0 #324
-2026/04/03-10:17:21.494 350a1 Level-0 table #329: started
-2026/04/03-10:17:21.499 350a1 Level-0 table #329: 126171 bytes OK
-2026/04/03-10:17:21.516 350a1 Delete type=0 #326
+2026/04/04-09:08:40.464 87c3 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/04/04-09:08:40.467 87c3 Recovering log #328
+2026/04/04-09:08:40.468 87c3 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000328.log 
+2026/04/04-09:08:40.469 87c7 Compacting 4@0 + 1@1 files
+2026/04/04-09:08:40.477 87c7 Generated table #331@0: 111 keys, 123139 bytes
+2026/04/04-09:08:40.477 87c7 Compacted 4@0 + 1@1 files => 123139 bytes
+2026/04/04-09:08:40.478 87c7 compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/04/04-09:08:40.478 87c7 Delete type=2 #329
+2026/04/04-09:08:40.478 87c7 Delete type=2 #320
+2026/04/04-09:08:40.478 87c7 Delete type=2 #323
+2026/04/04-09:08:40.478 87c7 Delete type=2 #327
+2026/04/04-09:08:40.478 87c7 Delete type=2 #325
+2026/04/04-09:12:33.265 87c6 Level-0 table #333: started
+2026/04/04-09:12:33.272 87c6 Level-0 table #333: 141351 bytes OK
+2026/04/04-09:12:33.277 87c6 Delete type=0 #328
+2026/04/04-09:15:24.550 87c7 Level-0 table #335: started
+2026/04/04-09:15:24.564 87c7 Level-0 table #335: 135293 bytes OK
