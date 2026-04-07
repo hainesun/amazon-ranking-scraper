@@ -1,22 +1,9 @@
-2026/04/06-09:14:15.065 2745 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/04/06-09:14:15.071 2745 Recovering log #332
-2026/04/06-09:14:15.074 2745 Level-0 table #335: started
-2026/04/06-09:14:15.080 2745 Level-0 table #335: 135293 bytes OK
-2026/04/06-09:14:15.081 2745 Recovering log #334
-2026/04/06-09:14:15.082 2745 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000334.log 
-2026/04/06-09:14:15.086 2745 Delete type=0 #332
-2026/04/06-09:18:01.006 2748 Level-0 table #337: started
-2026/04/06-09:18:01.012 2748 Level-0 table #337: 135743 bytes OK
-2026/04/06-09:18:01.018 2748 Delete type=0 #334
-2026/04/06-09:20:33.193 2748 Level-0 table #339: started
-2026/04/06-09:20:33.198 2748 Level-0 table #339: 94483 bytes OK
-2026/04/06-09:20:33.203 2748 Delete type=0 #336
-2026/04/06-09:20:33.204 2748 Compacting 4@0 + 1@1 files
-2026/04/06-09:20:33.209 2748 Generated table #340@0: 60 keys, 88338 bytes
-2026/04/06-09:20:33.209 2748 Compacted 4@0 + 1@1 files => 88338 bytes
-2026/04/06-09:20:33.211 2748 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/04/06-09:20:33.211 2748 Delete type=2 #339
-2026/04/06-09:20:33.211 2748 Delete type=2 #335
-2026/04/06-09:20:33.211 2748 Delete type=2 #337
-2026/04/06-09:20:33.211 2748 Delete type=2 #333
-2026/04/06-09:20:33.211 2748 Delete type=2 #331
+2026/04/07-09:00:57.368 687c Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/04/07-09:00:57.370 687c Recovering log #338
+2026/04/07-09:00:57.370 687c Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000338.log 
+2026/04/07-09:04:40.866 687f Level-0 table #343: started
+2026/04/07-09:04:40.873 687f Level-0 table #343: 136768 bytes OK
+2026/04/07-09:04:40.877 687f Delete type=0 #338
+2026/04/07-09:07:38.381 687c Level-0 table #345: started
+2026/04/07-09:07:38.386 687c Level-0 table #345: 135222 bytes OK
+2026/04/07-09:07:38.389 687c Delete type=0 #342
