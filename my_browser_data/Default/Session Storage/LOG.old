@@ -1,21 +1,15 @@
-2026/04/07-09:00:57.539 687c Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/04/07-09:00:57.540 687c Recovering log #463
-2026/04/07-09:00:57.542 687c Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000463.log 
-2026/04/07-09:01:32.474 687f Level-0 table #467: started
-2026/04/07-09:01:32.479 687f Level-0 table #467: 25662 bytes OK
-2026/04/07-09:01:32.483 687f Delete type=0 #463
-2026/04/07-09:03:08.159 687f Level-0 table #469: started
-2026/04/07-09:03:08.167 687f Level-0 table #469: 27975 bytes OK
-2026/04/07-09:03:08.169 687f Delete type=0 #466
-2026/04/07-09:04:54.629 687f Level-0 table #471: started
-2026/04/07-09:04:54.633 687f Level-0 table #471: 29670 bytes OK
-2026/04/07-09:04:54.636 687f Delete type=0 #468
-2026/04/07-09:04:54.637 687f Compacting 4@0 + 1@1 files
-2026/04/07-09:04:54.652 687f Generated table #472@0: 20890 keys, 438616 bytes
-2026/04/07-09:04:54.652 687f Compacted 4@0 + 1@1 files => 438616 bytes
-2026/04/07-09:04:54.653 687f compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/04/07-09:04:54.654 687f Delete type=2 #467
-2026/04/07-09:04:54.654 687f Delete type=2 #471
-2026/04/07-09:04:54.654 687f Delete type=2 #464
-2026/04/07-09:04:54.654 687f Delete type=2 #462
-2026/04/07-09:04:54.654 687f Delete type=2 #469
+2026/04/08-08:25:41.889 3e94d Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/04/08-08:25:41.890 3e94d Recovering log #470
+2026/04/08-08:25:41.892 3e94d Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000470.log 
+2026/04/08-08:25:42.959 3e953 Level-0 table #475: started
+2026/04/08-08:25:42.964 3e953 Level-0 table #475: 25432 bytes OK
+2026/04/08-08:25:42.969 3e953 Delete type=0 #470
+2026/04/08-08:27:32.514 3e953 Level-0 table #477: started
+2026/04/08-08:27:32.519 3e953 Level-0 table #477: 30090 bytes OK
+2026/04/08-08:27:32.528 3e953 Delete type=0 #474
+2026/04/08-08:28:58.765 3e953 Level-0 table #479: started
+2026/04/08-08:28:58.771 3e953 Level-0 table #479: 27212 bytes OK
+2026/04/08-08:28:58.780 3e953 Delete type=0 #476
+2026/04/08-08:32:10.678 3e953 Level-0 table #481: started
+2026/04/08-08:32:10.682 3e953 Level-0 table #481: 25453 bytes OK
+2026/04/08-08:32:10.684 3e953 Delete type=0 #478
