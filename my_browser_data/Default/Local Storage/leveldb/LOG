@@ -1,21 +1,12 @@
-2026/04/10-16:26:45.745 2889d Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/04/10-16:26:45.749 2889d Recovering log #347
-2026/04/10-16:26:45.751 2889d Level-0 table #350: started
-2026/04/10-16:26:45.757 2889d Level-0 table #350: 126885 bytes OK
-2026/04/10-16:26:45.757 2889d Recovering log #349
-2026/04/10-16:26:45.758 2889d Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000349.log 
-2026/04/10-16:26:45.760 2889d Delete type=0 #347
-2026/04/10-16:26:45.765 288a1 Compacting 4@0 + 1@1 files
-2026/04/10-16:26:45.773 288a1 Generated table #351@0: 57 keys, 122181 bytes
-2026/04/10-16:26:45.773 288a1 Compacted 4@0 + 1@1 files => 122181 bytes
-2026/04/10-16:26:45.775 288a1 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/04/10-16:26:45.775 288a1 Delete type=2 #348
-2026/04/10-16:26:45.775 288a1 Delete type=2 #343
-2026/04/10-16:26:45.775 288a1 Delete type=2 #340
-2026/04/10-16:26:45.776 288a1 Delete type=2 #350
-2026/04/10-16:26:45.776 288a1 Delete type=2 #345
-2026/04/10-16:30:07.214 288a1 Level-0 table #353: started
-2026/04/10-16:30:07.221 288a1 Level-0 table #353: 126721 bytes OK
-2026/04/10-16:30:07.230 288a1 Delete type=0 #349
-2026/04/10-16:33:35.401 288a1 Level-0 table #355: started
-2026/04/10-16:33:35.410 288a1 Level-0 table #355: 133362 bytes OK
+2026/04/13-08:56:28.316 1f680 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/04/13-08:56:28.318 1f680 Recovering log #352
+2026/04/13-08:56:28.320 1f680 Level-0 table #355: started
+2026/04/13-08:56:28.326 1f680 Level-0 table #355: 133362 bytes OK
+2026/04/13-08:56:28.326 1f680 Recovering log #354
+2026/04/13-08:56:28.327 1f680 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000354.log 
+2026/04/13-08:56:28.330 1f680 Delete type=0 #352
+2026/04/13-09:00:13.120 1f683 Level-0 table #357: started
+2026/04/13-09:00:13.124 1f683 Level-0 table #357: 136034 bytes OK
+2026/04/13-09:00:13.130 1f683 Delete type=0 #354
+2026/04/13-09:02:52.328 1f683 Level-0 table #359: started
+2026/04/13-09:02:52.346 1f683 Level-0 table #359: 129083 bytes OK

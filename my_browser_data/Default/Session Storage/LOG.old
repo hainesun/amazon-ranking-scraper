@@ -1,15 +1,21 @@
-2026/04/08-08:25:41.889 3e94d Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/04/08-08:25:41.890 3e94d Recovering log #470
-2026/04/08-08:25:41.892 3e94d Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000470.log 
-2026/04/08-08:25:42.959 3e953 Level-0 table #475: started
-2026/04/08-08:25:42.964 3e953 Level-0 table #475: 25432 bytes OK
-2026/04/08-08:25:42.969 3e953 Delete type=0 #470
-2026/04/08-08:27:32.514 3e953 Level-0 table #477: started
-2026/04/08-08:27:32.519 3e953 Level-0 table #477: 30090 bytes OK
-2026/04/08-08:27:32.528 3e953 Delete type=0 #474
-2026/04/08-08:28:58.765 3e953 Level-0 table #479: started
-2026/04/08-08:28:58.771 3e953 Level-0 table #479: 27212 bytes OK
-2026/04/08-08:28:58.780 3e953 Delete type=0 #476
-2026/04/08-08:32:10.678 3e953 Level-0 table #481: started
-2026/04/08-08:32:10.682 3e953 Level-0 table #481: 25453 bytes OK
-2026/04/08-08:32:10.684 3e953 Delete type=0 #478
+2026/04/10-16:26:45.939 2889d Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/04/10-16:26:45.941 2889d Recovering log #480
+2026/04/10-16:26:45.941 2889d Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000480.log 
+2026/04/10-16:26:45.942 288a1 Compacting 4@0 + 1@1 files
+2026/04/10-16:26:45.959 288a1 Generated table #483@0: 21322 keys, 432837 bytes
+2026/04/10-16:26:45.959 288a1 Compacted 4@0 + 1@1 files => 432837 bytes
+2026/04/10-16:26:45.961 288a1 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/10-16:26:45.964 288a1 Delete type=2 #472
+2026/04/10-16:26:45.964 288a1 Delete type=2 #475
+2026/04/10-16:26:45.964 288a1 Delete type=2 #477
+2026/04/10-16:26:45.964 288a1 Delete type=2 #479
+2026/04/10-16:26:45.964 288a1 Delete type=2 #481
+2026/04/10-16:28:10.901 288a1 Level-0 table #485: started
+2026/04/10-16:28:10.914 288a1 Level-0 table #485: 26268 bytes OK
+2026/04/10-16:28:10.923 288a1 Delete type=0 #480
+2026/04/10-16:29:52.537 288a1 Level-0 table #487: started
+2026/04/10-16:29:52.540 288a1 Level-0 table #487: 27201 bytes OK
+2026/04/10-16:29:52.543 288a1 Delete type=0 #484
+2026/04/10-16:31:18.960 288a1 Level-0 table #489: started
+2026/04/10-16:31:18.969 288a1 Level-0 table #489: 25789 bytes OK
+2026/04/10-16:31:18.979 288a1 Delete type=0 #486
