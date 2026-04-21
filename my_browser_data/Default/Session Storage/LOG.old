@@ -1,6 +1,21 @@
-2026/04/16-17:46:04.212 d8c31 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/04/16-17:46:04.213 d8c31 Recovering log #521
-2026/04/16-17:46:04.214 d8c31 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000521.log 
-2026/04/16-17:47:05.281 d8c31 Level-0 table #526: started
-2026/04/16-17:47:05.284 d8c31 Level-0 table #526: 25239 bytes OK
-2026/04/16-17:47:05.288 d8c31 Delete type=0 #521
+2026/04/20-09:02:37.000 fefa Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/04/20-09:02:37.003 fefa Recovering log #525
+2026/04/20-09:02:37.004 fefa Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000525.log 
+2026/04/20-09:03:27.624 fefd Level-0 table #529: started
+2026/04/20-09:03:27.635 fefd Level-0 table #529: 25485 bytes OK
+2026/04/20-09:03:27.640 fefd Delete type=0 #525
+2026/04/20-09:05:09.542 fefd Level-0 table #531: started
+2026/04/20-09:05:09.551 fefd Level-0 table #531: 28556 bytes OK
+2026/04/20-09:05:09.553 fefd Delete type=0 #528
+2026/04/20-09:06:47.082 fefd Level-0 table #533: started
+2026/04/20-09:06:47.086 fefd Level-0 table #533: 27817 bytes OK
+2026/04/20-09:06:47.089 fefd Delete type=0 #530
+2026/04/20-09:06:47.089 fefd Compacting 4@0 + 1@1 files
+2026/04/20-09:06:47.110 fefd Generated table #534@0: 23588 keys, 492123 bytes
+2026/04/20-09:06:47.110 fefd Compacted 4@0 + 1@1 files => 492123 bytes
+2026/04/20-09:06:47.112 fefd compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/20-09:06:47.112 fefd Delete type=2 #529
+2026/04/20-09:06:47.113 fefd Delete type=2 #533
+2026/04/20-09:06:47.113 fefd Delete type=2 #526
+2026/04/20-09:06:47.113 fefd Delete type=2 #531
+2026/04/20-09:06:47.114 fefd Delete type=2 #523
