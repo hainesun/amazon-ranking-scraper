@@ -1,24 +1,9 @@
-2026/04/20-09:02:36.781 fefa Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/04/20-09:02:36.784 fefa Recovering log #374
-2026/04/20-09:02:36.786 fefa Level-0 table #377: started
-2026/04/20-09:02:36.792 fefa Level-0 table #377: 125630 bytes OK
-2026/04/20-09:02:36.792 fefa Recovering log #376
-2026/04/20-09:02:36.795 fefa Level-0 table #378: started
-2026/04/20-09:02:36.798 fefa Level-0 table #378: 115046 bytes OK
-2026/04/20-09:02:36.802 fefa Delete type=0 #376
-2026/04/20-09:02:36.802 fefa Delete type=0 #374
-2026/04/20-09:02:36.805 fefd Compacting 4@0 + 1@1 files
-2026/04/20-09:02:36.812 fefd Generated table #380@0: 92 keys, 116009 bytes
-2026/04/20-09:02:36.812 fefd Compacted 4@0 + 1@1 files => 116009 bytes
-2026/04/20-09:02:36.813 fefd compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/04/20-09:02:36.814 fefd Delete type=2 #377
-2026/04/20-09:02:36.814 fefd Delete type=2 #375
-2026/04/20-09:02:36.814 fefd Delete type=2 #371
-2026/04/20-09:02:36.814 fefd Delete type=2 #373
-2026/04/20-09:02:36.814 fefd Delete type=2 #378
-2026/04/20-09:05:58.740 fefd Level-0 table #382: started
-2026/04/20-09:05:58.751 fefd Level-0 table #382: 121314 bytes OK
-2026/04/20-09:05:58.758 fefd Delete type=0 #379
-2026/04/20-09:09:37.618 fefd Level-0 table #384: started
-2026/04/20-09:09:37.635 fefd Level-0 table #384: 129602 bytes OK
-2026/04/20-09:09:37.637 fefd Delete type=0 #381
+2026/04/21-11:11:54.488 156c7 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/04/21-11:11:54.492 156c7 Recovering log #383
+2026/04/21-11:11:54.493 156c7 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000383.log 
+2026/04/21-11:15:16.470 156ca Level-0 table #387: started
+2026/04/21-11:15:16.476 156ca Level-0 table #387: 125580 bytes OK
+2026/04/21-11:15:16.479 156ca Delete type=0 #383
+2026/04/21-11:19:01.019 156ca Level-0 table #389: started
+2026/04/21-11:19:01.022 156ca Level-0 table #389: 139007 bytes OK
+2026/04/21-11:19:01.027 156ca Delete type=0 #386

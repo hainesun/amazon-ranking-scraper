@@ -1,9 +1,18 @@
-2026/04/21-11:11:54.488 156c7 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/04/21-11:11:54.492 156c7 Recovering log #383
-2026/04/21-11:11:54.493 156c7 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000383.log 
-2026/04/21-11:15:16.470 156ca Level-0 table #387: started
-2026/04/21-11:15:16.476 156ca Level-0 table #387: 125580 bytes OK
-2026/04/21-11:15:16.479 156ca Delete type=0 #383
-2026/04/21-11:19:01.019 156ca Level-0 table #389: started
-2026/04/21-11:19:01.022 156ca Level-0 table #389: 139007 bytes OK
-2026/04/21-11:19:01.027 156ca Delete type=0 #386
+2026/04/22-15:21:22.554 379b Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/04/22-15:21:22.557 379b Recovering log #388
+2026/04/22-15:21:22.557 379b Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000388.log 
+2026/04/22-15:21:22.558 379e Compacting 4@0 + 1@1 files
+2026/04/22-15:21:22.571 379e Generated table #391@0: 50 keys, 135393 bytes
+2026/04/22-15:21:22.571 379e Compacted 4@0 + 1@1 files => 135393 bytes
+2026/04/22-15:21:22.575 379e compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/04/22-15:21:22.576 379e Delete type=2 #389
+2026/04/22-15:21:22.577 379e Delete type=2 #380
+2026/04/22-15:21:22.577 379e Delete type=2 #382
+2026/04/22-15:21:22.577 379e Delete type=2 #387
+2026/04/22-15:21:22.577 379e Delete type=2 #384
+2026/04/22-15:24:38.262 379e Level-0 table #393: started
+2026/04/22-15:24:38.276 379e Level-0 table #393: 121283 bytes OK
+2026/04/22-15:24:38.290 379e Delete type=0 #388
+2026/04/22-15:28:06.133 379e Level-0 table #395: started
+2026/04/22-15:28:06.139 379e Level-0 table #395: 130748 bytes OK
+2026/04/22-15:28:06.143 379e Delete type=0 #392
