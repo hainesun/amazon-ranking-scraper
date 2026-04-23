@@ -1,9 +1,21 @@
-2026/04/21-11:11:54.488 156c7 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/04/21-11:11:54.492 156c7 Recovering log #383
-2026/04/21-11:11:54.493 156c7 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000383.log 
-2026/04/21-11:15:16.470 156ca Level-0 table #387: started
-2026/04/21-11:15:16.476 156ca Level-0 table #387: 125580 bytes OK
-2026/04/21-11:15:16.479 156ca Delete type=0 #383
-2026/04/21-11:19:01.019 156ca Level-0 table #389: started
-2026/04/21-11:19:01.022 156ca Level-0 table #389: 139007 bytes OK
-2026/04/21-11:19:01.027 156ca Delete type=0 #386
+2026/04/23-15:12:39.949 3c98c Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/04/23-15:12:39.952 3c98c Recovering log #394
+2026/04/23-15:12:39.953 3c98c Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000394.log 
+2026/04/23-15:15:17.274 3c98f Level-0 table #398: started
+2026/04/23-15:15:17.288 3c98f Level-0 table #398: 100563 bytes OK
+2026/04/23-15:15:17.295 3c98f Delete type=0 #394
+2026/04/23-15:18:19.390 3c98f Level-0 table #400: started
+2026/04/23-15:18:19.398 3c98f Level-0 table #400: 108695 bytes OK
+2026/04/23-15:18:19.402 3c98f Delete type=0 #397
+2026/04/23-15:18:19.403 3c98f Compacting 4@0 + 1@1 files
+2026/04/23-15:18:19.413 3c98f Generated table #401@0: 49 keys, 105703 bytes
+2026/04/23-15:18:19.413 3c98f Compacted 4@0 + 1@1 files => 105703 bytes
+2026/04/23-15:18:19.414 3c98f compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/04/23-15:18:19.414 3c98f Delete type=2 #400
+2026/04/23-15:18:19.415 3c98f Delete type=2 #398
+2026/04/23-15:18:19.415 3c98f Delete type=2 #395
+2026/04/23-15:18:19.415 3c98f Delete type=2 #393
+2026/04/23-15:18:19.415 3c98f Delete type=2 #391
+2026/04/23-17:19:25.055 3c98f Level-0 table #403: started
+2026/04/23-17:19:25.066 3c98f Level-0 table #403: 99824 bytes OK
+2026/04/23-17:19:25.090 3c98f Delete type=0 #399

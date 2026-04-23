@@ -1,12 +1,21 @@
-2026/04/22-15:21:22.777 379b Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/04/22-15:21:22.779 379b Recovering log #542
-2026/04/22-15:21:22.780 379b Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000542.log 
-2026/04/22-15:22:26.519 379e Level-0 table #547: started
-2026/04/22-15:22:26.525 379e Level-0 table #547: 24616 bytes OK
-2026/04/22-15:22:26.529 379e Delete type=0 #542
-2026/04/22-15:24:16.705 379e Level-0 table #549: started
-2026/04/22-15:24:16.709 379e Level-0 table #549: 25162 bytes OK
-2026/04/22-15:24:16.717 379e Delete type=0 #546
-2026/04/22-15:25:45.550 379e Level-0 table #551: started
-2026/04/22-15:25:45.560 379e Level-0 table #551: 24678 bytes OK
-2026/04/22-15:25:45.566 379e Delete type=0 #548
+2026/04/23-17:21:02.441 5f795 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/04/23-17:21:02.442 5f795 Recovering log #558
+2026/04/23-17:21:02.443 5f795 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000558.log 
+2026/04/23-17:22:20.224 5f799 Level-0 table #562: started
+2026/04/23-17:22:20.232 5f799 Level-0 table #562: 27707 bytes OK
+2026/04/23-17:22:20.237 5f799 Delete type=0 #558
+2026/04/23-17:24:03.786 5f799 Level-0 table #564: started
+2026/04/23-17:24:03.796 5f799 Level-0 table #564: 27186 bytes OK
+2026/04/23-17:24:03.800 5f799 Delete type=0 #561
+2026/04/23-17:24:03.804 5f799 Compacting 4@0 + 1@1 files
+2026/04/23-17:24:03.820 5f799 Generated table #565@0: 24862 keys, 513186 bytes
+2026/04/23-17:24:03.820 5f799 Compacted 4@0 + 1@1 files => 513186 bytes
+2026/04/23-17:24:03.822 5f799 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/23-17:24:03.823 5f799 Delete type=2 #559
+2026/04/23-17:24:03.823 5f799 Delete type=2 #564
+2026/04/23-17:24:03.823 5f799 Delete type=2 #562
+2026/04/23-17:24:03.823 5f799 Delete type=2 #557
+2026/04/23-17:24:03.823 5f799 Delete type=2 #555
+2026/04/23-17:27:45.100 5f799 Level-0 table #567: started
+2026/04/23-17:27:45.108 5f799 Level-0 table #567: 25665 bytes OK
+2026/04/23-17:27:45.115 5f799 Delete type=0 #563
