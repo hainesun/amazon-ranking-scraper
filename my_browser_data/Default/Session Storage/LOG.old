@@ -1,21 +1,14 @@
-2026/04/23-17:21:02.441 5f795 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/04/23-17:21:02.442 5f795 Recovering log #558
-2026/04/23-17:21:02.443 5f795 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000558.log 
-2026/04/23-17:22:20.224 5f799 Level-0 table #562: started
-2026/04/23-17:22:20.232 5f799 Level-0 table #562: 27707 bytes OK
-2026/04/23-17:22:20.237 5f799 Delete type=0 #558
-2026/04/23-17:24:03.786 5f799 Level-0 table #564: started
-2026/04/23-17:24:03.796 5f799 Level-0 table #564: 27186 bytes OK
-2026/04/23-17:24:03.800 5f799 Delete type=0 #561
-2026/04/23-17:24:03.804 5f799 Compacting 4@0 + 1@1 files
-2026/04/23-17:24:03.820 5f799 Generated table #565@0: 24862 keys, 513186 bytes
-2026/04/23-17:24:03.820 5f799 Compacted 4@0 + 1@1 files => 513186 bytes
-2026/04/23-17:24:03.822 5f799 compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/04/23-17:24:03.823 5f799 Delete type=2 #559
-2026/04/23-17:24:03.823 5f799 Delete type=2 #564
-2026/04/23-17:24:03.823 5f799 Delete type=2 #562
-2026/04/23-17:24:03.823 5f799 Delete type=2 #557
-2026/04/23-17:24:03.823 5f799 Delete type=2 #555
-2026/04/23-17:27:45.100 5f799 Level-0 table #567: started
-2026/04/23-17:27:45.108 5f799 Level-0 table #567: 25665 bytes OK
-2026/04/23-17:27:45.115 5f799 Delete type=0 #563
+2026/04/24-08:15:47.588 5fde Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/04/24-08:15:47.589 5fde Recovering log #566
+2026/04/24-08:15:47.590 5fde Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000566.log 
+2026/04/24-08:17:29.509 5fe2 Level-0 table #570: started
+2026/04/24-08:17:29.519 5fe2 Level-0 table #570: 26499 bytes OK
+2026/04/24-08:17:29.522 5fe2 Delete type=0 #566
+2026/04/24-08:19:05.063 5fe2 Level-0 table #572: started
+2026/04/24-08:19:05.067 5fe2 Level-0 table #572: 26350 bytes OK
+2026/04/24-08:19:05.072 5fe2 Delete type=0 #569
+2026/04/24-08:22:25.371 5fe2 Level-0 table #574: started
+2026/04/24-08:22:25.373 5fe2 Level-0 table #574: 25504 bytes OK
+2026/04/24-08:22:25.376 5fe2 Delete type=0 #571
+2026/04/24-08:22:25.376 5fe2 Compacting 4@0 + 1@1 files
+2026/04/24-08:22:25.379 5fe2 compacted to: files[ 4 1 1 0 0 0 0 ]
