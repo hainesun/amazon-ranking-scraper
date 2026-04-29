@@ -1,14 +1,22 @@
-2026/04/24-08:15:47.588 5fde Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/04/24-08:15:47.589 5fde Recovering log #566
-2026/04/24-08:15:47.590 5fde Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000566.log 
-2026/04/24-08:17:29.509 5fe2 Level-0 table #570: started
-2026/04/24-08:17:29.519 5fe2 Level-0 table #570: 26499 bytes OK
-2026/04/24-08:17:29.522 5fe2 Delete type=0 #566
-2026/04/24-08:19:05.063 5fe2 Level-0 table #572: started
-2026/04/24-08:19:05.067 5fe2 Level-0 table #572: 26350 bytes OK
-2026/04/24-08:19:05.072 5fe2 Delete type=0 #569
-2026/04/24-08:22:25.371 5fe2 Level-0 table #574: started
-2026/04/24-08:22:25.373 5fe2 Level-0 table #574: 25504 bytes OK
-2026/04/24-08:22:25.376 5fe2 Delete type=0 #571
-2026/04/24-08:22:25.376 5fe2 Compacting 4@0 + 1@1 files
-2026/04/24-08:22:25.379 5fe2 compacted to: files[ 4 1 1 0 0 0 0 ]
+2026/04/27-09:52:27.801 93d8 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/04/27-09:52:27.803 93d8 Recovering log #573
+2026/04/27-09:52:27.804 93d8 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000573.log 
+2026/04/27-09:52:27.805 93d8 Delete type=2 #575
+2026/04/27-09:52:27.808 93db Compacting 4@0 + 1@1 files
+2026/04/27-09:52:27.915 93db Generated table #576@0: 25331 keys, 509371 bytes
+2026/04/27-09:52:27.916 93db Compacted 4@0 + 1@1 files => 509371 bytes
+2026/04/27-09:52:27.917 93db compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/04/27-09:52:27.918 93db Delete type=2 #565
+2026/04/27-09:52:27.918 93db Delete type=2 #570
+2026/04/27-09:52:27.918 93db Delete type=2 #572
+2026/04/27-09:52:27.918 93db Delete type=2 #567
+2026/04/27-09:52:27.918 93db Delete type=2 #574
+2026/04/27-09:53:59.294 93db Level-0 table #578: started
+2026/04/27-09:53:59.306 93db Level-0 table #578: 27321 bytes OK
+2026/04/27-09:53:59.318 93db Delete type=0 #573
+2026/04/27-09:55:35.181 93db Level-0 table #580: started
+2026/04/27-09:55:35.185 93db Level-0 table #580: 27511 bytes OK
+2026/04/27-09:55:35.188 93db Delete type=0 #577
+2026/04/27-09:56:56.265 93db Level-0 table #582: started
+2026/04/27-09:56:56.276 93db Level-0 table #582: 28244 bytes OK
+2026/04/27-09:56:56.288 93db Delete type=0 #579
