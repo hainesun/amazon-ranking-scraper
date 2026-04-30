@@ -1,17 +1,12 @@
-2026/04/29-23:00:19.321 33ab8 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/04/29-23:00:19.325 33ab8 Recovering log #418
-2026/04/29-23:00:19.326 33ab8 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000418.log 
-2026/04/29-23:03:43.998 33abb Level-0 table #422: started
-2026/04/29-23:03:44.005 33abb Level-0 table #422: 129174 bytes OK
-2026/04/29-23:03:44.021 33abb Delete type=0 #418
-2026/04/29-23:03:44.023 33abb Compacting 4@0 + 1@1 files
-2026/04/29-23:03:44.029 33abb Generated table #423@0: 32 keys, 119159 bytes
-2026/04/29-23:03:44.029 33abb Compacted 4@0 + 1@1 files => 119159 bytes
-2026/04/29-23:03:44.031 33abb compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/04/29-23:03:44.032 33abb Delete type=2 #412
-2026/04/29-23:03:44.032 33abb Delete type=2 #417
-2026/04/29-23:03:44.032 33abb Delete type=2 #414
-2026/04/29-23:03:44.032 33abb Delete type=2 #419
-2026/04/29-23:03:44.032 33abb Delete type=2 #422
-2026/04/29-23:07:16.941 33abb Level-0 table #425: started
-2026/04/29-23:07:16.963 33abb Level-0 table #425: 138163 bytes OK
+2026/04/30-10:31:48.434 8a70a Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/04/30-10:31:48.438 8a70a Recovering log #421
+2026/04/30-10:31:48.440 8a70a Level-0 table #425: started
+2026/04/30-10:31:48.446 8a70a Level-0 table #425: 138163 bytes OK
+2026/04/30-10:31:48.447 8a70a Recovering log #424
+2026/04/30-10:31:48.447 8a70a Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000424.log 
+2026/04/30-10:31:48.450 8a70a Delete type=0 #421
+2026/04/30-10:35:12.257 8a70d Level-0 table #427: started
+2026/04/30-10:35:12.262 8a70d Level-0 table #427: 127103 bytes OK
+2026/04/30-10:35:12.265 8a70d Delete type=0 #424
+2026/04/30-10:38:14.892 8a70d Level-0 table #429: started
+2026/04/30-10:38:14.917 8a70d Level-0 table #429: 138463 bytes OK
