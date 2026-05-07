@@ -1,12 +1,9 @@
-2026/04/30-10:31:48.434 8a70a Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/04/30-10:31:48.438 8a70a Recovering log #421
-2026/04/30-10:31:48.440 8a70a Level-0 table #425: started
-2026/04/30-10:31:48.446 8a70a Level-0 table #425: 138163 bytes OK
-2026/04/30-10:31:48.447 8a70a Recovering log #424
-2026/04/30-10:31:48.447 8a70a Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000424.log 
-2026/04/30-10:31:48.450 8a70a Delete type=0 #421
-2026/04/30-10:35:12.257 8a70d Level-0 table #427: started
-2026/04/30-10:35:12.262 8a70d Level-0 table #427: 127103 bytes OK
-2026/04/30-10:35:12.265 8a70d Delete type=0 #424
-2026/04/30-10:38:14.892 8a70d Level-0 table #429: started
-2026/04/30-10:38:14.917 8a70d Level-0 table #429: 138463 bytes OK
+2026/05/07-13:07:06.474 2cb89 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/07-13:07:06.477 2cb89 Recovering log #433
+2026/05/07-13:07:06.477 2cb89 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000433.log 
+2026/05/07-13:10:12.022 2cb8c Level-0 table #437: started
+2026/05/07-13:10:12.036 2cb8c Level-0 table #437: 121609 bytes OK
+2026/05/07-13:10:12.042 2cb8c Delete type=0 #433
+2026/05/07-13:13:59.270 2cb8c Level-0 table #439: started
+2026/05/07-13:13:59.273 2cb8c Level-0 table #439: 133478 bytes OK
+2026/05/07-13:13:59.280 2cb8c Delete type=0 #436
