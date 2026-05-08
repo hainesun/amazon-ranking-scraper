@@ -1,22 +1,17 @@
-2026/05/04-16:40:57.697 2f0b Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/04-16:40:57.700 2f0b Recovering log #426
-2026/05/04-16:40:57.702 2f0b Level-0 table #429: started
-2026/05/04-16:40:57.709 2f0b Level-0 table #429: 138463 bytes OK
-2026/05/04-16:40:57.709 2f0b Recovering log #428
-2026/05/04-16:40:57.710 2f0b Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000428.log 
-2026/05/04-16:40:57.715 2f0b Delete type=0 #426
-2026/05/04-16:44:17.991 2f0e Level-0 table #431: started
-2026/05/04-16:44:18.004 2f0e Level-0 table #431: 125824 bytes OK
-2026/05/04-16:44:18.012 2f0e Delete type=0 #428
-2026/05/04-16:44:18.017 2f0b Compacting 4@0 + 1@1 files
-2026/05/04-16:44:18.024 2f0b Generated table #432@0: 30 keys, 117253 bytes
-2026/05/04-16:44:18.025 2f0b Compacted 4@0 + 1@1 files => 117253 bytes
-2026/05/04-16:44:18.026 2f0b compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/05/04-16:44:18.026 2f0b Delete type=2 #429
-2026/05/04-16:44:18.026 2f0b Delete type=2 #431
-2026/05/04-16:44:18.027 2f0b Delete type=2 #425
-2026/05/04-16:44:18.027 2f0b Delete type=2 #427
-2026/05/04-16:44:18.027 2f0b Delete type=2 #423
-2026/05/04-16:47:44.962 2f0b Level-0 table #434: started
-2026/05/04-16:47:44.980 2f0b Level-0 table #434: 133689 bytes OK
-2026/05/04-16:47:45.025 2f0b Delete type=0 #430
+2026/05/08-08:57:49.924 35817 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/08-08:57:49.932 35817 Recovering log #438
+2026/05/08-08:57:49.933 35817 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000438.log 
+2026/05/08-09:01:31.081 3581d Level-0 table #442: started
+2026/05/08-09:01:31.088 3581d Level-0 table #442: 136276 bytes OK
+2026/05/08-09:01:31.092 3581d Delete type=0 #438
+2026/05/08-09:01:31.094 3581d Compacting 4@0 + 1@1 files
+2026/05/08-09:01:31.100 3581d Generated table #443@0: 32 keys, 126451 bytes
+2026/05/08-09:01:31.100 3581d Compacted 4@0 + 1@1 files => 126451 bytes
+2026/05/08-09:01:31.101 3581d compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/05/08-09:01:31.102 3581d Delete type=2 #439
+2026/05/08-09:01:31.102 3581d Delete type=2 #432
+2026/05/08-09:01:31.102 3581d Delete type=2 #437
+2026/05/08-09:01:31.102 3581d Delete type=2 #434
+2026/05/08-09:01:31.102 3581d Delete type=2 #442
+2026/05/08-09:02:50.116 3581d Level-0 table #445: started
+2026/05/08-09:02:50.123 3581d Level-0 table #445: 121170 bytes OK
