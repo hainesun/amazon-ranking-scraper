@@ -1,9 +1,22 @@
-2026/05/08-08:57:50.040 35817 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/05/08-08:57:50.042 35817 Recovering log #614
-2026/05/08-08:57:50.043 35817 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000614.log 
-2026/05/08-08:58:39.982 3581d Level-0 table #619: started
-2026/05/08-08:58:39.986 3581d Level-0 table #619: 27432 bytes OK
-2026/05/08-08:58:39.989 3581d Delete type=0 #614
-2026/05/08-09:01:02.795 3581d Level-0 table #621: started
-2026/05/08-09:01:02.803 3581d Level-0 table #621: 28318 bytes OK
-2026/05/08-09:01:02.807 3581d Delete type=0 #618
+2026/05/08-09:03:02.478 37c51 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/05/08-09:03:02.481 37c51 Recovering log #620
+2026/05/08-09:03:02.482 37c51 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000620.log 
+2026/05/08-09:03:14.072 37c54 Level-0 table #624: started
+2026/05/08-09:03:14.076 37c54 Level-0 table #624: 25655 bytes OK
+2026/05/08-09:03:14.079 37c54 Delete type=0 #620
+2026/05/08-09:04:50.333 37c54 Level-0 table #626: started
+2026/05/08-09:04:50.340 37c54 Level-0 table #626: 26631 bytes OK
+2026/05/08-09:04:50.352 37c54 Delete type=0 #623
+2026/05/08-09:04:50.353 37c54 Compacting 4@0 + 1@1 files
+2026/05/08-09:04:50.372 37c54 Generated table #627@0: 27567 keys, 556751 bytes
+2026/05/08-09:04:50.372 37c54 Compacted 4@0 + 1@1 files => 556751 bytes
+2026/05/08-09:04:50.374 37c54 compacted to: files[ 0 1 1 0 0 0 0 ]
+2026/05/08-09:04:50.375 37c54 Delete type=2 #616
+2026/05/08-09:04:50.375 37c54 Delete type=2 #626
+2026/05/08-09:04:50.375 37c54 Delete type=2 #619
+2026/05/08-09:04:50.375 37c54 Delete type=2 #624
+2026/05/08-09:04:50.375 37c54 Delete type=2 #621
+2026/05/08-09:06:20.635 37c54 Level-0 table #629: started
+2026/05/08-09:06:20.640 37c54 Level-0 table #629: 28210 bytes OK
+2026/05/08-09:06:20.643 37c54 Delete type=0 #625
+2026/05/08-09:09:20.446 37c54 Level-0 table #631: started
