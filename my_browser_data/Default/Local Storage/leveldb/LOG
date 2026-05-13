@@ -1,22 +1,8 @@
-2026/05/11-07:28:55.474 c8fd Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/11-07:28:55.480 c8fd Recovering log #446
-2026/05/11-07:28:55.485 c8fd Level-0 table #449: started
-2026/05/11-07:28:55.495 c8fd Level-0 table #449: 134863 bytes OK
-2026/05/11-07:28:55.496 c8fd Recovering log #448
-2026/05/11-07:28:55.497 c8fd Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000448.log 
-2026/05/11-07:28:55.503 c8fd Delete type=0 #446
-2026/05/11-07:32:48.806 c904 Level-0 table #451: started
-2026/05/11-07:32:48.812 c904 Level-0 table #451: 142914 bytes OK
-2026/05/11-07:32:48.820 c904 Delete type=0 #448
-2026/05/11-07:32:48.822 c904 Compacting 4@0 + 1@1 files
-2026/05/11-07:32:48.827 c904 Generated table #452@0: 32 keys, 133322 bytes
-2026/05/11-07:32:48.827 c904 Compacted 4@0 + 1@1 files => 133322 bytes
-2026/05/11-07:32:48.829 c904 compacted to: files[ 0 1 0 0 0 0 0 ]
-2026/05/11-07:32:48.829 c904 Delete type=2 #449
-2026/05/11-07:32:48.829 c904 Delete type=2 #447
-2026/05/11-07:32:48.829 c904 Delete type=2 #445
-2026/05/11-07:32:48.829 c904 Delete type=2 #451
-2026/05/11-07:32:48.829 c904 Delete type=2 #443
-2026/05/11-07:35:17.756 c904 Level-0 table #454: started
-2026/05/11-07:35:17.761 c904 Level-0 table #454: 136020 bytes OK
-2026/05/11-07:35:17.765 c904 Delete type=0 #450
+2026/05/13-13:25:22.638 d12e9 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/13-13:25:22.641 d12e9 Recovering log #453
+2026/05/13-13:25:22.641 d12e9 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000453.log 
+2026/05/13-13:28:44.927 d12ec Level-0 table #457: started
+2026/05/13-13:28:44.930 d12ec Level-0 table #457: 125299 bytes OK
+2026/05/13-13:28:44.937 d12ec Delete type=0 #453
+2026/05/13-13:32:30.942 d12ec Level-0 table #459: started
+2026/05/13-13:32:30.963 d12ec Level-0 table #459: 134360 bytes OK
