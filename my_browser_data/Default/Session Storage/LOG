@@ -1,21 +1,12 @@
-2026/05/13-13:25:22.965 d12e9 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
-2026/05/13-13:25:22.968 d12e9 Recovering log #637
-2026/05/13-13:25:22.970 d12e9 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000637.log 
-2026/05/13-13:27:01.404 d12ec Level-0 table #641: started
-2026/05/13-13:27:01.410 d12ec Level-0 table #641: 27366 bytes OK
-2026/05/13-13:27:01.416 d12ec Delete type=0 #637
-2026/05/13-13:28:36.753 d12ec Level-0 table #643: started
-2026/05/13-13:28:36.761 d12ec Level-0 table #643: 27176 bytes OK
-2026/05/13-13:28:36.766 d12ec Delete type=0 #640
-2026/05/13-13:30:07.447 d12ec Level-0 table #645: started
-2026/05/13-13:30:07.454 d12ec Level-0 table #645: 28362 bytes OK
-2026/05/13-13:30:07.460 d12ec Delete type=0 #642
-2026/05/13-13:30:07.465 d12ec Compacting 4@0 + 1@1 files
-2026/05/13-13:30:07.483 d12ec Generated table #646@0: 28482 keys, 588599 bytes
-2026/05/13-13:30:07.483 d12ec Compacted 4@0 + 1@1 files => 588599 bytes
-2026/05/13-13:30:07.485 d12ec compacted to: files[ 0 1 1 0 0 0 0 ]
-2026/05/13-13:30:07.486 d12ec Delete type=2 #638
-2026/05/13-13:30:07.486 d12ec Delete type=2 #636
-2026/05/13-13:30:07.486 d12ec Delete type=2 #645
-2026/05/13-13:30:07.486 d12ec Delete type=2 #643
-2026/05/13-13:30:07.486 d12ec Delete type=2 #641
+2026/05/14-11:00:49.434 208c89 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/MANIFEST-000001
+2026/05/14-11:00:49.436 208c89 Recovering log #644
+2026/05/14-11:00:49.437 208c89 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Session Storage/000644.log 
+2026/05/14-11:01:46.109 208c89 Level-0 table #649: started
+2026/05/14-11:01:46.115 208c89 Level-0 table #649: 25716 bytes OK
+2026/05/14-11:01:46.122 208c89 Delete type=0 #644
+2026/05/14-11:03:45.112 208c8c Level-0 table #651: started
+2026/05/14-11:03:45.120 208c8c Level-0 table #651: 26670 bytes OK
+2026/05/14-11:03:45.125 208c8c Delete type=0 #648
+2026/05/14-11:05:14.052 208c8c Level-0 table #653: started
+2026/05/14-11:05:14.065 208c8c Level-0 table #653: 31229 bytes OK
+2026/05/14-11:05:14.070 208c8c Delete type=0 #650

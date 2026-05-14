@@ -1,8 +1,22 @@
-2026/05/13-13:25:22.638 d12e9 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
-2026/05/13-13:25:22.641 d12e9 Recovering log #453
-2026/05/13-13:25:22.641 d12e9 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000453.log 
-2026/05/13-13:28:44.927 d12ec Level-0 table #457: started
-2026/05/13-13:28:44.930 d12ec Level-0 table #457: 125299 bytes OK
-2026/05/13-13:28:44.937 d12ec Delete type=0 #453
-2026/05/13-13:32:30.942 d12ec Level-0 table #459: started
-2026/05/13-13:32:30.963 d12ec Level-0 table #459: 134360 bytes OK
+2026/05/14-11:00:49.209 208c89 Reusing MANIFEST /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/MANIFEST-000001
+2026/05/14-11:00:49.212 208c89 Recovering log #456
+2026/05/14-11:00:49.214 208c89 Level-0 table #459: started
+2026/05/14-11:00:49.222 208c89 Level-0 table #459: 134360 bytes OK
+2026/05/14-11:00:49.223 208c89 Recovering log #458
+2026/05/14-11:00:49.224 208c89 Reusing old log /Users/minamiwatanabe/Desktop/amazon_research/my_browser_data/Default/Local Storage/leveldb/000458.log 
+2026/05/14-11:00:49.226 208c89 Delete type=0 #456
+2026/05/14-11:04:17.554 208c8c Level-0 table #461: started
+2026/05/14-11:04:17.568 208c8c Level-0 table #461: 131677 bytes OK
+2026/05/14-11:04:17.573 208c8c Delete type=0 #458
+2026/05/14-11:04:17.578 208c8c Compacting 4@0 + 1@1 files
+2026/05/14-11:04:17.584 208c8c Generated table #462@0: 32 keys, 121603 bytes
+2026/05/14-11:04:17.584 208c8c Compacted 4@0 + 1@1 files => 121603 bytes
+2026/05/14-11:04:17.585 208c8c compacted to: files[ 0 1 0 0 0 0 0 ]
+2026/05/14-11:04:17.585 208c8c Delete type=2 #459
+2026/05/14-11:04:17.585 208c8c Delete type=2 #461
+2026/05/14-11:04:17.585 208c8c Delete type=2 #452
+2026/05/14-11:04:17.585 208c8c Delete type=2 #454
+2026/05/14-11:04:17.585 208c8c Delete type=2 #457
+2026/05/14-11:07:34.336 208c89 Level-0 table #464: started
+2026/05/14-11:07:34.355 208c89 Level-0 table #464: 131714 bytes OK
+2026/05/14-11:07:34.360 208c89 Delete type=0 #460
